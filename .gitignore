@@ -1,0 +1,4 @@
+﻿*.sln
+.vs
+/www.biohazard4050.org.sln
+*.config

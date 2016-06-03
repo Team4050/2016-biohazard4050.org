@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Example Person",
+      "description": "The short description goes here.",
+      "bio": "Full bio goes here",
+      "image": "example-person.png"
+    },
+    {
+      "name": "Elianora G.",
+      "description": "A short description for displaying on the card.",
+      "bio": "The full bio that goes in the modal.",
+      "image": "elianora-g.jpg"
+    },
+    {
+      "name": "A. Person",
+      "description": "A Persons short description. This one is designed to overflow.",
+      "bio": "A. Person is a very integral part of the team. He is the foundation of every other member on the team and helps keep everybody distinct. He is referenced many times in the English language too (not so much in Creole). Since this description overflows the card, he will get a modal :D",
+      "image": "a-person.jpg"
+    },
+    {
+      "name": "A. Nother",
+      "description": "ANother short description.",
+      "bio": "A. Nother is another example. This time, his description will not fill the card so we can see what happens :)",
+      "image": "a-nother.png"
+    }
+]

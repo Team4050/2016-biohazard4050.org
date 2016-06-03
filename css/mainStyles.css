@@ -1,0 +1,342 @@
+/*
+*
+*
+*Main Styles
+*
+*
+*/
+
+nav {
+  background-color: #00c853;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+blockquote {
+  border-color: #00C853;
+  margin: 10px;
+}
+
+.card-image {
+  height: 180px;
+  text-shadow: 1px 3px rgba(0,0,0,0.12), 1px 2px rgba(0,0,0,0.24);
+}
+
+.card-image img {
+  width: auto !important;
+  margin: auto;
+  max-width: 100%;
+  /*max-height: 100%;*/
+}
+
+.connect-icon {
+  width: 50px;
+  height: auto;
+}
+
+.waves-effect.waves-accentGreen .waves-ripple {
+  background-color: #00C853;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.mainPage {
+  padding: 0px;
+}
+
+.siteHeader {
+  background-color: #4CAF50;
+}
+
+.brand-logo {
+  height: 100%;
+}
+
+.brand-logo img {
+  height: 100%;
+  width: auto;
+}
+
+.parallax-container img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+.greenDivider {
+  width: 80%;
+  height: 5px;
+  margin: 10px auto;
+  background: #00C853;
+}
+
+/*
+*
+*
+*Navigation Styles
+*
+*
+*/
+
+.navButtons a:active {
+  background-color: #78909C;
+}
+
+.pageContent {
+  margin-left: 240px;
+}
+
+.side-nav {
+  background-color: #757575;
+}
+
+.navLogo {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.side-nav.fixed a, .side-nav a {
+    color: #fff;
+}
+
+.side-nav.fixed a:hover, .side-nav a:hover {
+    background-color: background-color: rgba(51,51,51,0.08);
+}
+
+.collapsible-header:hover, .side-nav.fixed .collapsible-header:hover {
+  background-color: background-color: rgba(51,51,51,0.08); !important;
+}
+
+.side-nav .collapsible-header {
+    color: #fff;
+}
+
+.side-nav div ul {
+    background-color: #757575;
+}
+.side-nav a.active {
+  background-color: #00c853;
+}
+
+ul.side-nav li a {
+  line-height: 44px;
+  height: 44px;
+}
+
+ul.side-nav li {
+  line-height: 44px;
+}
+/*
+*
+*
+*Home Page Stuff
+*
+*
+*/
+
+#cntHome {
+  text-align: center;
+}
+
+/*
+*
+*
+*About Page Stuff
+*
+*
+*/
+
+.tabs .tab a {
+    color: #000;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.tabs .tab a:hover {
+    color: #00c853;
+}
+
+.tabs .tab a.active {
+    color: #00c853;
+}
+
+.tabs .indicator {
+  background-color: #00c853;
+}
+
+.tabs-content li {
+  height: 100%;
+}
+
+#parallax1 {
+  height: 650px;
+}
+
+#parllax2 {
+  height: 600px;
+}
+
+/*
+*
+*
+* Member Page
+*
+*
+*/
+.member-card.small .card-content {
+  max-height: 70%;
+}
+
+/*
+*
+*
+* Mobile Styles
+*
+*
+*/
+
+@media only screen and (max-width: 992px) {
+  .pageContent {
+    margin: auto;
+  }
+
+  .mainPage {
+    padding: 10px;
+  }
+
+  footer {
+    margin-left: inherit !important;
+  }
+
+  header {
+    margin-left: inherit !important;
+  }
+}
+
+/*
+*
+*
+* Footer
+*
+*
+*/
+
+footer {
+  margin-left: 240px;
+  color: #fff;
+}
+
+footer.page-footer {
+  margin-top: 0;
+}
+
+.footerConnect li {
+  padding: 5px;
+  padding-left: 30px;
+  margin: 5px;
+  background-position: left center;
+}
+
+.footerConnect a {
+  position: relative;
+  color: #fff;
+}
+
+.footerConnect a:hover {
+  color: #fff;
+}
+
+.footerConnect > li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease 0s;
+}
+
+.footerConnect > li > a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.fbIcon {
+  background-image: url(../images/icons/fbIcon.svg);
+  background-repeat: no-repeat;
+  background-size: 25px auto;
+}
+
+.twitterIcon {
+  background-image: url(../images/icons/twitterIcon.svg);
+  background-repeat: no-repeat;
+  background-size: 25px auto;
+}
+
+.youtubeIcon {
+  background-image: url(../images/icons/youtubeIcon.svg);
+  background-repeat: no-repeat;
+  background-size: 25px auto;
+}
+
+.tbaIcon {
+  background-image: url(../images/icons/statsIcon.svg);
+  background-repeat: no-repeat;
+  background-size: 25px auto;
+}
+
+.footerContact {
+  position: relative;
+  cursor: pointer;
+}
+
+.footerContact:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease 0s;
+}
+
+.footerContact:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.footerLogo {
+  width: 50px;
+  margin: 5px;
+}
+
+/*
+*
+*
+* Header
+*
+*
+*/
+header {
+  margin-left: 240px;
+  color: #fff;
+  text-align: center;
+}
