@@ -2,5 +2,5 @@
 
 The new "2.0" version of our website :D
 
-GET HYPED
-![Hype Train](http://giant.gfycat.com/GoodTheseHypsilophodon.gif)
+![](https://giant.gfycat.com/GoodTheseHypsilophodon.webm)
+
