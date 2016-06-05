@@ -4,7 +4,7 @@
 // };
 
 var xmlhttp = new XMLHttpRequest();
-var url = "data/memberData.json";
+var url = "data/mentorData.json";
 var descriptions;
 var column = 1;
 
@@ -31,7 +31,7 @@ function handleJSON() {
     descriptions = JSON.parse(descriptions);
     var descriptionArray = Object.keys(descriptions);
 
-    container = document.getElementById("cntMembers");
+    container = document.getElementById("cntMentors");
     for(i = 0; i < descriptionArray.length; i++) {
 
 
@@ -52,7 +52,7 @@ function handleJSON() {
         cardImageContainer.setAttribute("class", "card-image");
 
         var cardImage = document.createElement("img");
-        cardImage.setAttribute("src", "images/members/" + image);
+        cardImage.setAttribute("src", "images/mentors/" + image);
 
         var cardTitle = document.createElement("span");
         cardTitle.setAttribute("class", "card-title");
