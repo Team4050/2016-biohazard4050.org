@@ -80,6 +80,28 @@ blockquote {
   background: #00C853;
 }
 
+.fancy-underline {
+  position: relative;
+}
+
+.fancy-underline:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease 0s;
+}
+
+.fancy-underline:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
 /*
 *
 *
@@ -188,6 +210,7 @@ ul.side-nav li {
   height: 600px;
 }
 
+
 /*
 *
 *
@@ -254,27 +277,6 @@ footer.page-footer {
   color: #fff;
 }
 
-.footerConnect a:hover {
-  color: #fff;
-}
-
-.footerConnect > li > a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  background-color: #fff;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease 0s;
-}
-
-.footerConnect > li > a:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
-}
 
 .fbIcon {
   background-image: url(../images/icons/fbIcon.svg);
@@ -330,10 +332,6 @@ footer.page-footer {
 
 .footer-copyright a {
   color: rgba(255,255,255,0.8);
-}
-
-.footer-copyright a:hover {
-  color: #757575;
 }
 
 /*
