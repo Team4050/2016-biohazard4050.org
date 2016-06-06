@@ -2,13 +2,13 @@
 var currentlyShown = "cntHome";
 
 $(document).ready(function () {
-    $("#cntHome").show();
-    $("#cntAbout").hide();
-    $("#cntMembers").hide();
-    $("#cntMentors").hide();
-    $("#cntSponsors").hide();
-    $("#cntResources").hide();
-    $("#cntContact").hide();
+    makeAppear("#cntHome");
+    makeGone("#cntAbout");
+    makeGone("#cntMembers");
+    makeGone("#cntMentors");
+    makeGone("#cntSponsors");
+    makeGone("#cntResources");
+    makeGone("#cntContact");
 
     $(".nav-button").click(function() {
       $(".side-nav a.active").removeClass("active");
@@ -18,51 +18,51 @@ $(document).ready(function () {
 
     $(".btnHome").click(function () {
         if (currentlyShown != "cntHome") {
-            $("#" + currentlyShown).hide(400);
+          makeGone("#" + currentlyShown);
         }
 
         currentlyShown = "cntHome";
-        $("#cntHome").show(400);
+        makeAppear("#cntHome");
         console.log("Home Button Pressed - " + currentlyShown);
     });
 
     $(".btnAbout").click(function () {
       if (currentlyShown != "cntAbout") {
-          $("#" + currentlyShown).hide(400);
+          makeGone("#" + currentlyShown);
       }
 
       currentlyShown = "cntAbout";
-      $("#cntAbout").show(400);
+      makeAppear("#cntAbout");
       console.log("About Button Pressed - " + currentlyShown);
     });
 
     $(".btnMembers").click(function () {
       if (currentlyShown != "cntMembers") {
-          $("#" + currentlyShown).hide(400);
+          makeGone("#" + currentlyShown);
       }
 
       currentlyShown = "cntMembers";
-      $("#cntMembers").show(400);
+      makeAppear("#cntMembers");
       console.log("Members Button Pressed - " + currentlyShown);
     });
 
     $(".btnMentors").click(function () {
       if (currentlyShown != "cntMentors") {
-          $("#" + currentlyShown).hide(400);
+          makeGone("#" + currentlyShown);
       }
 
       currentlyShown = "cntMentors";
-      $("#cntMentors").show(400);
+      makeAppear("#cntMentors");
       console.log("Mentors Button Pressed - " + currentlyShown);
     });
 
     $(".btnSponsors").click(function () {
       if (currentlyShown != "cntSponsors") {
-          $("#" + currentlyShown).hide(400);
+          makeGone("#" + currentlyShown);
       }
 
       currentlyShown = "cntSponsors";
-      $("#cntSponsors").show(400);
+      makeAppear("#cntSponsors");
       console.log("Sponsors Button Pressed - " + currentlyShown);
     });
 
@@ -71,21 +71,29 @@ $(document).ready(function () {
       $(this).addClass("active");
 
       if (currentlyShown != "cntResources") {
-          $("#" + currentlyShown).hide(400);
+          makeGone("#" + currentlyShown);
       }
 
       currentlyShown = "cntResources";
-      $("#cntResources").show(400);
+      makeAppear("#cntResources");
       console.log("Resources Button Pressed - " + currentlyShown);
     });
 
     $(".btnContact").click(function () {
       if (currentlyShown != "cntContact") {
-          $("#" + currentlyShown).hide(400);
+          makeGone("#" + currentlyShown);
       }
 
       currentlyShown = "cntContact";
-      $("#cntContact").show(400);
+      makeAppear("#cntContact");
       console.log("Contact Button Pressed - " + currentlyShown);
     });
 });
+
+function makeGone(element) {
+  $(element).velocity({opacity: 0}, {duration: 150, display: "none"});
+}
+
+function makeAppear(element) {
+  $(element).velocity({opacity: 1}, {duration: 150, delay: 125, display: "auto"});
+}
