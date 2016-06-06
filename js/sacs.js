@@ -7,7 +7,7 @@ $(document).ready(function () {
     makeGone("#cntMembers");
     makeGone("#cntMentors");
     makeGone("#cntSponsors");
-    makeGone("#cntResources");
+    makeGone("#cntAwards");
     makeGone("#cntContact");
 
     $(".nav-button").click(function() {
@@ -66,17 +66,17 @@ $(document).ready(function () {
       console.log("Sponsors Button Pressed - " + currentlyShown);
     });
 
-    $(".btnResources").click(function () {
+    $(".btnAwards").click(function () {
       $(".side-nav a.active").removeClass("active");
       $(this).addClass("active");
 
-      if (currentlyShown != "cntResources") {
+      if (currentlyShown != "cntAwards") {
           makeGone("#" + currentlyShown);
       }
 
-      currentlyShown = "cntResources";
-      makeAppear("#cntResources");
-      console.log("Resources Button Pressed - " + currentlyShown);
+      currentlyShown = "cntAwards";
+      makeAppear("#cntAwards");
+      console.log("Awards Button Pressed - " + currentlyShown);
     });
 
     $(".btnContact").click(function () {
