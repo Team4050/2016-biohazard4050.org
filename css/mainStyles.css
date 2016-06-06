@@ -102,6 +102,16 @@ blockquote {
   transform: scaleX(1);
 }
 
+.inverse-underline:before {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.underline-80 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 /*
 *
 *
