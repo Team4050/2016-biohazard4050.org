@@ -20,12 +20,16 @@
   transform: scaleX(1);
 }
 
-.inverse-underline:before {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
 .underline-50:before {
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
+}
+
+.uBlack:before {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.uGreen:before {
+  background-color: #00c853;
 }
