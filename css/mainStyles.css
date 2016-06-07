@@ -341,7 +341,11 @@ footer.page-footer {
 }
 
 .footer-copyright a {
-  color: rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.8); /*Change this to hex sometime*/
+}
+
+footer .fancy-underline:before {
+  background-color: rgba(255,255,255,0.8); /*Change this to hex sometime*/
 }
 
 /*

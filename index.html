@@ -72,7 +72,23 @@
             </ul>
           </li>
           <li><a class="nav-button waves-effect waves-accentGreen bold btnSponsors" >Sponsors</a></li>
-          <li><a class="nav-button waves-effect waves-accentGreen bold btnResources" >Resources</a></li>
+          <li>
+            <!--YO JOSIAH READ THIS COMMENT: Resources is now a dropdown, and we have more options for pages... so git on that =P (see what I did there)-->
+            <ul class="collapsible" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header waves-effect waves-accentGreen bold">Resources</div>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="nav-button waves-effect waves-accentGreen btnAwards">Awards</a></li> <!--Have to have a page for this once...-->
+                    <li><a class="nav-button waves-effect waves-accentGreen" href="calendar.html" target="_blank">Calendar</a></li> <!--This will link to an embeded google calendar, we don't need a page for it. Might make this a modal... we'll see-->
+                    <li><a class="nav-button waves-effect waves-accentGreen" href="https://github.com/Team4050" target="_blank">Code</a></li> <!--This one is just a link to GitHub, no page here either-->
+                    <li><a class="nav-button waves-effect waves-accentGreen">Graphics</a></li> <!--Will probably link this to a google drive folder with all the graphic files... TODO: Make that folder and stuff-->
+
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
           <li><a class="nav-button waves-effect waves-accentGreen bold btnContact" >Contact Us</a></li>
         </ul>
 
@@ -166,7 +182,7 @@
           <!-- mentors.js will populate this with mentor cards -->
         </div>
         <div id="cntSponsors" class="mainPage">This is the sponsors content</div>
-        <div id="cntResources" class="mainPage">This is the resources content</div>
+        <div id="cntAwards" class="mainPage">This is the awards content</div>
         <div id="cntContact" class="mainPage">This is the contact content</div>
       </div>
     </main>
