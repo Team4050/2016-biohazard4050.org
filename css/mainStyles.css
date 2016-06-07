@@ -80,6 +80,14 @@ blockquote {
   background: #00C853;
 }
 
+.modal a {
+  color: #00c853;
+}
+
+.modal-footer a{
+  color: #000;
+}
+
 /*
 *
 *
