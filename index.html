@@ -73,7 +73,6 @@
           </li>
           <li><a class="nav-button waves-effect waves-accentGreen bold btnSponsors" >Sponsors</a></li>
           <li>
-            <!--YO JOSIAH READ THIS COMMENT: Resources is now a dropdown, and we have more options for pages... so git on that =P (see what I did there)-->
             <ul class="collapsible" data-collapsible="accordion">
               <li>
                 <div class="collapsible-header waves-effect waves-accentGreen bold">Resources</div>
@@ -89,7 +88,7 @@
               </li>
             </ul>
           </li>
-          <li><a class="nav-button waves-effect waves-accentGreen bold btnContact" >Contact Us</a></li>
+          <li><a class="nav-button waves-effect waves-accentGreen bold" href="http://l.cs-5.me/biocontact" target="_blank">Contact Us</a></li> <!--This will no longer require a page... might make it a modal or something EDIT: No modal, it doesn't work very well-->
         </ul>
 
         <!-- Mobile Navigation -->
@@ -200,10 +199,10 @@
           <div class="col s3">
             <h6 class="white-text">Social:</h6>
             <ul class="footerConnect">
-              <li class="fbIcon"><a class="fancy-underline" href="https://facebook.com/Biohazard4050" target="_blank">Facebook</a></li>
-              <li class="twitterIcon"><a class="fancy-underline" href="https://twitter.com/frc4050" target="_blank">Twitter</a></li>
-              <li class="youtubeIcon"><a class="fancy-underline" href="https://www.youtube.com/channel/UCCdxzPtxpsP_uP6ghbmhfaA" target="_blank">YouTube</a></li>
-              <li class="tbaIcon"><a class="fancy-underline" href="https://www.thebluealliance.com/team/4050" target="_blank">The Blue Alliance</a></li>
+              <li class="fbIcon"><a class="fancy-underline" href="http://l.cs-5.me/biohazard4050fb" target="_blank">Facebook</a></li>
+              <li class="twitterIcon"><a class="fancy-underline" href="http://l.cs-5.me/biotw" target="_blank">Twitter</a></li>
+              <li class="youtubeIcon"><a class="fancy-underline" href="http://l.cs-5.me/bioyt" target="_blank">YouTube</a></li>
+              <li class="tbaIcon"><a class="fancy-underline" href="http://l.cs-5.me/bioblue" target="_blank">The Blue Alliance</a></li>
             </ul>
           </div>
         </div>
@@ -215,13 +214,15 @@
         </div>
       </div>
     </footer>
+    <!--Modals go here-->
+
     <!--Basiclly... all the legal stuff here-->
-    <div id="aboutSite" class="modal">
+    <div id="aboutSite" class="modal modal-fixed-footer">
       <div class="modal-content">
         <h4>About this Site</h4>
         <p>Thanks to <a href="http://materializecss.com/" target="_blank">Materialize™</a> for their awesome Material Design framework, licensed under <a href="https://github.com/Dogfalo/materialize/blob/master/LICENSE" target="_blank">The MIT Licence</a>. There were slight modifications made to the framework, which fall under the confines of the MIT License.</p>
         <p>Any logos in use on this site not created by Biohazard are belongings of their respective owners. We take no credit for these logos.</p>
-        <p>Our website currently does not have any licenseing and it's code is <a href="https://github.com/Team4050/www.biohazard4050.org" target="_blank">open source.</a></p>
+        <p>Our website currently does not have any licenseing and it's code is <a href="http://l.cs-5.me/biorepo" target="_blank">open source.</a></p>
         <p>If you have any specific questions for the webmasters, please contact FC-5 <a href="mailto:fc5@cs-5.me">here</a>.</p>
       </div>
       <div class="modal-footer">
@@ -241,6 +242,7 @@
 
   <!-- Load our stuff -->
   <link href="css/mainStyles.css" rel="stylesheet" />
+  <link href="css/helpers.css" rel="stylesheet" />
   <script src="js/sacs.js"></script>
   <script src="js/members.js"></script>
   <script src="js/mentors.js"></script>
