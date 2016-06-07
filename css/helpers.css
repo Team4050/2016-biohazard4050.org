@@ -26,10 +26,10 @@
   margin-right: 25%;
 }
 
-.uBlack:before {
+.underline-black:before {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.uGreen:before {
+.underline-green:before {
   background-color: #00c853;
 }
