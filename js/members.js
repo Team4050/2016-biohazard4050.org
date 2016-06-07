@@ -31,7 +31,7 @@ function handleJSON() {
     descriptions = JSON.parse(descriptions);
     var descriptionArray = Object.keys(descriptions);
 
-    container = document.getElementById("cntMembers");
+    container = document.getElementById("content-members");
     for(i = 0; i < descriptionArray.length; i++) {
 
 
