@@ -50,11 +50,11 @@ blockquote {
   font-weight: bold;
 }
 
-.mainPage {
+.main-page {
   padding: 0px;
 }
 
-.siteHeader {
+.site-header {
   background-color: #4CAF50;
 }
 
@@ -73,7 +73,7 @@ blockquote {
   display: block;
 }
 
-.greenDivider {
+.green-divider {
   width: 80%;
   height: 5px;
   margin: 10px auto;
@@ -81,11 +81,7 @@ blockquote {
 }
 
 .modal a {
-  color: #00c853;
-}
-
-.modal-footer a{
-  color: #000;
+  color: #00C853;
 }
 
 /*
@@ -96,11 +92,11 @@ blockquote {
 *
 */
 
-.navButtons a:active {
+.nav-buttons a:active {
   background-color: #78909C;
 }
 
-.pageContent {
+.page-content {
   margin-left: 240px;
 }
 
@@ -108,7 +104,7 @@ blockquote {
   background-color: #757575;
 }
 
-.navLogo {
+.nav-logo {
   width: 100%;
   height: auto;
   padding: 10px;
@@ -153,7 +149,7 @@ ul.side-nav li {
 *
 */
 
-#cntHome {
+#content-home {
   text-align: center;
 }
 
@@ -217,11 +213,11 @@ ul.side-nav li {
 */
 
 @media only screen and (max-width: 992px) {
-  .pageContent {
+  .page-content {
     margin: auto;
   }
 
-  .mainPage {
+  .main-page {
     padding: 10px;
   }
 
@@ -251,67 +247,44 @@ footer.page-footer {
   margin-top: 0;
 }
 
-.footerConnect li {
+.footer-connect li {
   padding: 5px;
   padding-left: 30px;
   margin: 5px;
   background-position: left center;
 }
 
-.footerConnect a {
+.footer-connect a {
   position: relative;
   color: #fff;
 }
 
 
-.fbIcon {
+.fb-icon {
   background-image: url(../images/icons/fbIcon.svg);
   background-repeat: no-repeat;
   background-size: 25px auto;
 }
 
-.twitterIcon {
+.twitter-icon {
   background-image: url(../images/icons/twitterIcon.svg);
   background-repeat: no-repeat;
   background-size: 25px auto;
 }
 
-.youtubeIcon {
+.youtube-icon {
   background-image: url(../images/icons/youtubeIcon.svg);
   background-repeat: no-repeat;
   background-size: 25px auto;
 }
 
-.tbaIcon {
+.tba-icon {
   background-image: url(../images/icons/statsIcon.svg);
   background-repeat: no-repeat;
   background-size: 25px auto;
 }
 
-.footerContact {
-  position: relative;
-  cursor: pointer;
-}
-
-.footerContact:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  background-color: #fff;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease 0s;
-}
-
-.footerContact:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
-}
-
-.footerLogo {
+.footer-logo {
   width: 50px;
   margin: 5px;
 }

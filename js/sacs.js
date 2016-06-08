@@ -1,14 +1,14 @@
 ﻿//SuperAwesomeContentSwitcher
-var currentlyShown = "cntHome";
+var currentlyShown = "content-home";
 
 $(document).ready(function () {
-    makeAppear("#cntHome");
-    makeGone("#cntAbout");
-    makeGone("#cntMembers");
-    makeGone("#cntMentors");
-    makeGone("#cntSponsors");
-    makeGone("#cntAwards");
-    makeGone("#cntContact");
+    makeAppear("#content-home");
+    makeGone("#content-about");
+    makeGone("#content-members");
+    makeGone("#content-mentors");
+    makeGone("#content-sponsors");
+    makeGone("#content-awards");
+    makeGone("#content-contact");
 
     $(".nav-button").click(function() {
       $(".side-nav a.active").removeClass("active");
@@ -17,52 +17,52 @@ $(document).ready(function () {
     });
 
     $(".btnHome").click(function () {
-        if (currentlyShown != "cntHome") {
+        if (currentlyShown != "content-home") {
           makeGone("#" + currentlyShown);
         }
 
-        currentlyShown = "cntHome";
-        makeAppear("#cntHome");
+        currentlyShown = "content-home";
+        makeAppear("#content-home");
         console.log("Home Button Pressed - " + currentlyShown);
     });
 
     $(".btnAbout").click(function () {
-      if (currentlyShown != "cntAbout") {
+      if (currentlyShown != "content-about") {
           makeGone("#" + currentlyShown);
       }
 
-      currentlyShown = "cntAbout";
-      makeAppear("#cntAbout");
+      currentlyShown = "content-about";
+      makeAppear("#content-about");
       console.log("About Button Pressed - " + currentlyShown);
     });
 
     $(".btnMembers").click(function () {
-      if (currentlyShown != "cntMembers") {
+      if (currentlyShown != "content-members") {
           makeGone("#" + currentlyShown);
       }
 
-      currentlyShown = "cntMembers";
-      makeAppear("#cntMembers");
+      currentlyShown = "content-members";
+      makeAppear("#content-members");
       console.log("Members Button Pressed - " + currentlyShown);
     });
 
     $(".btnMentors").click(function () {
-      if (currentlyShown != "cntMentors") {
+      if (currentlyShown != "content-mentors") {
           makeGone("#" + currentlyShown);
       }
 
-      currentlyShown = "cntMentors";
-      makeAppear("#cntMentors");
+      currentlyShown = "content-mentors";
+      makeAppear("#content-mentors");
       console.log("Mentors Button Pressed - " + currentlyShown);
     });
 
     $(".btnSponsors").click(function () {
-      if (currentlyShown != "cntSponsors") {
+      if (currentlyShown != "content-sponsors") {
           makeGone("#" + currentlyShown);
       }
 
-      currentlyShown = "cntSponsors";
-      makeAppear("#cntSponsors");
+      currentlyShown = "content-sponsors";
+      makeAppear("#content-sponsors");
       console.log("Sponsors Button Pressed - " + currentlyShown);
     });
 
@@ -70,22 +70,22 @@ $(document).ready(function () {
       $(".side-nav a.active").removeClass("active");
       $(this).addClass("active");
 
-      if (currentlyShown != "cntAwards") {
+      if (currentlyShown != "content-awards") {
           makeGone("#" + currentlyShown);
       }
 
-      currentlyShown = "cntAwards";
-      makeAppear("#cntAwards");
+      currentlyShown = "content-awards";
+      makeAppear("#content-awards");
       console.log("Awards Button Pressed - " + currentlyShown);
     });
 
     $(".btnContact").click(function () {
-      if (currentlyShown != "cntContact") {
+      if (currentlyShown != "content-contact") {
           makeGone("#" + currentlyShown);
       }
 
-      currentlyShown = "cntContact";
-      makeAppear("#cntContact");
+      currentlyShown = "content-contact";
+      makeAppear("#content-contact");
       console.log("Contact Button Pressed - " + currentlyShown);
     });
 });
