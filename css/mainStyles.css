@@ -207,27 +207,14 @@ ul.side-nav li {
 /*
 *
 *
-* Mobile Styles
+* Header
 *
 *
 */
-
-@media only screen and (max-width: 992px) {
-  .page-content {
-    margin: auto;
-  }
-
-  .main-page {
-    padding: 10px;
-  }
-
-  footer {
-    margin-left: inherit !important;
-  }
-
-  header {
-    margin-left: inherit !important;
-  }
+header {
+  margin-left: 240px;
+  color: #fff;
+  text-align: center;
 }
 
 /*
@@ -300,12 +287,29 @@ footer .fancy-underline:before {
 /*
 *
 *
-* Header
+* Mobile Styles
 *
 *
 */
-header {
-  margin-left: 240px;
-  color: #fff;
-  text-align: center;
+
+@media only screen and (max-width: 992px) {
+  .page-content {
+    margin: auto;
+  }
+
+  .main-page {
+    padding: 10px;
+  }
+
+  footer {
+    margin-left: inherit !important;
+  }
+
+  header {
+    margin-left: inherit !important;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
 }
