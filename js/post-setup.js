@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     $('.button-collapse').sideNav({
         closeOnClick: true 
@@ -8,6 +7,5 @@ $(document).ready(function () {
     window.onbeforeunload = function(){
 	    window.scrollTo(0,0);
     }
-    NProgress.done();
     console.log("Setup Complete");
 });
