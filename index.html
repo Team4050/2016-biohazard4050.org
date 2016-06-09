@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
       <meta charset="utf-8">
@@ -22,10 +22,8 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
       ga('create', 'UA-74561401-1', 'auto');
       ga('send', 'pageview');
-
       </script>
 
   </head>
@@ -126,12 +124,26 @@
             </ul>
           </li>
           <li><a class="nav-button waves-effect waves-accentGreen bold btnSponsors" >Sponsors</a></li>
-          <li><a class="nav-button waves-effect waves-accentGreen bold btnResources" >Resources</a></li>
-          <li><a class="nav-button waves-effect waves-accentGreen bold btnContact" >Contact Us</a></li>
+          <li>
+            <ul class="collapsible" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header waves-effect waves-accentGreen bold">Resources</div>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a class="nav-button waves-effect waves-accentGreen btnAwards">Awards</a></li> <!--Have to have a page for this once...-->
+                    <li><a class="nav-button waves-effect waves-accentGreen" href="calendar.html" target="_blank">Calendar</a></li> <!--This will link to an embedded google calendar, we don't need a page for it. Might make this a modal... we'll see-->
+                    <li><a class="nav-button waves-effect waves-accentGreen" href="https://github.com/Team4050" target="_blank">Code</a></li> <!--This one is just a link to GitHub, no page here either-->
+                    <li><a class="nav-button waves-effect waves-accentGreen">Graphics</a></li> <!--Will probably link this to a google drive folder with all the graphic files... TODO: Make that folder and stuff-->
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li><a class="nav-button waves-effect waves-accentGreen bold" href="http://l.cs-5.me/biocontact" target="_blank">Contact Us</a></li> <!--This will no longer require a page... might make it a modal or something EDIT: No modal, it doesn't work very well-->
         </ul>
 
     <!--All page content goes here.. who woulda' thought?-->
-    <header class="green accent-4 z-depth-1">
+    <header class="green accent-4 z-depth-1 hide-mobile">
       <h3>FRC Team Biohazard 4050</h3>
     </header>
 
@@ -156,7 +168,7 @@
           In 2015, the FRC Team won the Chesapeake Regional competition and had the opportunity to go to the World Championship, a huge milestone and accomplishment.
           <br>
           <br>
-          <div class="parallax-container" id="parallax1">
+          <div class="parallax-container hide-mobile" id="parallax1">
             <div class="parallax"><img src="images/FullTeam1.png"></div>
           </div>
           <h4>The History of our Team</h4>
@@ -181,7 +193,7 @@
               <li id="year2012" class="col s12">Tech Team Franklin began their six-week build period late, with only ten members and a handful of mentors. After consistent meetings and training in electrical, mechanical, and programming, our robot “Genesis” was born. We attended the Pittsburgh Regional and, after a successful learning experience, began preparing for a new year.</li>
             </ul>
           </div>
-          <div class="parallax-container" id="parallax2">
+          <div class="parallax-container hide-mobile" id="parallax2">
             <div class="parallax"><img src="images/Robot1.png"></div>
           </div>
         </div>
@@ -206,8 +218,9 @@
             <a href="http://www.firstinspires.org/" target="_blank"><img class="footer-logo" src="images/firstLogo.svg"></a>
             <a href="http://www.4-h.org/" target="_blank"><img class="footer-logo" src="images/4hLogo.svg"></a>
           </div>
-          <!--Social Stuff-->
-          <div class="row">
+        </div>
+        <!-- Social Stuff -->
+        <div class="row">
             <ul class="footer-connect col s12">
               Social:
               <li class="fb-icon"><a class="fancy-underline" href="http://l.cs-5.me/biohazard4050fb" target="_blank">Facebook</a></li>
@@ -215,7 +228,6 @@
               <li class="youtube-icon"><a class="fancy-underline" href="http://l.cs-5.me/bioyt" target="_blank">YouTube</a></li>
               <li class="tba-icon"><a class="fancy-underline" href="http://l.cs-5.me/bioblue" target="_blank">The Blue Alliance</a></li>
             </ul>
-          </div>
         </div>
       </div>
       <!--The footer thing... regardless of the fact that the class is "footer-copyright" there is no copyright here... ;)-->
