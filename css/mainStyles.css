@@ -234,18 +234,22 @@ footer.page-footer {
   margin-top: 0;
 }
 
+.footer-connect {
+  text-align: center;
+}
+
 .footer-connect li {
   padding: 5px;
   padding-left: 30px;
   margin: 5px;
   background-position: left center;
+  display: inline;
 }
 
 .footer-connect a {
   position: relative;
   color: #fff;
 }
-
 
 .fb-icon {
   background-image: url(../images/icons/fbIcon.svg);
