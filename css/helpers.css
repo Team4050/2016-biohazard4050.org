@@ -33,3 +33,9 @@
 .underline-green:before {
   background-color: #00c853;
 }
+
+.white-divider {
+  height: 1px;
+  overflow: hidden;
+  background-color: #fff;
+}
