@@ -6,6 +6,10 @@
 *
 */
 
+*:focus {
+  outline: none;
+}
+
 nav {
   background-color: #00c853;
 }
