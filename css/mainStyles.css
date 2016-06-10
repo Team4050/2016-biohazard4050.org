@@ -146,9 +146,15 @@ ul.side-nav li {
   line-height: 44px;
 }
 
-a i {
+
+.open-new {
   margin-top: 12px;
   float: right;
+  font-size: 20px !important;
+}
+
+.padding-reduce {
+  padding-right: 30px !important;
 }
 /*
 *
