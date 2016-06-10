@@ -145,6 +145,11 @@ ul.side-nav li a {
 ul.side-nav li {
   line-height: 44px;
 }
+
+a i {
+  margin-top: 12px;
+  float: right;
+}
 /*
 *
 *
