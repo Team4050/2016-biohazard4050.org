@@ -288,6 +288,10 @@ footer.page-footer {
   margin: 5px;
 }
 
+.footer-copyright {
+  text-align: center;
+}
+
 .footer-copyright a {
   color: rgba(255,255,255,0.8); /*Change this to hex sometime*/
 }
