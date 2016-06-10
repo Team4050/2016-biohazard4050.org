@@ -34,8 +34,23 @@
   background-color: #00c853;
 }
 
-.white-divider {
-  height: 1px;
+.divider {
+  height: 2px;
   overflow: hidden;
+}
+
+.div-white {
   background-color: #fff;
 }
+
+.div-green {
+  background: #00C853;
+}
+
+.div-80 {
+    width: 80%;
+    margin: 10px auto;
+
+}
+
+
