@@ -77,13 +77,6 @@ blockquote {
   display: block;
 }
 
-.green-divider {
-  width: 80%;
-  height: 5px;
-  margin: 10px auto;
-  background: #00C853;
-}
-
 .modal a {
   color: #00C853;
 }
@@ -146,9 +139,15 @@ ul.side-nav li {
   line-height: 44px;
 }
 
-a i {
+
+.open-new {
   margin-top: 12px;
   float: right;
+  font-size: 20px !important;
+}
+
+.padding-reduce {
+  padding-right: 30px !important;
 }
 /*
 *
@@ -199,6 +198,10 @@ a i {
 
 #parllax2 {
   height: 600px;
+}
+
+#content-about h1 {
+  font-size: 40px;
 }
 
 
