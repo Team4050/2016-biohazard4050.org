@@ -97,7 +97,7 @@ function handleJSON() {
 
         var modalContent = document.createElement("div");
         modalContent.setAttribute("class", "modal-content");
-        modalContent.innerHTML = "<h4>" + name + "</h4>\n<div class=\"divider div-green\"></div>\n<p>" + bio + "</p>";
+        modalContent.innerHTML = "<h4>" + name + "</h4>\n<div class=\"divider div-green\"></div>\n<p class=\"bio\">" + bio + "</p>";
 
         var modalFooter = document.createElement("div");
         modalFooter.setAttribute("class", "modal-footer");
