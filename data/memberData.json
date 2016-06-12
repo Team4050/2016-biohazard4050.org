@@ -26,7 +26,7 @@
   {
     "name": "Cassandra S.",
     "description": "Writing and Awards",
-    "bio": "I am sixteen years old and will be graduating this year. I’m a homeschool student who actually enjoys doing school. In my spare time I like to read and write, plus I do a lot of Drama stuff with my church. I like doing robotics because I get to learn stuff about engineering and electrical that I may never use but is still cool to learn. Plus I get to use my gift as a writer to help strengthen my team. ",
+    "bio": "I am sixteen years old and will be graduating this year. I'm a homeschool student who actually enjoys doing school. In my spare time I like to read and write, plus I do a lot of Drama stuff with my church. I like doing robotics because I get to learn stuff about engineering and electrical that I may never use but is still cool to learn. Plus I get to use my gift as a writer to help strengthen my team. ",
     "image": "cassandra-s.jpg"
   },
   {
@@ -50,7 +50,7 @@
   {
     "name": "Josiah N.",
     "description": "Software Lead and Remote Member",
-    "bio": "I am a 17 year old homeschool student and am (at the time of writing) the only remote member. I have been on the team since late 2012. My family and I live in Haiti as long-term missionaries. In my community, I am the go-to \"computer guy\" and perform many repairs and upgrades, as well as help people understand new systems and software. In my free time, I enjoy web development, IoT projects, and programming in Java and Javascript. At any given time I have several projects under development such as web development, mod development, and projects using my Raspberry Pi. I often work with other members on my projects, most of which are open source.",
+    "bio": "I am a 17 year old homeschool student and am (at the time of writing) the only remote member. I have been on the team since late 2012. My family and I live in Haiti as long-term missionaries. In my community, I am the go-to \"computer guy\" and perform many repairs and upgrades, as well as help people understand new systems and software. In my free time, I enjoy web development, IoT projects, and programming in Java and Javascript. At any given time I have several projects under development such as web development, mod development, and projects using my Raspberry Pi. I often work with other members on my projects, most of which are open source. <div style=\"opacity: 0;\" onclick=\"this.style.opacity='1';\">You shouldn't have clicked me...</div>",
     "image": "josiah-n.jpg"
   },
   {
