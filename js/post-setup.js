@@ -11,18 +11,6 @@ $(document).ready(function () {
     console.log("Setup Complete");
 });
 
-function carsonsBio() {
-  console.log("Button Pressed");
-  $('.carsons-bio').funnyText({
-    speed: 700,
-    borderColor: 'black',
-    activeColor: 'white',
-    color: 'black',
-    fontSize: '15px',
-    direction: 'both'
-  });
-}
-
 var clickCount = 0;
 
 function doDaMagic() {
