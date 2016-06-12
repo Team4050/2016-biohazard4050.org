@@ -46,13 +46,13 @@ function handleJSON() {
         cardContainer.setAttribute("class", "col s12 m6");
 
         var card = document.createElement("div");
-        card.setAttribute("class", "card member-card small grey darken-1");
+        card.setAttribute("class", "card member-card extra-small grey darken-1");
 
-        var cardImageContainer = document.createElement("div");
-        cardImageContainer.setAttribute("class", "card-image");
+        // var cardImageContainer = document.createElement("div");
+        // cardImageContainer.setAttribute("class", "card-image");
 
-        var cardImage = document.createElement("img");
-        cardImage.setAttribute("src", "images/members/" + image);
+        // var cardImage = document.createElement("img");
+        // cardImage.setAttribute("src", "images/members/" + image);
 
         var cardTitle = document.createElement("span");
         cardTitle.setAttribute("class", "card-title");
@@ -60,7 +60,10 @@ function handleJSON() {
 
         var cardContent = document.createElement("div");
         cardContent.setAttribute("class", "card-content white-text");
-        cardContent.innerHTML = "<p>" + description + "</p>";
+        // cardContent.innerHTML = "<p>" + description + "</p>";
+
+        var cardText = document.createElement("p");
+        cardText.innerHTML = description;
 
         var cardAction = document.createElement("div");
         cardAction.setAttribute("class", "card-action right-align");
@@ -70,12 +73,15 @@ function handleJSON() {
         actionButton.setAttribute("href", "#" + nameSanSpace);
         actionButton.innerHTML = "More...";
 
-        cardImageContainer.appendChild(cardImage);
-        cardImageContainer.appendChild(cardTitle);
+        // cardImageContainer.appendChild(cardImage);
+        // cardImageContainer.appendChild(cardTitle);
 
         cardAction.appendChild(actionButton);
 
-        card.appendChild(cardImageContainer);
+        cardContent.appendChild(cardTitle);
+        cardContent.appendChild(cardText);
+
+        // card.appendChild(cardImageContainer);
         card.appendChild(cardContent);
         card.appendChild(cardAction);
 
