@@ -81,6 +81,10 @@ blockquote {
   color: #00C853;
 }
 
+#egg-bio-text {
+  transition-duration: 0.5s;
+}
+
 /*
 *
 *
