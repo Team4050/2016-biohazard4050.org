@@ -7,6 +7,9 @@ $(document).ready(function () {
     window.onbeforeunload = function(){
 	    window.scrollTo(0,0);
     }
+    $('.collapsible').collapsible({
+      accordion : true
+    });
 
     console.log("Setup Complete");
 });
