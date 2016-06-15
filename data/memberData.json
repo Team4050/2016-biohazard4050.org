@@ -42,11 +42,11 @@
     "image": "daniel-m.jpg"
   },
   {
-    "name": GW T.
-    "description": Axillary Technician
-    "bio": I am 16, and I go to PAVCS. I will be a Senior this fall. I think of myself as a soldier reporting for duty. If there is something you want me to do, I will. 
+    "name": "GW T.",
+    "description": "Axillary Technician",
+    "bio": "I am 16, and I go to PAVCS. I will be a Senior this fall. I think of myself as a soldier reporting for duty. If there is something you want me to do, I will.",
     "image": "gw-t.jpg"
-  }
+  },
   {
     "name": "Josiah N.",
     "description": "Software Engineer & Remote Member",
@@ -72,9 +72,9 @@
     "image": "molly-m.jpg"
   },
   {
-    "name": "Seth Y."
-    "description": Electrical Engineer
-    "bio": I am 13, I am in 8th Grade, I like to play Baseball and to sometimes Cook, I am in PAVCS(Might Change), I am an Electrical Person on the Team, My favorite food is Pizza/MacnCheese, and I would like to be an Electrical or Mechanical Engineer when I grow up.
+    "name": "Seth Y.",
+    "description": "Electrical Engineer",
+    "bio": "I am 13, I am in 8th Grade, I like to play Baseball and to sometimes Cook, I am in PAVCS(Might Change), I am an Electrical Person on the Team, My favorite food is Pizza/MacnCheese, and I would like to be an Electrical or Mechanical Engineer when I grow up.",
     "image": "seth-y.jpg"
   },
   {
@@ -84,9 +84,9 @@
     "image": "timmy-m.jpg"
   },
   {
-    "name": "William W."
-    "description": Electrical Engineer
-    "bio": I am 15 years old. I enjoy sketching, science, and making pottery. I was a part of the Electrical Team and Imaging Committee last season. I've also worked on the mechanical team. I am thankful for the mentors and members who have taken the time to teach me new skills. 
+    "name": "William W.",
+    "description": "Electrical Engineer",
+    "bio": "I am 15 years old. I enjoy sketching, science, and making pottery. I was a part of the Electrical Team and Imaging Committee last season. I've also worked on the mechanical team. I am thankful for the mentors and members who have taken the time to teach me new skills.",
     "image": "william-w.jpg"
   }
 ]
