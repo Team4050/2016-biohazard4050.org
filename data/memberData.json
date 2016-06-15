@@ -1,92 +1,91 @@
 [
-  {
-    "name": "Alex S.",
-    "description": "Software Engineer",
-    "bio": "I am 18 years old and am starting my senior year. I am homeschooled. I like to make Lego movies, do service projects and go on mission trips. My favorite foods are tacos and cheeseburgers. I want to be a missionary when I grow up and work with children.",
-    "image": "alexander-s.jpg"
-  },
-  {
-    "name": "Carlee B.",
-    "description": "Mechanical Engineer",
-    "bio": "Hello! I am 16 and am a rising homeschooled Senior. Some of my favorite hobbies are reading and fencing (with sabres not barb wire or wood fences). This past season I led a sewing group which made the bumpers for our robot, and I helped with scouting. My favorite food is probably Indian food. I want to be a chiropractor when I grow up (which is only in a couple years, ahh!!!).",
-    "image": "carlee-b.jpg"
-  },
-  {
-    "name": "Carson S.",
-    "description": "Senior Software Engineer & Video Guy",
-    "bio": "I am a 16 year old, part time Career Technical/Homeschool student interested in software development, network administration, video editing, and basically anything else involving computers. I have a few years of basic Java experience and am rapidly becoming more familiar with all web languages. Natural Language Processing (NLP) and Artificial Intelligence (AI) are of particular interest to me. Beside programming, I also play guitar and enjoy mixing live audio for my youth group. I enjoy camping, kayaking, and bicycle riding when I get the chance. I don't mind a good snack or a good joke, and Pizza is definitely one of my favorite foods, especially when accompanied by a cream soda.",
-    "image": "carson-s.jpg"
-  },
-  {
-    "name": "Cassie S.",
-    "description": "Strategy Technician & Awards",
-    "bio": "I am sixteen years old and will be graduating this year. I'm a homeschool student who actually enjoys doing school. In my spare time I like to read and write, plus I do a lot of Drama stuff with my church. I like doing robotics because I get to learn stuff about engineering and electrical that I may never use but is still cool to learn. Plus I get to use my gift as a writer to help strengthen my team. ",
-    "image": "cassandra-s.jpg"
-  },
-  {
-    "name": "Chad B.",
-    "description": "Senior Mechanical Engineer",
-    "bio": "YO! I'm 18, in 11th g, Homeschooled, I'm a fencer full time except when I'm do this XD, then I do mechanical work (Chad the Builder) and the marketing guy. When I'm more grown up I plan to this for work, play and to make the world just a little bit cooler.",
-    "image": "chad-b.jpg"
-  },
-  {
-    "name": "Connor S.",
-    "description": "Safety Captain",
-    "bio": "14 years old, homeschooled.",
-    "image": "connor-s.jpg"
-  },
-  {
-    "name": "Daniel M.",
-    "description": "Mechanical Engineer",
-    "bio": "I'm 13 years-old, i like sports and hiking, i go to CCA or Commonwealth Connections Academy. I also like pizza!",
-    "image": "daniel-m.jpg"
-  },
-  {
-    "name": "GW T.",
-    "description": "Axillary Technician",
-    "bio": "I am 16, and I go to PAVCS. I will be a Senior this fall. I think of myself as a soldier reporting for duty. If there is something you want me to do, I will.",
-    "image": "gw-t.jpg"
-  },
-  {
-    "name": "Josiah N.",
-    "description": "Software Engineer & Remote Member",
-    "bio": "<p id=\"egg-bio-text\" class=\"bio\">I am a 17 year old homeschool student and am (at the time of writing) the only remote member. I have been on the team since late 2012. My family and I live in Haiti as long-term missionaries. In my community, I am the go-to \"computer guy\" and perform many repairs and upgrades, as well as help people understand new systems and software. In my free time, I enjoy web development, IoT projects, and programming in Java and Javascript. At any given time I have several projects under development such as web development, mod development, and projects using my Raspberry Pi. I often work with other members on my projects, most of which are open source.</div> <div style=\"opacity: 0;\" onclick=\"doDaMagic(); this.style.opacity=1;\">You found me :D</p>",
-    "image": "josiah-n.jpg"
-  },
-    {
-    "name": "Lexi D.",
-    "description": "Senior Strategy Technician & Awards",
-    "bio": "I'm seventeen years old and in 11th grade. I attend PA Virtual Charter School. I'm actively involved in my youth group and a 4.12 Leadership Training Program at Camp Joy El. I also love to write, and have written and published five books. I put my writing skills to work on the team, with awards, descriptions, pamphlets, and articles. The team has given me a chance to grow my leadership skills.",
-    "image": "alexis-d.jpg"
-  },
-  {
-    "name": "Matthew P.",
-    "description": "Software Engineer",
-    "bio": "I am a Junior at Shippensburg High School. I also go to FCCTC for half of the school year and am in the Information Systems Technology class. I joined Robotics in 2014 and have worked on two robots. In my free time I play guitar and PC games. I am also in Boy Scouts Troop 121.",
-    "image": "matthew-p.jpg"
-  },
-  {
-    "name": "Molly M.",
-    "description": "Auxiliary Technician",
-    "bio": "I am 14 years old, in 9th grade at CASHS, and I love to read and write, I know !NERD ALERT! But whatever, it's what I like. I haven't decided on a permanent position on the team so I hop around all over the place! I have absolutely no clue what to do with my future (which freaks me out).",
-    "image": "molly-m.jpg"
-  },
-  {
-    "name": "Seth Y.",
-    "description": "Electrical Engineer",
-    "bio": "I am 13, I am in 8th Grade, I like to play Baseball and to sometimes Cook, I am in PAVCS(Might Change), I am an Electrical Person on the Team, My favorite food is Pizza/MacnCheese, and I would like to be an Electrical or Mechanical Engineer when I grow up.",
-    "image": "seth-y.jpg"
-  },
-  {
-    "name": "Timmy M.",
-    "description": "Senior Mechanical Engineer",
-    "bio": "I am 18 years old and I am a senior in PAVirtual. I like to draw, hike, camp, play sports, and graphic design. I love ice cream and my favorite color is blue. I plan on becoming a professional graphic designer.",
-    "image": "timmy-m.jpg"
-  },
-  {
-    "name": "William W.",
-    "description": "Electrical Engineer",
-    "bio": "I am 15 years old. I enjoy sketching, science, and making pottery. I was a part of the Electrical Team and Imaging Committee last season. I've also worked on the mechanical team. I am thankful for the mentors and members who have taken the time to teach me new skills.",
-    "image": "william-w.jpg"
-  }
-]
+{
+  "name": "Alex S.",
+  "description": "Software Engineer",
+  "bio": "I am 18 years old and am starting my senior year. I am homeschooled. I like to make Lego movies, do service projects and go on mission trips. My favorite foods are tacos and cheeseburgers. I want to be a missionary when I grow up and work with children.",
+  "image": "alexander-s.jpg"
+},
+{
+  "name": "Carlee B.",
+  "description": "Mechanical Engineer",
+  "bio": "Hello! I am 16 and am a rising homeschooled Senior. Some of my favorite hobbies are reading and fencing (with sabres not barb wire or wood fences). This past season I led a sewing group which made the bumpers for our robot, and I helped with scouting. My favorite food is probably Indian food. I want to be a chiropractor when I grow up (which is only in a couple years, ahh!!!).",
+  "image": "carlee-b.jpg"
+},
+{
+  "name": "Carson S.",
+  "description": "Senior Software Engineer & Video Guy",
+  "bio": "I am a 16 year old, part time Career Technical/Homeschool student interested in software development, network administration, video editing, and basically anything else involving computers. I have a few years of basic Java experience and am rapidly becoming more familiar with all web languages. Natural Language Processing (NLP) and Artificial Intelligence (AI) are of particular interest to me. Beside programming, I also play guitar and enjoy mixing live audio for my youth group. I enjoy camping, kayaking, and bicycle riding when I get the chance. I don't mind a good snack or a good joke, and Pizza is definitely one of my favorite foods, especially when accompanied by a cream soda.",
+  "image": "carson-s.jpg"
+},
+{
+  "name": "Cassie S.",
+  "description": "Strategy Technician & Awards",
+  "bio": "I am sixteen years old and will be graduating this year. I'm a homeschool student who actually enjoys doing school. In my spare time I like to read and write, plus I do a lot of Drama stuff with my church. I like doing robotics because I get to learn stuff about engineering and electrical that I may never use but is still cool to learn. Plus I get to use my gift as a writer to help strengthen my team. ",
+  "image": "cassandra-s.jpg"
+},
+{
+  "name": "Chad B.",
+  "description": "Senior Mechanical Engineer",
+  "bio": "YO! I'm 18, in 11th g, Homeschooled, I'm a fencer full time except when I'm do this XD, then I do mechanical work (Chad the Builder) and the marketing guy. When I'm more grown up I plan to this for work, play and to make the world just a little bit cooler.",
+  "image": "chad-b.jpg"
+},
+{
+  "name": "Connor S.",
+  "description": "Safety Captain",
+  "bio": "14 years old, homeschooled.",
+  "image": "connor-s.jpg"
+},
+{
+  "name": "Daniel M.",
+  "description": "Mechanical Engineer",
+  "bio": "I'm 13 years-old, i like sports and hiking, i go to CCA or Commonwealth Connections Academy. I also like pizza!",
+  "image": "daniel-m.jpg"
+},
+{
+  "name": "GW T.",
+  "description": "Axillary Technician",
+  "bio": "I am 16, and I go to PAVCS. I will be a Senior this fall. I think of myself as a soldier reporting for duty. If there is something you want me to do, I will.",
+  "image": "gw-t.jpg"
+},
+{
+  "name": "Josiah N.",
+  "description": "Software Engineer & Remote Member",
+  "bio": "<p id=\"egg-bio-text\" class=\"bio\">I am a 17 year old homeschool student and am (at the time of writing) the only remote member. I have been on the team since late 2012. My family and I live in Haiti as long-term missionaries. In my community, I am the go-to \"computer guy\" and perform many repairs and upgrades, as well as help people understand new systems and software. In my free time, I enjoy web development, IoT projects, and programming in Java and Javascript. At any given time I have several projects under development such as web development, mod development, and projects using my Raspberry Pi. I often work with other members on my projects, most of which are open source.</div> <div style=\"opacity: 0;\" onclick=\"doDaMagic(); this.style.opacity=1;\">You found me :D</p>",
+  "image": "josiah-n.jpg"
+},
+{
+  "name": "Lexi D.",
+  "description": "Senior Strategy Technician & Awards",
+  "bio": "I'm seventeen years old and in 11th grade. I attend PA Virtual Charter School. I'm actively involved in my youth group and a 4.12 Leadership Training Program at Camp Joy El. I also love to write, and have written and published five books. I put my writing skills to work on the team, with awards, descriptions, pamphlets, and articles. The team has given me a chance to grow my leadership skills.",
+  "image": "alexis-d.jpg"
+},
+{
+  "name": "Matthew P.",
+  "description": "Software Engineer",
+  "bio": "I am a Junior at Shippensburg High School. I also go to FCCTC for half of the school year and am in the Information Systems Technology class. I joined Robotics in 2014 and have worked on two robots. In my free time I play guitar and PC games. I am also in Boy Scouts Troop 121.",
+  "image": "matthew-p.jpg"
+},
+{
+  "name": "Molly M.",
+  "description": "Auxiliary Technician",
+  "bio": "I am 14 years old, in 9th grade at CASHS, and I love to read and write, I know !NERD ALERT! But whatever, it's what I like. I haven't decided on a permanent position on the team so I hop around all over the place! I have absolutely no clue what to do with my future (which freaks me out).",
+  "image": "molly-m.jpg"
+},
+{
+  "name": "Seth Y.",
+  "description": "Electrical Engineer",
+  "bio": "I am 13, I am in 8th Grade, I like to play Baseball and to sometimes Cook, I am in PAVCS(Might Change), I am an Electrical Person on the Team, My favorite food is Pizza/MacnCheese, and I would like to be an Electrical or Mechanical Engineer when I grow up.",
+  "image": "seth-y.jpg"
+},
+{
+  "name": "Timmy M.",
+  "description": "Senior Mechanical Engineer",
+  "bio": "I am 18 years old and I am a senior in PAVirtual. I like to draw, hike, camp, play sports, and graphic design. I love ice cream and my favorite color is blue. I plan on becoming a professional graphic designer.",
+  "image": "timmy-m.jpg"
+},
+{
+  "name": "William W.",
+  "description": "Electrical Engineer",
+  "bio": "I am 15 years old. I enjoy sketching, science, and making pottery. I was a part of the Electrical Team and Imaging Committee last season. I've also worked on the mechanical team. I am thankful for the mentors and members who have taken the time to teach me new skills.",
+  "image": "william-w.jpg"
+}]

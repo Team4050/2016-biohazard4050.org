@@ -1,4 +1,4 @@
-﻿.fancy-underline {
+.fancy-underline {
   position: relative;
 }
 
@@ -48,9 +48,8 @@
 }
 
 .div-80 {
-    width: 80%;
-    margin: 10px auto;
-
+  width: 80%;
+  margin: 10px auto;
 }
 
 .card.extra-small {
