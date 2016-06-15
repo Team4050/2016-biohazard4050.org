@@ -11,7 +11,7 @@ $(document).ready(function () {
   $('.collapsible').collapsible({
     accordion: true
   });
-
+  
   console.log("Setup Complete");
 });
 

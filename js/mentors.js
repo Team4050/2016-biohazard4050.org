@@ -85,8 +85,8 @@ function handleJSON() {
 
     cardContainer.appendChild(card);
 
-    if (i == 0 || i % 2 == 0) {
-      var row = document.createElement("div");
+    var row = document.createElement("div");
+    if (i === 0 || i % 2 === 0) {
       row.setAttribute("class", "row");
       row.appendChild(cardContainer);
       container.appendChild(row);
@@ -104,7 +104,7 @@ function handleJSON() {
 
     var modalFooter = document.createElement("div");
     modalFooter.setAttribute("class", "modal-footer");
-    modalFooter.innerHTML = '<a href="#!" class="modal-action modal-close waves-effect waves-accentGreen btn-flat ">Close</a>'
+    modalFooter.innerHTML = '<a href="#!" class="modal-action modal-close waves-effect waves-accentGreen btn-flat ">Close</a>';
 
     modal.appendChild(modalContent);
     modal.appendChild(modalFooter);
@@ -114,6 +114,6 @@ function handleJSON() {
     $('.modal-trigger').leanModal();
 
   }
-};
+}
 
 loadFile(url, handleJSON);
