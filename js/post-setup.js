@@ -8,10 +8,6 @@ $(document).ready(function () {
     window.scrollTo(0, 0);
   };
 
-  $('.collapsible').collapsible({
-    accordion: true
-  });
-  
   console.log("Setup Complete");
 });
 
