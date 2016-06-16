@@ -80,7 +80,6 @@ function handleJSON() {
 
     cardContainer.appendChild(card);
 
-
     if (i === 0 || i % 2 === 0) {
       var row = document.createElement("div");
       row.setAttribute("class", "row");
