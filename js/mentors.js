@@ -1,8 +1,3 @@
-// var descriptions = {
-//   "Fred": "Fred likes ice cream, but is allergic to milk.",
-//   "Bob": "Bob is addicted to math."
-// };
-
 var xmlhttp = new XMLHttpRequest();
 var url = "data/mentorData.json";
 var descriptions;
@@ -85,8 +80,9 @@ function handleJSON() {
 
     cardContainer.appendChild(card);
 
-    var row = document.createElement("div");
+
     if (i === 0 || i % 2 === 0) {
+      var row = document.createElement("div");
       row.setAttribute("class", "row");
       row.appendChild(cardContainer);
       container.appendChild(row);
