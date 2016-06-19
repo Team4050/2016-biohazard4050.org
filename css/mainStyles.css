@@ -77,7 +77,6 @@ main {
   transition-duration: 0.5s;
 }
 
-
 /*
 *
 *
@@ -202,6 +201,16 @@ ul.side-nav li {
 
 #content-about h1 {
   font-size: 40px;
+}
+
+#content-about p {
+  padding-right: 4%;
+  padding-left: 4%;
+}
+
+#content-about #about-history {
+  padding-right: 4%;
+  padding-left: 4%;
 }
 
 
