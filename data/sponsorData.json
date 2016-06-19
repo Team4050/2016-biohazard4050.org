@@ -1,0 +1,49 @@
+[
+{
+  "name": "Example Sponsor-5",
+  "description": "An example sponsor used to test stuff.",
+  "sponsorLevel": "tierFive",
+  "logo": "example-company.jpg"
+},
+{
+  "name": "Another Sponsor-2",
+  "description": "Yet another example sponsor.",
+  "sponsorLevel": "tierTwo",
+  "logo": "another-company.jpg"
+},
+{
+  "name": "Example Sponsor-4",
+  "description": "An example sponsor used to test stuff.",
+  "sponsorLevel": "tierFour",
+  "logo": "example-company.jpg"
+},
+{
+  "name": "Another Sponsor-2",
+  "description": "Yet another example sponsor.",
+  "sponsorLevel": "tierTwo",
+  "logo": "another-company.jpg"
+},
+{
+  "name": "Example Sponsor-4",
+  "description": "An example sponsor used to test stuff.",
+  "sponsorLevel": "tierFour",
+  "logo": "example-company.jpg"
+},
+{
+  "name": "Another Sponsor-3",
+  "description": "Yet another example sponsor.",
+  "sponsorLevel": "tierThree",
+  "logo": "another-company.jpg"
+},
+{
+  "name": "Example Sponsor-1",
+  "description": "An example sponsor used to test stuff.",
+  "sponsorLevel": "tierOne",
+  "logo": "example-company.jpg"
+},
+{
+  "name": "Another Sponsor-2",
+  "description": "Yet another example sponsor.",
+  "sponsorLevel": "tierFive",
+  "logo": "another-company.jpg"
+}]
