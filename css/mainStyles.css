@@ -203,16 +203,6 @@ ul.side-nav li {
   font-size: 40px;
 }
 
-#content-about p {
-  padding-right: 4%;
-  padding-left: 4%;
-}
-
-#content-about #about-history {
-  padding-right: 4%;
-  padding-left: 4%;
-}
-
 
 /*
 *
@@ -228,6 +218,18 @@ ul.side-nav li {
 
 .bio {
   font-size: large;
+}
+
+/*
+*
+*
+* Sponsors Page
+*
+*
+*/
+
+#content-sponsors a {
+  color: #00c853;
 }
 
 
