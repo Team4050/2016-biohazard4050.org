@@ -1,57 +1,47 @@
 .fancy-underline {
-  position: relative;
+    position: relative;
 }
-
 .fancy-underline:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  background-color: #fff;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease 0s;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease 0s;
 }
-
 .fancy-underline:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
+    visibility: visible;
+    transform: scaleX(1);
 }
-
 .underline-50:before {
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
-
 .underline-black:before {
-  background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
-
 .underline-green:before {
-  background-color: #00c853;
+    background-color: #00c853;
 }
-
 .divider {
-  height: 2px;
-  overflow: hidden;
+    height: 2px;
+    overflow: hidden;
 }
-
 .div-white {
-  background-color: #fff;
+    background-color: white;
 }
-
 .div-green {
-  background: #00C853;
+    background: #00C853;
 }
-
 .div-80 {
-  width: 80%;
-  margin: 10px auto;
+    width: 80%;
+    margin: 10px auto;
 }
-
 .card.extra-small {
-  height: 200px;
+    height: 200px;
 }
