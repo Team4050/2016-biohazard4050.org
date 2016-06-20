@@ -43,5 +43,20 @@
     margin: 10px auto;
 }
 .card.extra-small {
-    height: 200px;
+  height: 200px;
+}
+
+.padding-3 {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.padding-4 {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.padding-5 {
+  padding-left: 5%;
+  padding-right: 5%;
 }
