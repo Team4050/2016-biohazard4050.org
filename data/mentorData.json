@@ -1,43 +1,36 @@
-[
-{
-  "name": "Charlie Wooton",
-  "description": "",
-  "bio": "age 41 ...love taking pottery classes with my wife and son....love spending time with family and friends....love Asian food and trying new foods",
-  "image": "charlie-w.jpg"
-},
-{
-  "name": "Joanne Perry",
-  "description": "Admninistrative Mentor",
-  "bio": "I am the mother of two great teenagers. I am also a PDE certified teacher with a great appreciation of what young people can achieve. When not at robotics, I enjoy swimming and reading good books that inspire. When I grow up I hope to be more gracious and wiser.",
-  "image": "joanne-p.jpg"
-},
-{
-  "name": "John Baker",
-  "description": "Software Mentor",
-  "bio": "After earning a Bachelors Degree in Writing from Geneva College and working for a half dozen years as a book editor for McGraw-Hill, John continued his education, obtaining a Masters Degree in Computer Science from Shippensburg University. In 1998, while wrapping up his degree, John began working in the IT Division at Gettysburg College as a Programmer/Analyst, a position he continues to hold. Johns introduction to the Biohazard team came in the Fall of 2015 when his son, Jaden, joined the team. While John remained diligent in taking Jaden to club meetings, it wasnt until several weeks into the the build season that he started to become engaged with the team. He saw how Jaden had been embraced by the team and was growing in skills, responsibility, and confidence as he worked as a part of the mechanical team. When he and his family traveled with the team to the Greater Pittsburgh Regional, Biohazard's first competition of the 2016 season, John saw the enthusiasm and camaraderie of the team and the excitement of the competition and was hooked. After competition season wrapped up, John became a part of the team as a mentor for the programming team.",
-  "image": "john-b.jpg"
-},
-{
-  "name": "Kim Smith",
-  "description": "",
-  "bio": "I am a homeschooling mom, who has four children.  I love homeschooling and all the learning that comes with it.  This past year on the team I helped out with some of the writing aspects that is needed for getting money and applying for scholarships for the team.   I also run errands and help out wherever I am needed.  I enjoy watching my high school children learn and grow in the field of robotics.  A goal for me to see my youngest start out in the Lego league and hopefully someday do the whole program from start to finish.  I hope to continue to help my children realize their potential and then encourage them to go after their dreams.",
-  "image": "kim-s.jpg"
-},
-{
-  "name": "Maria Beaty",
-  "description": "",
-  "bio": "My hobby and job right now are my kids education and athletic aspirations. When I grow up (after my kids go to college next year) I plan to dive into art in a way I have not been able to do. All kinds, woodworking, metal smithing, glass blowing, painting, in just plain words \"Create\". My favorite foods are anything exotic and different. I normally find the most unusual food at any restaurant I go.",
-  "image": "maria-b.jpg"
-},
-{
-  "name": "Russ Smith",
-  "description": "",
-  "bio": "Electrical Engineer for 17 years.  Enjoy strategy games and working with kids.  This makes robotics a great fit.  This will be my 3rd year.  Last year I was happy to see our strategy brought us up a level.  We moved to 14th place and one of the top 10 individual scores.  This put us into the team 8 captain position, where before we were 3rd draft choice. The Strategy team determined the defenses would be the best way to score and we were the number one team at the defenses at competitions.  We also drove for more practice time and gave our drivers an advantage with the defenses.  This year, with focus, I see no reason why we can't be in the top 10 and looking at that number one positon. ",
-  "image": "russ-s.jpg"
-},
-{
-  "name": "Willie Dingeldein",
-  "description": "Mechanical and Lead Mentor",
-  "bio": "Most of my careers involved designing, testing, improving locally developed construction equipment, alongside teams of excellent people... LeTourneau University and Penn State's Capitol College provided a great education.",
-  "image": "willie-d.jpg"
+[{
+	"name": "Charlie Wooton",
+	"description": "",
+	"bio": "age 41 ...love taking pottery classes with my wife and son....love spending time with family and friends....love Asian food and trying new foods",
+	"image": "charlie-w.jpg"
+}, {
+	"name": "Joanne Perry",
+	"description": "Admninistrative Mentor",
+	"bio": "I am the mother of two great teenagers. I am also a PDE certified teacher with a great appreciation of what young people can achieve. When not at robotics, I enjoy swimming and reading good books that inspire. When I grow up I hope to be more gracious and wiser.",
+	"image": "joanne-p.jpg"
+}, {
+	"name": "John Baker",
+	"description": "Software Mentor",
+	"bio": "After earning a Bachelors Degree in Writing from Geneva College and working for a half dozen years as a book editor for McGraw-Hill, John continued his education, obtaining a Masters Degree in Computer Science from Shippensburg University. In 1998, while wrapping up his degree, John began working in the IT Division at Gettysburg College as a Programmer/Analyst, a position he continues to hold. Johns introduction to the Biohazard team came in the Fall of 2015 when his son, Jaden, joined the team. While John remained diligent in taking Jaden to club meetings, it wasnt until several weeks into the the build season that he started to become engaged with the team. He saw how Jaden had been embraced by the team and was growing in skills, responsibility, and confidence as he worked as a part of the mechanical team. When he and his family traveled with the team to the Greater Pittsburgh Regional, Biohazard's first competition of the 2016 season, John saw the enthusiasm and camaraderie of the team and the excitement of the competition and was hooked. After competition season wrapped up, John became a part of the team as a mentor for the programming team.",
+	"image": "john-b.jpg"
+}, {
+	"name": "Kim Smith",
+	"description": "",
+	"bio": "I am a homeschooling mom, who has four children.  I love homeschooling and all the learning that comes with it.  This past year on the team I helped out with some of the writing aspects that is needed for getting money and applying for scholarships for the team.   I also run errands and help out wherever I am needed.  I enjoy watching my high school children learn and grow in the field of robotics.  A goal for me to see my youngest start out in the Lego league and hopefully someday do the whole program from start to finish.  I hope to continue to help my children realize their potential and then encourage them to go after their dreams.",
+	"image": "kim-s.jpg"
+}, {
+	"name": "Maria Beaty",
+	"description": "",
+	"bio": "My hobby and job right now are my kids education and athletic aspirations. When I grow up (after my kids go to college next year) I plan to dive into art in a way I have not been able to do. All kinds, woodworking, metal smithing, glass blowing, painting, in just plain words \"Create\". My favorite foods are anything exotic and different. I normally find the most unusual food at any restaurant I go.",
+	"image": "maria-b.jpg"
+}, {
+	"name": "Russ Smith",
+	"description": "",
+	"bio": "Electrical Engineer for 17 years.  Enjoy strategy games and working with kids.  This makes robotics a great fit.  This will be my 3rd year.  Last year I was happy to see our strategy brought us up a level.  We moved to 14th place and one of the top 10 individual scores.  This put us into the team 8 captain position, where before we were 3rd draft choice. The Strategy team determined the defenses would be the best way to score and we were the number one team at the defenses at competitions.  We also drove for more practice time and gave our drivers an advantage with the defenses.  This year, with focus, I see no reason why we can't be in the top 10 and looking at that number one positon. ",
+	"image": "russ-s.jpg"
+}, {
+	"name": "Willie Dingeldein",
+	"description": "Mechanical and Lead Mentor",
+	"bio": "Most of my careers involved designing, testing, improving locally developed construction equipment, alongside teams of excellent people... LeTourneau University and Penn State's Capitol College provided a great education.",
+	"image": "willie-d.jpg"
 }]
