@@ -242,7 +242,7 @@ footer.page-footer {
     color: white;
 }
 .fb-icon {
-    background-image: url(../images/icons/facebook.svg);
+    background-image: url(../images/icons/fb.svg);
     background-repeat: no-repeat;
     background-size: 25px auto;
 }
@@ -269,7 +269,6 @@ footer.page-footer {
     text-align: center;
 }
 .footer-copyright a {
-    background-color: white;
     color: rgba(255, 255, 255, 0.8);
 }
 footer .fancy-underline:before {
