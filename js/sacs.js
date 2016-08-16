@@ -1,6 +1,5 @@
 ﻿ //SuperAwesomeContentSwitcher
 var currentlyShown = "content-home";
-var header = $("header");
 
 $(document).ready(function () {
   makeAppear("#content-home");
@@ -20,7 +19,6 @@ $(document).ready(function () {
   $(".btnHome").click(function () {
     if (currentlyShown != "content-home") {
       makeGone("#" + currentlyShown);
-      //makeAppear(header);
     }
 
     currentlyShown = "content-home";
@@ -71,9 +69,6 @@ $(document).ready(function () {
   });
 
   $(".btnAwards").click(function () {
-    $(".side-nav a.active").removeClass("active");
-    $(this).addClass("active");
-
     if (currentlyShown != "content-awards") {
       makeGone("#" + currentlyShown);
     }
@@ -101,14 +96,6 @@ function makeGone(element) {
     duration: 150,
     display: "none"
   });
-  if (element != "content-home") {
-    header.velocity({
-      opacity: 0
-    }, {
-      duration: 150,
-      display: "none"
-    });
-  }
 }
 
 function makeAppear(element) {

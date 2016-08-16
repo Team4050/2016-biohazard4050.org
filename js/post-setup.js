@@ -3,7 +3,7 @@ $(document).ready(function () {
     closeOnClick: true
   });
 
-  $("#parallax").parallax();
+  $("#parallax1").parallax();
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
   };
