@@ -3,7 +3,7 @@ $(document).ready(function () {
     closeOnClick: true
   });
 
-  $("#parallax1").parallax();
+  $('.parallax-window').parallax({ imageSrc: 'images/FullTeam1.png' });
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
   };
