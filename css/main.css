@@ -52,7 +52,7 @@ main a {
     font-weight: bold;
 }
 .main-page {
-    padding: 0;
+    padding: 0%;
 }
 .site-header {
     background-color: #4CAF50;
@@ -75,6 +75,14 @@ main a {
 #egg-bio-text {
     -webkit-transition-duration: 0.5s;
             transition-duration: 0.5s;
+}
+
+.description {
+  font-size: medium!important;
+}
+
+.flow-text {
+  font-size: 1.5em!important;
 }
 
 /*
