@@ -9,7 +9,9 @@ $(document).ready(function () {
     setTimeout(buildAnimation, 1);
   });
 
-  $('.parallax-window').parallax({ imageSrc: 'images/FullTeam1.png' });
+  $('.parallax-window').parallax({
+    imageSrc: 'images/FullTeam1.png'
+  });
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
   };
@@ -36,31 +38,30 @@ var buildAnimation = function () {
       bx: bx,
       ty: -20,
       by: h - 200 + (Math.random() * 200),
-      opacity: .2,
-      direction: Math.random() > .5 ? 1 : -1
+      opacity: 0.2,
+      direction: Math.random() > 0.5 ? 1 : -1
     };
     lines.push(line);
   }
-}
-;
+};
 var updateLines = function () {
   ctx.clearRect(0, 0, $canvas.width(), $canvas.height());
   for (var x = 0; x < lines.length; x++) {
     line = lines[x];
     ctx.beginPath();
-    ctx.lineWidth = .8;
+    ctx.lineWidth = 0.8;
     ctx.strokeStyle = "rgba(0,200,83," + line.opacity + ")";
     ctx.moveTo(line.tx, line.ty);
     ctx.lineTo(line.bx, line.by);
     ctx.stroke();
     ctx.closePath();
-    line.opacity += (Math.random() * .1) - .05;
+    line.opacity += (Math.random() * 0.1) - 0.05;
     if (line.opacity < 0) {
       line.opacity = 0;
     } else if (line.opacity > 1) {
       line.opacity = 1;
     }
-    line.bx += (Math.random() * .2) * line.direction;
+    line.bx += (Math.random() * 0.2) * line.direction;
     if (line.bx < line.tx - 250) {
       line.bx = line.tx - 250;
       line.direction = 1;
@@ -70,8 +71,7 @@ var updateLines = function () {
     }
   }
   requestAnimationFrame(updateLines);
-}
-;
+};
 (function () {
   var lastTime = 0;
   var vendors = ['webkit', 'moz'];
@@ -88,13 +88,11 @@ var updateLines = function () {
       }, timeToCall);
       lastTime = currTime + timeToCall;
       return id;
-    }
-  ;
+    };
   if (!window.cancelAnimationFrame)
     window.cancelAnimationFrame = function (id) {
       clearTimeout(id);
-    }
-  ;
+    };
 }());
 
 
