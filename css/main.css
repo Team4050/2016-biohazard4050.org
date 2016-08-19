@@ -159,6 +159,28 @@ ul.side-nav li {
 /*
 *
 *
+* Lines
+*
+*
+*/
+
+#animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+#animation-box {
+  height: 300px;
+  background-color: #757575;
+  color: #00c853
+}
+
+/*
+*
+*
 * About Page Stuff
 *
 *

@@ -170,7 +170,10 @@
   <main>
     <div class="page-content">
       <div id="content-home" class="main-page">
-        <div class="flow-text">
+        <div id="animation-box">
+          <canvas id="animation"></canvas>
+        </div>
+        <div class="flow-text" style="position: relative">
           <h4>Welcome to Biohazard's spot on the internet! If you're new here, feel free to have a poke around!</h4>
           Biohazard is a high-school age robotics team which designs, builds, and programs robots on a competitive level. We are a student-led team, but have adult mentors there to keep us moving forward.
           <div class="divider div-green div-90"></div>
@@ -195,7 +198,7 @@
               </h2>
               <h5 class="center color-grey">Grow Your Knoweldge</h5>
               <p class="center description">Students leave our team with the experience and knowledge that accompanies an FRC team.</p>
-            </div> 
+            </div>
           </div>
           <div class="divider div-green div-90"></div>
         </div>
@@ -214,7 +217,6 @@
           </p>
           <p>In 2015, the FRC Team won the Chesapeake Regional competition and had the opportunity to go to the World Championship, a huge milestone and accomplishment.</p>
         </div>
-        <div class="parallax-window" data-parallax="scroll" data-image-src="images/FullTeam1.png"></div>
         <div class="padding-4">
           <h4>Team History</h4>
           <div class="divider div-green div-80"></div>
@@ -390,10 +392,6 @@
 <script src="js/materialize.js"></script>
 <!--Import Velocity-->
 <script src="js/velocity.min.js"></script>
-<!--Import unislider.css-->
-<link href="css/unslider.css" rel="stylesheet">
-<!--Import unislider.js-->
-<script src="js/unslider-min.js"></script>
 <!-- Load our stuff -->
 <link href="css/main.css" rel="stylesheet">
 <link href="css/helpers.css" rel="stylesheet">
