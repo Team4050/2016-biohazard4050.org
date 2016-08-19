@@ -2,7 +2,6 @@ $(document).ready(function () {
   $('.button-collapse').sideNav({
     closeOnClick: true
   });
-
   $('.parallax-window').parallax({ imageSrc: 'images/FullTeam1.png' });
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
