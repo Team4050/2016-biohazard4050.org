@@ -182,8 +182,13 @@ ul.side-nav li {
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 300px;
+  height: 200px;
   background-color: #757575;
+  color: #fff;
+}
+
+.header-text {
+  z-index: 1;
 }
 
 /*
