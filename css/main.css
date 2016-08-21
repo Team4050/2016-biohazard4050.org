@@ -153,13 +153,9 @@ ul.side-nav li {
 */
 
 .home-header {
-  position: absolute;
+  position: relative;
   color: #fff;
   z-index: 1;
-  text-align: center;
-  width: 100%;
-  right: -11.5%;
-  top: 10%;
 }
 
 #content-home {
@@ -175,7 +171,7 @@ ul.side-nav li {
 */
 
 #animation {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -183,6 +179,10 @@ ul.side-nav li {
 }
 
 #animation-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   height: 300px;
   background-color: #757575;
   color: #00c853
