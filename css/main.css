@@ -275,6 +275,10 @@ footer {
 }
 footer.page-footer {
     margin-top: 0;
+    padding-top: 0;
+}
+footer.page-footer .row {
+    margin-bottom: 0;
 }
 .affiliates {
     text-align: center;
