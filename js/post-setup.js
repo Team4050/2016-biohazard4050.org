@@ -30,7 +30,7 @@ var buildAnimation = function () {
   var h = $canvas.parent().height();
   $canvas.attr('width', w);
   $canvas.attr('height', h);
-  for (var x = 0; x < 50; x++) {
+  for (var x = 0; x < 750; x++) {
     var tx = (Math.random() * (w + 100)) - 50;
     var bx = tx + (Math.random() * 500) - 250;
     var line = {
