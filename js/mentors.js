@@ -27,67 +27,111 @@ function handleJSON() {
   var descriptionArray = Object.keys(descriptions);
 
   container = document.getElementById("content-mentors");
+  var mentorList = document.createElement("ul");
+  mentorList.setAttribute("class", "collection");
   for (i = 0; i < descriptionArray.length; i++) {
 
     var name = descriptions[i].name;
     var nameSanSpace = name.toLowerCase().replace(/\s+/g, '-').replace("\.", '');
     var description = descriptions[i].description;
+    if (description === "") {
+      description = "Student Advisor";
+    }
     var bio = descriptions[i].bio;
     var image = descriptions[i].image;
 
-    var cardContainer = document.createElement("div");
-    cardContainer.setAttribute("class", "col s12 m6");
+    var mentorCollectionItem = document.createElement("li");
+    mentorCollectionItem.setAttribute("class", "collection-item avatar");
 
-    var card = document.createElement("div");
-    card.setAttribute("class", "card member-card extra-small grey darken-1");
+    var mentorImage = document.createElement("img");
+    mentorImage.setAttribute("src", "images/mentors/" + nameSanSpace + ".jpg");
+    mentorImage.setAttribute("onerror", "if (this.src != 'images/mentors/unknown.jpg') this.src = 'images/mentors/unknown.jpg';");
+    mentorImage.setAttribute("alt", "");
+    mentorImage.setAttribute("class", "circle");
 
-    // var cardImageContainer = document.createElement("div");
-    // cardImageContainer.setAttribute("class", "card-image");
+    var mentorName = document.createElement("span");
+    mentorName.setAttribute("class", "title");
+    mentorName.innerHTML = name;
 
-    // var cardImage = document.createElement("img");
-    // cardImage.setAttribute("src", "images/members/" + image);
-
-    var cardTitle = document.createElement("span");
-    cardTitle.setAttribute("class", "card-title");
-    cardTitle.innerHTML = name;
-
-    var cardContent = document.createElement("div");
-    cardContent.setAttribute("class", "card-content white-text");
-    // cardContent.innerHTML = "<p>" + description + "</p>";
-
-    var cardText = document.createElement("p");
-    cardText.innerHTML = description;
-
-    var cardAction = document.createElement("div");
-    cardAction.setAttribute("class", "card-action right-align");
+    var mentorJob = document.createElement("p");
+    mentorJob.innerHTML = description;
 
     var actionButton = document.createElement("a");
-    actionButton.setAttribute("class", "waves-effect waves-light green accent-4 btn modal-trigger");
+    actionButton.setAttribute("class", "secondary-content waves-effect waves-light green accent-4 btn modal-trigger");
     actionButton.setAttribute("href", "#" + nameSanSpace);
     actionButton.innerHTML = "More...";
 
-    // cardImageContainer.appendChild(cardImage);
-    // cardImageContainer.appendChild(cardTitle);
 
-    cardAction.appendChild(actionButton);
+    mentorCollectionItem.appendChild(mentorImage);
+    mentorCollectionItem.appendChild(mentorName);
+    mentorCollectionItem.appendChild(mentorJob);
+    mentorCollectionItem.appendChild(actionButton);
 
-    cardContent.appendChild(cardTitle);
-    cardContent.appendChild(cardText);
+    mentorList.appendChild(mentorCollectionItem);
 
-    // card.appendChild(cardImageContainer);
-    card.appendChild(cardContent);
-    card.appendChild(cardAction);
 
-    cardContainer.appendChild(card);
 
-    if (i === 0 || i % 2 === 0) {
-      var row = document.createElement("div");
-      row.setAttribute("class", "row");
-      row.appendChild(cardContainer);
-      container.appendChild(row);
-    } else {
-      row.appendChild(cardContainer);
-    }
+
+
+
+
+
+
+
+
+    // var cardContainer = document.createElement("div");
+    // cardContainer.setAttribute("class", "col s12 m6");
+    //
+    // var card = document.createElement("div");
+    // card.setAttribute("class", "card member-card extra-small grey darken-1");
+    //
+    // // var cardImageContainer = document.createElement("div");
+    // // cardImageContainer.setAttribute("class", "card-image");
+    //
+    // // var cardImage = document.createElement("img");
+    // // cardImage.setAttribute("src", "images/mentors/" + image);
+    //
+    // var cardTitle = document.createElement("span");
+    // cardTitle.setAttribute("class", "card-title");
+    // cardTitle.innerHTML = name;
+    //
+    // var cardContent = document.createElement("div");
+    // cardContent.setAttribute("class", "card-content white-text");
+    // // cardContent.innerHTML = "<p>" + description + "</p>";
+    //
+    // var cardText = document.createElement("p");
+    // cardText.innerHTML = description;
+    //
+    // var cardAction = document.createElement("div");
+    // cardAction.setAttribute("class", "card-action right-align");
+    //
+    // var actionButton = document.createElement("a");
+    // actionButton.setAttribute("class", "waves-effect waves-light green accent-4 btn modal-trigger");
+    // actionButton.setAttribute("href", "#" + nameSanSpace);
+    // actionButton.innerHTML = "More...";
+    //
+    // // cardImageContainer.appendChild(cardImage);
+    // // cardImageContainer.appendChild(cardTitle);
+    //
+    // cardAction.appendChild(actionButton);
+    //
+    // cardContent.appendChild(cardTitle);
+    // cardContent.appendChild(cardText);
+    //
+    // // card.appendChild(cardImageContainer);
+    // card.appendChild(cardContent);
+    // card.appendChild(cardAction);
+    //
+    // cardContainer.appendChild(card);
+    //
+    // if (i === 0 || i % 2 === 0) {
+    //   var row = document.createElement("div");
+    //   row.setAttribute("class", "row");
+    //   row.appendChild(cardContainer);
+    //   container.appendChild(row);
+    // } else {
+    //   row.appendChild(cardContainer);
+    // }
 
     var modal = document.createElement("div");
     modal.setAttribute("id", nameSanSpace);
@@ -109,6 +153,8 @@ function handleJSON() {
     $('.modal-trigger').leanModal();
 
   }
+  container.appendChild(mentorList);
+
 }
 
 loadFile(url, handleJSON);
