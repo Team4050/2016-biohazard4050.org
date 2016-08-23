@@ -244,6 +244,9 @@ ul.side-nav li {
 *
 *
 */
+.collection .collection-item.avatar .secondary-content {
+    top: 22px;
+}
 
 .member-card.small .card-content {
     max-height: 70%;

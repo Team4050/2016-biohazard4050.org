@@ -32,6 +32,8 @@ function handleJSON() {
   var descriptionArray = Object.keys(descriptions);
 
   container = document.getElementById("content-members");
+  var memberList = document.createElement("ul");
+  memberList.setAttribute("class", "collection");
   for (i = 0; i < descriptionArray.length; i++) {
 
     var name = descriptions[i].name;
@@ -40,59 +42,95 @@ function handleJSON() {
     var bio = descriptions[i].bio;
     var image = descriptions[i].image;
 
-    var cardContainer = document.createElement("div");
-    cardContainer.setAttribute("class", "col s12 m6");
+    var memberCollectionItem = document.createElement("li");
+    memberCollectionItem.setAttribute("class", "collection-item avatar");
 
-    var card = document.createElement("div");
-    card.setAttribute("class", "card member-card extra-small grey darken-1");
+    var memberImage = document.createElement("img");
 
-    // var cardImageContainer = document.createElement("div");
-    // cardImageContainer.setAttribute("class", "card-image");
+    if (UrlExists("images/members/" + nameSanSpace + ".jpg")) {
+      memberImage.setAttribute("src", "images/members/" + nameSanSpace + ".jpg");
+    }
+    else {
+      memberImage.setAttribute("src", "images/members/unknown.jpg");
+    }
 
-    // var cardImage = document.createElement("img");
-    // cardImage.setAttribute("src", "images/members/" + image);
 
-    var cardTitle = document.createElement("span");
-    cardTitle.setAttribute("class", "card-title");
-    cardTitle.innerHTML = name;
+    memberImage.setAttribute("alt", "");
+    memberImage.setAttribute("class", "circle");
 
-    var cardContent = document.createElement("div");
-    cardContent.setAttribute("class", "card-content white-text");
-    // cardContent.innerHTML = "<p>" + description + "</p>";
+    var memberName = document.createElement("span");
+    memberName.setAttribute("class", "title");
+    memberName.innerHTML = name;
 
-    var cardText = document.createElement("p");
-    cardText.innerHTML = description;
-
-    var cardAction = document.createElement("div");
-    cardAction.setAttribute("class", "card-action right-align");
+    var memberJob = document.createElement("p");
+    memberJob.innerHTML = description;
 
     var actionButton = document.createElement("a");
-    actionButton.setAttribute("class", "waves-effect waves-light green accent-4 btn modal-trigger");
+    actionButton.setAttribute("class", "secondary-content waves-effect waves-light green accent-4 btn modal-trigger");
     actionButton.setAttribute("href", "#" + nameSanSpace);
     actionButton.innerHTML = "More...";
 
-    // cardImageContainer.appendChild(cardImage);
-    // cardImageContainer.appendChild(cardTitle);
 
-    cardAction.appendChild(actionButton);
+    memberCollectionItem.appendChild(memberImage);
+    memberCollectionItem.appendChild(memberName);
+    memberCollectionItem.appendChild(memberJob);
+    memberCollectionItem.appendChild(actionButton);
 
-    cardContent.appendChild(cardTitle);
-    cardContent.appendChild(cardText);
+    memberList.appendChild(memberCollectionItem);
 
-    // card.appendChild(cardImageContainer);
-    card.appendChild(cardContent);
-    card.appendChild(cardAction);
 
-    cardContainer.appendChild(card);
 
-    if (i == 0 || i % 2 == 0) {
-      var row = document.createElement("div");
-      row.setAttribute("class", "row");
-      row.appendChild(cardContainer);
-      container.appendChild(row);
-    } else {
-      row.appendChild(cardContainer);
-    }
+
+
+
+
+
+
+    // var cardContainer = document.createElement("div");
+    // cardContainer.setAttribute("class", "col s12 m6");
+    //
+    // var card = document.createElement("div");
+    // card.setAttribute("class", "card member-card extra-small grey darken-1");
+    //
+    // var cardTitle = document.createElement("span");
+    // cardTitle.setAttribute("class", "card-title");
+    // cardTitle.innerHTML = name;
+    //
+    // var cardContent = document.createElement("div");
+    // cardContent.setAttribute("class", "card-content white-text");
+    //
+    // var cardText = document.createElement("p");
+    // cardText.innerHTML = description;
+    //
+    // var cardAction = document.createElement("div");
+    // cardAction.setAttribute("class", "card-action right-align");
+    //
+    // var actionButton = document.createElement("a");
+    // actionButton.setAttribute("class", "waves-effect waves-light green accent-4 btn modal-trigger");
+    // actionButton.setAttribute("href", "#" + nameSanSpace);
+    // actionButton.innerHTML = "More...";
+    //
+    // cardAction.appendChild(actionButton);
+    //
+    // cardContent.appendChild(cardTitle);
+    // cardContent.appendChild(cardText);
+    //
+    // card.appendChild(cardContent);
+    // card.appendChild(cardAction);
+    //
+    // cardContainer.appendChild(card);
+    //
+    // if (i == 0 || i % 2 == 0) {
+    //   var row = document.createElement("div");
+    //   row.setAttribute("class", "row");
+    //   row.appendChild(cardContainer);
+    //   container.appendChild(row);
+    // } else {
+    //   row.appendChild(cardContainer);
+    // }
+
+
+
 
     var modal = document.createElement("div");
     modal.setAttribute("id", nameSanSpace);
@@ -104,7 +142,7 @@ function handleJSON() {
 
     var modalFooter = document.createElement("div");
     modalFooter.setAttribute("class", "modal-footer");
-    modalFooter.innerHTML = '<a href="#!" class="modal-action modal-close waves-effect waves-accentGreen btn-flat ">Close</a>'
+    modalFooter.innerHTML = '<a href="#!" class="modal-action modal-close waves-effect waves-accentGreen btn-flat ">Close</a>';
 
     modal.appendChild(modalContent);
     modal.appendChild(modalFooter);
@@ -114,6 +152,16 @@ function handleJSON() {
     $('.modal-trigger').leanModal();
 
   }
-};
+
+  container.appendChild(memberList);
+}
 
 loadFile(url, handleJSON);
+
+function UrlExists(url)
+{
+    var http = new XMLHttpRequest();
+    http.open('HEAD', url, false);
+    http.send();
+    return http.status!=404;
+}
