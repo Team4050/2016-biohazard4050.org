@@ -46,15 +46,8 @@ function handleJSON() {
     memberCollectionItem.setAttribute("class", "collection-item avatar");
 
     var memberImage = document.createElement("img");
-
-    if (UrlExists("images/members/" + nameSanSpace + ".jpg")) {
-      memberImage.setAttribute("src", "images/members/" + nameSanSpace + ".jpg");
-    }
-    else {
-      memberImage.setAttribute("src", "images/members/unknown.jpg");
-    }
-
-
+    memberImage.setAttribute("src", "images/members/" + nameSanSpace + ".jpg");
+    memberImage.setAttribute("onerror", "if (this.src != 'images/members/unknown.jpg') this.src = 'images/members/unknown.jpg';");
     memberImage.setAttribute("alt", "");
     memberImage.setAttribute("class", "circle");
 
@@ -157,11 +150,3 @@ function handleJSON() {
 }
 
 loadFile(url, handleJSON);
-
-function UrlExists(url)
-{
-    var http = new XMLHttpRequest();
-    http.open('HEAD', url, false);
-    http.send();
-    return http.status!=404;
-}
