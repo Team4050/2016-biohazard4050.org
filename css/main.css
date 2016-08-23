@@ -306,7 +306,12 @@ footer.page-footer .row {
 .footer-connect a {
     position: relative;
     color: white;
+    cursor: pointer;
+
 }
+
+
+
 .fb-icon {
     background-image: url(../images/icons/fb.svg);
     background-repeat: no-repeat;
