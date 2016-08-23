@@ -209,6 +209,10 @@ ul.side-nav li {
 *
 */
 
+.team-history-header {
+  font-family: 'Pacifico', cursive;
+}
+
 .tabs .tab a {
     color: #000;
     display: block;
@@ -245,7 +249,15 @@ ul.side-nav li {
 *
 */
 .collection .collection-item.avatar .secondary-content {
-    top: 22px;
+    top: 14px;
+}
+
+.collection .collection-item.avatar .title {
+    font-size: 22px;
+}
+
+.collection .collection-item.avatar {
+     min-height: inherit;
 }
 
 .member-card.small .card-content {
