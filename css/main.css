@@ -162,6 +162,16 @@ ul.side-nav li {
     text-align: center;
 }
 
+.home-text {
+
+}
+
+.home-text-intro {
+  padding-top: 1.25%;
+  padding-bottom: 1.25%!important;
+  font-size: larger;
+}
+
 /*
 *
 *
