@@ -6,6 +6,13 @@
 *
 */
 
+.under-construction {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
 nav {
     background-color: #00c853;
 }

@@ -35,7 +35,7 @@ function handleJSON() {
     var nameSanSpace = name.toLowerCase().replace(/\s+/g, '-').replace("\.", '');
     var description = descriptions[i].description;
     if (description === "") {
-      description = "Student Advisor";
+      description = "Student Advisor/Chaperone";
     }
     var bio = descriptions[i].bio;
     var image = descriptions[i].image;
