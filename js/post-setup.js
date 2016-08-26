@@ -16,6 +16,8 @@ $(document).ready(function () {
     window.scrollTo(0, 0);
   };
 
+  $('.modal-trigger').leanModal();
+
   console.log("Setup Complete");
 });
 

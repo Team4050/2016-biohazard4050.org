@@ -1,8 +1,3 @@
-// var descriptions = {
-//   "Fred": "Fred likes ice cream, but is allergic to milk.",
-//   "Bob": "Bob is addicted to math."
-// };
-
 var xmlhttp = new XMLHttpRequest();
 var url = "data/memberData.json";
 var descriptions;
@@ -142,7 +137,7 @@ function handleJSON() {
 
     container.appendChild(modal);
 
-    $('.modal-trigger').leanModal();
+    // $('.modal-trigger').leanModal();
 
   }
 
