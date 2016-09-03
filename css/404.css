@@ -1,0 +1,12 @@
+﻿body {
+  background: url(/images/404.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.error1 {
+  text-align: center;
+  padding-top: 2%;
+}
