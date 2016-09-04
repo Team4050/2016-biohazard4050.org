@@ -6,8 +6,8 @@
   text-align: center;
   font-family: 'Pacifico', cursive;
   overflow: visible;
-  height: 50vh;
-  animation: scroll 40s linear 1;
+  height: 100%;
+  animation: scroll 50s linear 1;
   animation-fill-mode: forwards;
   box-sizing: border-box;
 }
@@ -34,8 +34,8 @@ body {
 }
 
 @keyframes scroll {
-  from {transform: translate(0, 90%);}
-  to {transform: translate(0, -200%);}
+  from {transform: translate(0, 50%);}
+  to {transform: translate(0, -75%);}
 }
 
 @media only screen and (max-width: 992px) {
