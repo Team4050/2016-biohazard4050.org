@@ -1,12 +1,17 @@
-﻿body {
-  background: url(/images/404.gif) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+﻿.story {
+  padding-top: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+
+  font-size: xx-large;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
 }
 
-.error1 {
-  text-align: center;
-  padding-top: 2%;
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #00c853;
 }
