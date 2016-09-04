@@ -1,19 +1,41 @@
 ﻿.story {
   padding-top: 5%;
-  padding-left: 25%;
-  padding-right: 25%;
-
+  padding-left: 10%;
+  padding-right: 10%;
   font-size: 3em;
   text-align: center;
+  font-family: 'Pacifico', cursive;
+  overflow: visible;
+  height: 50vh;
+  animation: scroll 40s linear 1;
+  animation-fill-mode: forwards;
+  box-sizing: border-box;
+}
+
+.story-container {
+  overflow: hidden;
+}
+
+.home {
   font-family: 'Pacifico', cursive;
 }
 
 a {
   color: #000;
+  transition-duration: 0.5s;
 }
 
 a:hover {
   color: #00c853;
+}
+
+body {
+  overflow: hidden;
+}
+
+@keyframes scroll {
+  from {transform: translate(0, 90%);}
+  to {transform: translate(0, -200%);}
 }
 
 @media only screen and (max-width: 992px) {
