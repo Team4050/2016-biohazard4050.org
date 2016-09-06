@@ -368,29 +368,3 @@ footer .fancy-underline:before {
     background-color: white;
     background-color: rgba(255, 255, 255, 0.8);
 }
-
-/*
-*
-*
-* Mobile Styles
-*
-*
-*/
-
-@media only screen and (max-width: 992px) {
-    .page-content {
-        margin: auto;
-    }
-    .main-page {
-        padding: 10px;
-    }
-    footer {
-        margin-left: inherit !important;
-    }
-    header {
-        margin-left: inherit !important;
-    }
-    .hide-mobile {
-        display: none;
-    }
-}
