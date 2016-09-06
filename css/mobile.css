@@ -1,0 +1,17 @@
+@media only screen and (max-width: 992px){
+    .page-content {
+        margin: auto;
+    }
+    .main-page {
+        padding: 10px;
+    }
+    footer {
+        margin-left: inherit !important;
+    }
+    header {
+        margin-left: inherit !important;
+    }
+    .hide-mobile {
+        display: none;
+    }
+}
