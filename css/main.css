@@ -14,74 +14,88 @@
 }
 
 nav {
-    background-color: #00c853;
+  background-color: #00c853;
 }
+
 body {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    min-height: 100vh;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    overflow-y: scroll;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow-y: scroll;
 }
+
 main {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 0 auto;
-        -ms-flex: 1 0 auto;
-            flex: 1 0 auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 main a {
   color: #00C853;
 }
+
 .card-image {
-    height: 180px;
-    text-shadow: 1px 3px rgba(0, 0, 0, 0.12), 1px 2px rgba(0, 0, 0, 0.24);
+  height: 180px;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.12), 1px 2px rgba(0, 0, 0, 0.24);
 }
+
 .card-image img {
-    width: auto !important;
-    margin: auto;
-    max-width: 100%;
+  width: auto !important;
+  margin: auto;
+  max-width: 100%;
 }
+
 .connect-icon {
-    width: 50px;
-    height: auto;
+  width: 50px;
+  height: auto;
 }
+
 .waves-effect.waves-accentGreen .waves-ripple {
-    background-color: #00C853;
+  background-color: #00C853;
 }
+
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
+
 .main-page {
-    padding: 0%;
+  padding: 0;
 }
+
 .site-header {
-    background-color: #4CAF50;
+  background-color: #4CAF50;
 }
+
 .brand-logo {
-    height: 100%;
+  height: 100%;
 }
+
 .brand-logo img {
-    height: 100%;
-    width: auto;
+  height: 100%;
+  width: auto;
 }
+
 .parallax-container img {
-    height: auto;
-    width: 100%;
-    display: block;
+  height: auto;
+  width: 100%;
+  display: block;
 }
+
 .modal a {
-    color: #00C853;
+  color: #00C853;
 }
+
 #egg-bio-text {
-    -webkit-transition-duration: 0.5s;
-            transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .description {
@@ -92,6 +106,7 @@ main a {
   font-size: 1.5em!important;
 }
 
+
 /*
 *
 *
@@ -101,55 +116,66 @@ main a {
 */
 
 .nav-buttons a:active {
-    background-color: #78909C;
+  background-color: #78909C;
 }
+
 .page-content {
-    margin-left: 240px;
+  margin-left: 240px;
 }
+
 .side-nav {
-    background-color: #757575;
+  background-color: #757575;
 }
+
 .nav-logo {
-    width: 100%;
-    height: auto;
-    padding: 10px;
+  width: 100%;
+  height: auto;
+  padding: 10px;
 }
-.side-nav.fixed a,
-.side-nav a {
-    color: white;
+
+.side-nav.fixed a, .side-nav a {
+  color: white;
 }
-.side-nav.fixed a:hover,
-.side-nav a:hover {
-    background-color: rgba(51, 51, 51, 0.08);
+
+.side-nav.fixed a:hover, .side-nav a:hover {
+  background-color: rgba(51, 51, 51, 0.08);
 }
-.collapsible-header:hover,
-.side-nav.fixed .collapsible-header:hover {
-    background-color: rgba(51, 51, 51, 0.08) !important;
+
+.collapsible-header:hover, .side-nav.fixed .collapsible-header:hover {
+  background-color: rgba(51, 51, 51, 0.08) !important;
 }
+
 .side-nav .collapsible-header {
-    color: white;
+  color: white;
 }
+
 .side-nav div ul {
-    background-color: #757575;
+  background-color: #757575;
 }
+
 .side-nav a.active {
-    background-color: #00c853;
+  background-color: #00c853;
 }
+
 ul.side-nav li a {
-    line-height: 44px;
-    height: 44px;
+  line-height: 44px;
+  height: 44px;
 }
+
 ul.side-nav li {
-    line-height: 44px;
+  line-height: 44px;
 }
+
 .open-new {
-    margin-top: 12px;
-    float: right;
-    font-size: 20px !important;
+  margin-top: 12px;
+  float: right;
+  font-size: 20px !important;
 }
+
 .padding-reduce {
-    padding-right: 30px !important;
+  padding-right: 30px !important;
 }
+
 
 /*
 *
@@ -166,18 +192,17 @@ ul.side-nav li {
 }
 
 #content-home {
-    text-align: center;
+  text-align: center;
 }
 
-.home-text {
-
-}
+.home-text {}
 
 .home-text-intro {
   padding-top: 1.25%;
   padding-bottom: 1.25%!important;
   font-size: larger;
 }
+
 
 /*
 *
@@ -188,10 +213,10 @@ ul.side-nav li {
 */
 
 #animation {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 #animation-box {
@@ -208,6 +233,7 @@ ul.side-nav li {
   z-index: 1;
 }
 
+
 /*
 *
 *
@@ -215,33 +241,42 @@ ul.side-nav li {
 *
 *
 */
+
 .tabs .tab a {
-    color: #000;
-    display: block;
-    width: 100%;
-    height: 100%;
+  color: #000;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
+
 .tabs .tab a:hover {
-    color: #000;
+  color: #000;
 }
+
 .tabs .tab a.active {
-    color: #00c853;
+  color: #00c853;
 }
+
 .tabs .indicator {
-    background-color: #00c853;
+  background-color: #00c853;
 }
+
 .tabs-content li {
-    height: 100%;
+  height: 100%;
 }
+
 #parallax1 {
-    height: 650px;
+  height: 650px;
 }
+
 #parllax2 {
-    height: 600px;
+  height: 600px;
 }
+
 #content-about h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
+
 
 /*
 *
@@ -250,28 +285,28 @@ ul.side-nav li {
 *
 *
 */
+
 .collection .collection-item.avatar .secondary-content {
-    top: 14px;
+  top: 14px;
 }
 
 .collection .collection-item.avatar .title {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .collection .collection-item.avatar {
-     min-height: inherit;
+  min-height: inherit;
 }
 
 .member-card.small .card-content {
-    max-height: 70%;
+  max-height: 70%;
 }
+
 .bio {
-    font-size: large;
+  font-size: large;
 }
 
-.fillPage {
-
-}
+.fillPage {}
 
 
 /*
@@ -283,10 +318,11 @@ ul.side-nav li {
 */
 
 header {
-    margin-left: 240px;
-    color: white;
-    text-align: center;
+  margin-left: 240px;
+  color: white;
+  text-align: center;
 }
+
 
 /*
 *
@@ -297,74 +333,85 @@ header {
 */
 
 footer {
-    margin-left: 240px;
-    color: white;
+  margin-left: 240px;
+  color: white;
 }
+
 footer.page-footer {
-    margin-top: 0;
-    padding-top: 0;
+  margin-top: 0;
+  padding-top: 0;
 }
+
 footer.page-footer .row {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
+
 .affiliates {
-    text-align: center;
+  text-align: center;
 }
+
 .footer-connect {
-    text-align: center;
+  text-align: center;
 }
+
 .footer-connect li {
-    padding: 5px;
-    padding-left: 30px;
-    margin: 5px;
-    background-position: left center;
-    display: inline;
+  padding: 5px;
+  padding-left: 30px;
+  margin: 5px;
+  background-position: left center;
+  display: inline;
 }
+
 .footer-connect a {
-    position: relative;
-    color: white;
-    cursor: pointer;
-
+  position: relative;
+  color: white;
+  cursor: pointer;
 }
-
-
 
 .fb-icon {
-    background-image: url(../images/icons/fb.svg);
-    background-repeat: no-repeat;
-    background-size: 25px auto;
+  background-image: url(../images/icons/fb.svg);
+  background-repeat: no-repeat;
+  background-size: 25px auto;
 }
+
 .blog-icon {
-    background-image: url(../images/icons/blog.svg);
-    background-repeat: no-repeat;
-    background-size: 25px auto;
+  background-image: url(../images/icons/blog.svg);
+  background-repeat: no-repeat;
+  background-size: 25px auto;
 }
+
 .twitter-icon {
-    background-image: url(../images/icons/twitter.svg);
-    background-repeat: no-repeat;
-    background-size: 25px auto;
+  background-image: url(../images/icons/twitter.svg);
+  background-repeat: no-repeat;
+  background-size: 25px auto;
 }
+
 .youtube-icon {
-    background-image: url(../images/icons/youtube.svg);
-    background-repeat: no-repeat;
-    background-size: 25px auto;
+  background-image: url(../images/icons/youtube.svg);
+  background-repeat: no-repeat;
+  background-size: 25px auto;
 }
+
 .tba-icon {
-    background-image: url(../images/icons/stats.svg);
-    background-repeat: no-repeat;
-    background-size: 25px auto;
+  background-image: url(../images/icons/stats.svg);
+  background-repeat: no-repeat;
+  background-size: 25px auto;
 }
+
 .footer-logo {
-    width: 50px;
-    margin: 5px;
+  width: 50px;
+  margin: 5px;
 }
+
 .footer-copyright {
-    text-align: center;
+  text-align: center;
 }
+
 .footer-copyright a {
-    color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
+
 footer .fancy-underline:before {
-    background-color: white;
-    background-color: rgba(255, 255, 255, 0.8);
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
 }
