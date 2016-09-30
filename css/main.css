@@ -14,7 +14,7 @@
 }
 
 nav {
-  background-color: #00c853;
+  background-color: #4caf50;
 }
 
 body {
@@ -39,7 +39,7 @@ main {
 }
 
 main a {
-  color: #00C853;
+  color: #4caf50;
 }
 
 .card-image {
@@ -59,7 +59,7 @@ main a {
 }
 
 .waves-effect.waves-accentGreen .waves-ripple {
-  background-color: #00C853;
+  background-color: #4caf50;
 }
 
 .bold {
@@ -90,7 +90,7 @@ main a {
 }
 
 .modal a {
-  color: #00C853;
+  color: #4caf50;
 }
 
 #egg-bio-text {
@@ -124,7 +124,7 @@ main a {
 }
 
 .side-nav {
-  background-color: #757575;
+  background-color: #4caf50;
 }
 
 .nav-logo {
@@ -154,7 +154,7 @@ main a {
 }
 
 .side-nav a.active {
-  background-color: #00c853;
+  background-color: #43a047;
 }
 
 ul.side-nav li a {
@@ -164,6 +164,7 @@ ul.side-nav li a {
 
 ul.side-nav li {
   line-height: 44px;
+  background-color: #4caf50;
 }
 
 .open-new {
@@ -263,11 +264,11 @@ ul.side-nav li {
 }
 
 .tabs .tab a.active {
-  color: #00c853;
+  color: #4caf50;
 }
 
 .tabs .indicator {
-  background-color: #00c853;
+  background-color: #4caf50;
 }
 
 .tabs-content li {
