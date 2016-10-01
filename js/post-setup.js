@@ -24,13 +24,14 @@ var $canvas;
 var ctx;
 var buildAnimation = function () {
   lines = [];
+  linesAmount = window.innerWidth / 15;
   $canvas = $("#animation");
   ctx = $canvas.get(0).getContext("2d");
   var w = $canvas.parent().width();
   var h = $canvas.parent().height();
   $canvas.attr('width', w);
   $canvas.attr('height', h);
-  for (var x = 0; x < 750; x++) {
+  for (var x = 0; x < linesAmount; x++) {
     var tx = (Math.random() * (w + 100)) - 50;
     var bx = tx + (Math.random() * 500) - 250;
     var line = {
@@ -50,7 +51,7 @@ var updateLines = function () {
     line = lines[x];
     ctx.beginPath();
     ctx.lineWidth = 0.8;
-    ctx.strokeStyle = "rgba(0,200,83," + line.opacity + ")";
+    ctx.strokeStyle = "#e0e0e0";
     ctx.moveTo(line.tx, line.ty);
     ctx.lineTo(line.bx, line.by);
     ctx.stroke();
