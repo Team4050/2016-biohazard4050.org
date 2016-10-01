@@ -9,4 +9,15 @@ window.onload = function () {
   NProgress.done();
   $('.modal-trigger').leanModal();
 
+  $('.flexslider').flexslider({
+    animation: "swing",
+    useCSS: false,
+    easing: "easeOutQuad",
+    smoothHeight: true,
+    controlNav: false,
+    slideshowSpeed: 6000,
+    directionNav: false,
+    animationLoop: true
+
+  });
 };
