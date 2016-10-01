@@ -14,9 +14,9 @@ window.onload = function () {
     useCSS: false,
     easing: "easeOutQuad",
     smoothHeight: true,
-    controlNav: false,
+    controlNav: true,
     slideshowSpeed: 6000,
-    directionNav: false,
+    directionNav: true,
     animationLoop: true
 
   });
