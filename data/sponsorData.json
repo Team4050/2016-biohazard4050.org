@@ -1,49 +1,37 @@
 [
 {
-  "name": "Example Sponsor-5",
-  "description": "An example sponsor used to test stuff.",
-  "sponsorLevel": "tierFive",
+  "name": "Cooler Master",
+  "description": "Description Coming Soon",
+  "sponsorLevel": "tierTwo",
   "logo": "example-company.jpg"
 },
 {
-  "name": "Another Sponsor-2",
-  "description": "Yet another example sponsor.",
+  "name": "Hover Labs",
+  "description": "Description Coming Soon",
   "sponsorLevel": "tierTwo",
   "logo": "another-company.jpg"
 },
 {
-  "name": "Example Sponsor-4",
-  "description": "An example sponsor used to test stuff.",
-  "sponsorLevel": "tierFour",
-  "logo": "example-company.jpg"
-},
-{
-  "name": "Another Sponsor-2",
-  "description": "Yet another example sponsor.",
-  "sponsorLevel": "tierTwo",
-  "logo": "another-company.jpg"
-},
-{
-  "name": "Example Sponsor-4",
-  "description": "An example sponsor used to test stuff.",
-  "sponsorLevel": "tierFour",
-  "logo": "example-company.jpg"
-},
-{
-  "name": "Another Sponsor-3",
-  "description": "Yet another example sponsor.",
+  "name": "JLG",
+  "description": "Description Coming Soon",
   "sponsorLevel": "tierThree",
-  "logo": "another-company.jpg"
-},
-{
-  "name": "Example Sponsor-1",
-  "description": "An example sponsor used to test stuff.",
-  "sponsorLevel": "tierOne",
   "logo": "example-company.jpg"
 },
 {
-  "name": "Another Sponsor-2",
-  "description": "Yet another example sponsor.",
-  "sponsorLevel": "tierFive",
+  "name": "The Beistle Company",
+  "description": "Description Coming Soon",
+  "sponsorLevel": "tierOne",
+  "logo": "another-company.jpg"
+},
+{
+  "name": "TE Connectivity",
+  "description": "Description Coming Soon",
+  "sponsorLevel": "tierThree",
+  "logo": "example-company.jpg"
+},
+{
+  "name": "4-H",
+  "description": "Description Coming Soon",
+  "sponsorLevel": "tierThree",
   "logo": "another-company.jpg"
 }]
