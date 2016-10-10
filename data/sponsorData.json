@@ -2,13 +2,13 @@
 {
   "name": "Cooler Master",
   "description": "Description Coming Soon",
-  "sponsorLevel": "tierTwo",
+  "sponsorLevel": "tierSix",
   "logo": "example-company.jpg"
 },
 {
   "name": "Hover Labs",
   "description": "Description Coming Soon",
-  "sponsorLevel": "tierTwo",
+  "sponsorLevel": "tierSix",
   "logo": "another-company.jpg"
 },
 {
@@ -20,7 +20,7 @@
 {
   "name": "The Beistle Company",
   "description": "Description Coming Soon",
-  "sponsorLevel": "tierOne",
+  "sponsorLevel": "tierSeven",
   "logo": "another-company.jpg"
 },
 {
@@ -32,6 +32,6 @@
 {
   "name": "4-H",
   "description": "Description Coming Soon",
-  "sponsorLevel": "tierThree",
+  "sponsorLevel": "tierFour",
   "logo": "another-company.jpg"
 }]

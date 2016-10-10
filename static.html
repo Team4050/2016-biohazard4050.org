@@ -47,7 +47,7 @@
 
 <!-- Mobile Navigation -->
 <ul id="nav-mobile" class="side-nav">
-  <li> <img class="nav-logo" src="images/logo.svg"> </li>
+  <li> <img class="nav-logo" src="images/logo-mono.svg"> </li>
   <li><a class="nav-button waves-effect waves-accentGreen bold btnHome" href="index">Home</a></li>
   <li> </li>
   <li><a class="nav-button waves-effect waves-accentGreen bold btnAbout" href="about">About</a></li>
@@ -125,6 +125,14 @@
 </div>
 
 <script>
+  $('.collapsible').collapsible({
+    accordion: true
+  });
+  $(".button-collapse").sideNav({
+    closeOnClick: true
+  })
+  $('.modal-trigger').leanModal();
+
   console.log(window.location.pathname);
   $(".side-nav a.active").removeClass("active");
 

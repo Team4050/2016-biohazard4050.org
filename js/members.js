@@ -2,6 +2,7 @@ var xmlhttp = new XMLHttpRequest();
 var url = "data/memberData.json";
 var descriptions;
 var column = 1;
+var clickCount = 0;
 
 function xhrSuccess() {
   descriptions = this.responseText;
@@ -142,6 +143,14 @@ function handleJSON() {
   }
 
   container.appendChild(memberList);
+}
+
+function doDaMagic() {
+  clickCount++;
+  console.log(clickCount);
+  if (clickCount >= 2) {
+    Materialize.toast("You have found one of the many easter eggs... See if you can find them <span class=\"easter-egg-toast\" onclick=\"document.getElementById('egg-bio-text').style.transform = 'rotate(180deg)';console.log('done');\">&nbsp;all</span>!", 4000);
+  }
 }
 
 loadFile(url, handleJSON);

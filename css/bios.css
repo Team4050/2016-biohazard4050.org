@@ -1,0 +1,19 @@
+﻿.collection .collection-item.avatar .secondary-content {
+  top: 14px;
+}
+
+.collection .collection-item.avatar .title {
+  font-size: 22px;
+}
+
+.collection .collection-item.avatar {
+  min-height: inherit;
+}
+
+.member-card.small .card-content {
+  max-height: 70%;
+}
+
+.bio {
+  font-size: large;
+}
