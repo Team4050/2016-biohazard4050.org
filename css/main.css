@@ -439,3 +439,25 @@ footer .fancy-underline:before {
   padding-right: 15%;
   padding-left: 15%;
 }
+
+/*
+*
+*
+* Calendar
+*
+*
+*/
+.calendar {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.calendar iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

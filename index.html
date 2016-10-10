@@ -1,6 +1,5 @@
 ﻿<!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <title>Biohazard</title>
@@ -11,14 +10,11 @@
   <link href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet" />
   <link href="css/nprogress.css" rel="stylesheet">
-  <link href="css/loader.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/mobile.css" rel="stylesheet" />
   <link href="css/helpers.css" rel="stylesheet">
   <link href="css/flexslider.css" rel="stylesheet" />
-
   <!--Import Initialization JS-->
-  <script src="js/nprogress.js"></script>
   <script src="js/setup.js"></script>
 
   <!--Theme color and stuff, cuz yanno, that's important :D-->
@@ -50,135 +46,9 @@
   <meta name="theme-color" content="#4caf50">
 
   <!--Google Analytics-->
-  <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-37159206-5', 'auto');
-    ga('send', 'pageview');
-  </script>
+  <script src="js/ga.js"></script>
 </head>
-
 <body>
-  <!--Page loader-->
-  <div id="loader-wrapper">
-    <div class="sk-cube-grid">
-      <div class="sk-cube sk-cube1"></div>
-      <div class="sk-cube sk-cube2"></div>
-      <div class="sk-cube sk-cube3"></div>
-      <div class="sk-cube sk-cube4"></div>
-      <div class="sk-cube sk-cube5"></div>
-      <div class="sk-cube sk-cube6"></div>
-      <div class="sk-cube sk-cube7"></div>
-      <div class="sk-cube sk-cube8"></div>
-      <div class="sk-cube sk-cube9"></div>
-    </div>
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-  </div>
-  <div class="hide-on-large-only">
-    <div class="navbar-fixed z-depth-3">
-      <nav>
-        <div class="nav-wrapper">
-          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-          <a href="#!" class="brand-logo center" style="color: #444"><img class="nav-logo" src="images/logo-mono.svg"></a>
-        </div>
-      </nav>
-    </div>
-  </div>
-  <!-- Desktop Navigation -->
-  <ul class="side-nav fixed z-depth-3">
-    <li> <img class="nav-logo" src="images/logo-mono.svg"> </li>
-    <li><a class="nav-button bold btnHome active">Home</a></li>
-    <li> </li>
-    <li><a class="nav-button bold btnAbout">About</a></li>
-    <li>
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header bold">Team</div>
-          <div class="collapsible-body">
-            <ul>
-              <li><a class="nav-button btnMembers">Members</a></li>
-              <li><a class="nav-button btnMentors">Mentors</a></li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </li>
-    <li><a class="nav-button bold btnSponsors">Sponsors</a></li>
-    <li>
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header bold">Resources</div>
-          <div class="collapsible-body">
-            <ul>
-              <!--<li><a class="nav-button padding-reduce waves-effect waves-accentGreen" href="models.html" targer="_blank">Robot Models<i class="material-icons open-new">open_in_new</i></a></li>-->
-              <!--Have to have a page for this once...-->
-              <li><a class="nav-button padding-reduce waves-effect waves-accentGreen" href="calendar">Calendar<i class="material-icons open-new">open_in_new</i></a></li>
-              <!--This will link to an embedded google calendar, we don't need a page for it. Might make this a modal... we'll see-->
-              <li><a class="nav-button padding-reduce waves-effect waves-accentGreen" href="https://github.com/Team4050">Code<i class="material-icons open-new">open_in_new</i></a></li>
-              <!--This one is just a link to GitHub, no page here either-->
-              <li><a class="nav-button padding-reduce waves-effect waves-accentGreen" href="https://drive.google.com/folderview?id=0B4hSw2_iRZSnZXdyRnlScDFHeDA&usp=sharing">Graphics<i class="material-icons open-new">open_in_new</i></a></li>
-              <!--Will probably link this to a google drive folder with all the graphic files... TODO: Make that folder and stuff-->
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </li>
-    <li><a class="nav-button waves-effect waves-accentGreen bold" href="https://docs.google.com/forms/d/1XKEQir5QCQzqAwZauXfxpICitycgZl1kmAfpmygLj_Q">Contact Us<i class="material-icons open-new">open_in_new</i></a></li>
-    <!--This will no longer require a page... might make it a modal or something EDIT: No modal, it doesn't work very well-->
-  </ul>
-  <!-- Mobile Navigation -->
-  <ul id="nav-mobile" class="side-nav">
-    <li> <img class="nav-logo" src="images/logo.svg"> </li>
-    <li><a class="nav-button waves-effect waves-accentGreen bold btnHome active">Home</a></li>
-    <li> </li>
-    <li><a class="nav-button waves-effect waves-accentGreen bold btnAbout">About</a></li>
-    <li>
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header waves-effect waves-accentGreen bold">Team</div>
-          <div class="collapsible-body">
-            <ul>
-              <li><a class="nav-button waves-effect waves-accentGreen btnMembers">Members</a></li>
-              <li><a class="nav-button waves-effect waves-accentGreen btnMentors">Mentors</a></li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </li>
-    <li><a class="nav-button waves-effect waves-accentGreen bold btnSponsors">Sponsors</a></li>
-    <li>
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header waves-effect waves-accentGreen bold">Resources</div>
-          <div class="collapsible-body">
-            <ul>
-              <!--Have to have a page for this once...-->
-              <li><a class="nav-button padding-reduce waves-effect waves-accentGreen" href="calendar">Calendar<i class="material-icons open-new">open_in_new</i></a></li>
-              <!--This will link to an embedded google calendar, we don't need a page for it. Might make this a modal... we'll see-->
-              <li><a class="nav-button padding-reduce waves-effect waves-accentGreen" href="https://github.com/Team4050">Code<i class="material-icons open-new">open_in_new</i></a></li>
-              <!--This one is just a link to GitHub, no page here either-->
-              <li><a class="nav-button padding-reduce waves-effect waves-accentGreen" href="https://drive.google.com/folderview?id=0B4hSw2_iRZSnZXdyRnlScDFHeDA&usp=sharing">Graphics<i class="material-icons open-new">open_in_new</i></a></li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </li>
-    <li><a class="nav-button waves-effect waves-accentGreen bold" href="http://l.cs-5.me/biocontact" target="_blank">Contact Us<i class="material-icons open-new">open_in_new</i></a></li>
-  </ul>
-  <!--All page content goes here.. who woulda' thought?-->
-  <!-- <header class="green accent-4 z-depth-1 hide-mobile hide-on-large-only">
-    <h3>FRC Team Biohazard 4050</h3>
-  </header> -->
   <main>
     <div class="page-content">
       <div id="content-home" class="main-page">
@@ -244,195 +114,18 @@
           <div class="divider div-green div-90"></div>
         </div>
       </div>
-      <div id="content-about" class="main-page flow-text center-align">
-        <h1>About Us</h1>
-        <div class="divider div-green div-80"></div>
-        <div class="padding-4">
-          <p>
-            FIRST Robotics Competition Team “Biohazard” 4050 is the high-school division of the Franklin County 4-H Robotics Club.  Since 2012, Team 4050 has provided local students with the opportunity to participate in the FIRST Robotics Competition program.  In the 2015-2016 season, Team 4050 was host to over 25 students, from 3 states, guided by over a dozen mentors.
-          </p>
-          <p>
-            The focal point of Team 4050’s existence is participation in FIRST Robotics Competition.  Each year, members and mentors work together to design and build a unique robot.  In January, FIRST releases the annual “Game” that they must design their robot to participate in.  To add to the challenge, they are given only 6 weeks to complete the robot.  In the ensuing months, they attend two regional competitions, where they compete against 50+ other Teams, each with their own unique robot.  Teams who win a regional are given the opportunity to attend a Championship event, where they compete for best in the world.
-          </p>
-          <p>In 2015, the FRC Team won the Chesapeake Regional competition and had the opportunity to go to the World Championship, a huge milestone and a major accomplishment.</p>
-        </div>
-        <img src="images/FullTeam.jpg" class="responsive-img"/>
-        <div class="padding-4">
-          <h3 class="team-history-header">Team History</h3>
-          <div class="divider div-green div-80"></div>
-          <br>
-          <div class="row">
-            <div class="col s12">
-              <ul class="tabs">
-                <li class="tab col s3"><a class="active fancy-underline underline-black underline-50" href="#year2016">2016</a></li>
-                <li class="tab col s3"><a class="fancy-underline underline-black underline-50" href="#year2015">2015</a></li>
-                <li class="tab col s3"><a class="fancy-underline underline-black underline-50" href="#year2014">2014</a></li>
-                <li class="tab col s3"><a class="fancy-underline underline-black underline-50" href="#year2013">2013</a></li>
-                <li class="tab col s3"><a class="fancy-underline underline-black underline-50" href="#year2012">2012</a></li>
-              </ul>
-            </div>
-            <br>
-            <ul class="tabs-content">
-              <li id="year2016" class="col s12">
-                Our fifth year began our new approach to the build season. After heavy strategizing, we created a game plan for our new robot, “Dialga – The Steel Dragon”. Continuing in our tradition of building a practice robot, we continued to design
-                and build after the conclusion of our build season. We attended the Pittsburgh Regional and nearly won the entire event after making it into the finals. After making further improvements, we went to the Smoky Mountain Regional and made
-                it to the quarter-finals. We walked away with a beautiful silver metal and the Quality Award.
-              </li>
-              <li id="year2015" class="col s12">
-                With our fourth year came experience and a routine schedule. We built our towering “Anonymous” who stacked totes and recycling containers. After a disappointing appearance at the Pittsburgh Regional, we made modifications and had the opportunity
-                to go to the Chesapeake Regional again. While there, we were selected by the top ranked alliance and won the event! This allowed us to go to the World Championship in St. Louis for the first time in our existence. We had an amazing time.
-              </li>
-              <li id="year2014" class="col s12">
-                Biohazard had grown even more, beginning an efficient scouting program and improving our build strategy. Our robot, “Toxic Lepra-Khan,” was by far our most beautiful robot thus far. This was the first year we built an identical robot for
-                practice purposes. We then attended the Pittsburgh Regional—while there, we made the playoffs and won the Excellence in Engineering Award. Overall, a successful season.
-              </li>
-              <li id="year2013" class="col s12">
-                Biohazard 4050 was the new start for our team, with a new name and image. After growing our team significantly in numbers—by both members and mentors—we engaged in our second season. Six weeks of intense prototyping, building, and testing
-                ensued before we and our robot, “Total Meltdown,” attended the Pittsburgh and Chesapeake Regionals, finishing in the playoffs in both events. We had greatly improved since our start a year before.
-              </li>
-              <li id="year2012" class="col s12">
-                Tech Team Franklin began their six-week build period late, with only ten members and a handful of mentors. After consistent meetings and training in electrical, mechanical, and programming, our robot “Genesis” was born. We attended the Pittsburgh
-                Regional and, after a successful learning experience, began preparing for a new year.
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div id="content-members" class="main-page">
-        <h1 class="center-align">Members</h1>
-        <div class="divider div-green div-80"></div>
-        <p class="flow-text center-align">Our members are the valuable pieces who fit Team 4050 into a beautiful puzzle. Through the bond of teamwork, they operate their group with leadership and skill. Click below to examine each piece more closely.</p>
-        <div class="divider div-green div-80"></div>
-        <!-- Members.js will populate this with member cards - thanks to Josiah's mad coding skillz-->
-      </div>
-      <div id="content-mentors" class="main-page">
-        <h1 class="center-align">Mentors</h1>
-        <div class="divider div-green div-80"></div>
-        <p class="flow-text center-align">Our mentors are the glue of our team. The puzzle falls apart without their guidance, input, and valuable skills they pass to us. Click below to learn more about them.</p>
-        <div class="divider div-green div-80"></div>
-        <!-- mentors.js will populate this with mentor cards -->
-      </div>
-      <div id="content-sponsors" class="main-page">
-        <h1 class="center-align">Sponsors</h1>
-        <div class="divider div-green div-80"></div>
-        <p class="flow-text center-align padding-4">
-          <img src="images/under-construction.svg" class="under-construction"/>
-          Sponsors play a key role in our team's success and we wouldn't be able to do it without them. Here is a list of our sponsors this year. If you would like to become a sponsor, feel free to <a class="fancy-underline underline-green" href="https://docs.google.com/forms/d/1XKEQir5QCQzqAwZauXfxpICitycgZl1kmAfpmygLj_Q/viewform?entry.793316248&entry.72505247&entry.328195766=Interested+in+sponsorship&entry.739919718"
-                                                                                                                                                                                                         target="_blank">Contact Us</a>.
-        </p>
-        <div class="divider div-green div-80"></div>
-        <div id="sponsor-container" class="container">
-          <h5>Ultimate Robot Sponsors ($15,000+)</h5>
-          <div id="tier-one-sponsors">
-            <ul class="collapsible">
-              <!-- This gets populated with gold sponsors -->
-            </ul>
-          </div>
-          <h5>Platinum Robot Sponsors ($2,000 - $14,999)</h5>
-          <div id="tier-two-sponsors">
-            <ul class="collapsible">
-              <!-- This gets populated with gold sponsors -->
-            </ul>
-          </div>
-          <h5>Gold Robot Sponsors ($1,000 - $1,999)</h5>
-          <div id="tier-three-sponsors">
-            <ul class="collapsible">
-              <!-- This gets populated with gold sponsors -->
-            </ul>
-          </div>
-          <h5>Silver Robot Sponsors ($500 - $999)</h5>
-          <div id="tier-four-sponsors">
-            <ul class="collapsible">
-              <!-- This gets populated with gold sponsors -->
-            </ul>
-          </div>
-          <h5>Bronze Robot Sponsors ($250 - $499)</h5>
-          <div id="tier-five-sponsors">
-            <ul class="collapsible">
-              <!-- This gets populated with gold sponsors -->
-            </ul>
-          </div>
-          <!-- sponsors.js will populate this with sponsor stuff -->
-        </div>
-      </div>
-      <div id="content-awards" class="main-page">This is the awards content</div>
-      <!--TODO: Add awards page someday-->
     </div>
   </main>
-  <!--Footer-->
-  <footer class="page-footer grey darken-1">
-    <!--<div class="container">     Temp disable. Moving affilates to "About" page
-      <div class="row affiliates">
-        <div class="col s12">
-          <h6 class="white-text">Affiliates:</h6>
-          <a href="http://www.firstinspires.org/" target="_blank"><img class="footer-logo" src="images/firstLogo.svg"></a>
-          <a href="http://www.4-h.org/" target="_blank"><img class="footer-logo" src="images/4hLogo.svg"></a>
-        </div>
-      </div>
-    </div>
-    <div class="divider div-white div-80"></div>-->
-    <!-- Social Stuff -->
-    <div class="row">
-      <ul class="footer-connect col s12">
-        <li class="fb-icon"><a class="fancy-underline" href="http://l.cs-5.me/biohazard4050fb" target="_blank">Facebook</a></li>
-        <li class="blog-icon"><a class="fancy-underline" href="http://www.biohazard4050.org/blog" target="_blank">Blog</a></li>
-        <li class="twitter-icon"><a class="fancy-underline" href="http://l.cs-5.me/biotw" target="_blank">Twitter</a></li>
-        <li class="youtube-icon"><a class="fancy-underline" href="http://l.cs-5.me/bioyt" target="_blank">YouTube</a></li>
-        <li class="tba-icon"><a class="fancy-underline" href="http://l.cs-5.me/bioblue" target="_blank">The Blue Alliance</a></li>
-      </ul>
-    </div>
-    <!--The footer thing... regardless of the fact that the class is "footer-copyright" there is no copyright here... ;)-->
-    <div class="footer-copyright">
-      <div class="container"> 2016 Biohazard 4050 - <a class="fancy-underline" href="http://pulse.cs-5.me" target="_blank">Design by Pulse Development Group</a> - <a class="modal-trigger fancy-underline hide-mobile" href="#aboutSite">About this Site</a> </div>
-    </div>
-  </footer>
-  <!--Modals go here-->
-  <!--Basically... all the legal stuff here-->
-  <div id="aboutSite" class="modal modal-fixed-footer">
-    <div class="modal-content">
-      <h4>About this Site</h4>
-      <div class="divider div-green"></div>
-      <p>
-        Thanks to <a class="fancy-underline underline-green" href="http://materializecss.com/" target="_blank">Materialize™</a> for their awesome Material Design framework, licensed under <a class="fancy-underline underline-green" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE"
-                                                                                                                                                                                               target="_blank">The MIT License</a>. There were slight modifications made to the framework, which fall under the confines of the MIT License.
-      </p>
-      <p>
-        Thanks to <a class="fancy-underline underline-green" href="http://ricostacruz.com/nprogress/">NProgress</a> for the loading bar that keeps you entertained during the page loading. It is also licensed under <a class="fancy-underline underline-green"
-                                                                                                                                                                                                                         href="https://github.com/rstacruz/nprogress/blob/master/License.md">The MIT License.</a> There were slight modifications made to the CSS and JS powering this plugin.
-      </p>
-      <p>Thanks <a class="fancy-underline underline-green" href="http://unslider.com/">Unslider</a> for the fancy slide-shows used throughout the site.</p>
-      <p>
-        Not like I have to do this or anything... but huge shout out to <a class="fancy-underline underline-green" href="https://developers.google.com/web/tools/chrome-devtools/">Chrome DevTools</a>, because lets be honest... This website wouldn't look
-        as good as it does without them.
-      </p>
-      <div class="divider div-green"></div>
-      <p>Any logos in use on this site that are not created by Biohazard are belongings of their respective owners. We take no credit for these logos.</p>
-      <p>Our website currently does not have any licensing and it's code is <a class="fancy-underline underline-green" href="http://l.cs-5.me/biorepo" target="_blank">open source.</a></p>
-      <p>If you have any specific questions for the web-masters, please contact Pulse <a class="fancy-underline underline-green" href="mailto:pulse@cs-5.me">here</a>.</p>
-    </div>
-    <div class="modal-footer"> <a href="#!" class="modal-action modal-close waves-effect waves-accentGreen btn-flat">Close</a> </div>
-  </div>
+
+  <div class="static-content" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/velocity.min.js"></script>
+  <script src="js/members.js"></script>
+  <script src="js/mentors.js"></script>
+  <script src="js/sponsors.js"></script>
+  <script src="js/lines.js"></script>
+  <script src="js/flexslider-min.js"></script>
+  <script src="js/post-setup.js"></script>
 </body>
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-<script src="js/materialize.js"></script>
-<script src="js/velocity.min.js"></script>>
-<script src="js/sacs.js"></script>
-<script src="js/members.js"></script>
-<script src="js/mentors.js"></script>
-<script src="js/sponsors.js"></script>
-<script src="js/post-setup.js"></script>
-<script src="js/flexslider-min.js"></script>
-
-<script>
-  NProgress.configure({
-    showSpinner: false
-  });
-  NProgress.configure({
-    trickleRate: 0.02,
-    trickleSpeed: 500
-  });
-  NProgress.start();
-</script>
-
 </html>
