@@ -31,6 +31,8 @@ function handleJSON() {
   var tierThree = document.getElementById("tier-three-sponsors");
   var tierFour = document.getElementById("tier-four-sponsors");
   var tierFive = document.getElementById("tier-five-sponsors");
+  var tierSix = document.getElementById("tier-five-sponsors");
+  var tierSeven = document.getElementById("tier-five-sponsors");
 
   var sponsorContainer = document.createElement("ul");
   sponsorContainer.setAttribute("class", "collapsible");
@@ -78,14 +80,16 @@ function handleJSON() {
     case "tierFive":
       tierFive.firstElementChild.appendChild(sponsorListItem);
       break;
+      case "tierSix":
+        tierSix.firstElementChild.appendChild(sponsorListItem);
+        break;
+      case "tierSeven":
+        tierSeven.firstElementChild.appendChild(sponsorListItem);
+        break;
     default:
       console.log("error with " + sponsorLevel);
     }
   }
-
-
-
-
 }
 
 loadFile(url, handleJSON);
