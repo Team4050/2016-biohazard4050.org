@@ -1,4 +1,5 @@
-﻿<div class="hide-on-large-only">
+<!DOCTYPE html>
+<div class="hide-on-large-only">
   <div class="navbar-fixed z-depth-3">
     <nav>
       <div class="nav-wrapper">
@@ -133,34 +134,34 @@
   })
   $('.modal-trigger').leanModal();
 
-  console.log(window.location.pathname);
+  console.log("/" + window.location.pathname.split("/").pop());
   $(".side-nav a.active").removeClass("active");
 
-  switch (window.location.pathname) {
+  switch ("/" + window.location.pathname.split("/").pop()) {
     case "/":
-    case "/index":
+    case "/index.html":
       $(".btnHome").addClass("active");
       console.log("Home Active");
       break;
-    case "/about":
+    case "/about.html":
       $(".btnAbout").addClass("active");
       console.log("About Active");
       break;
-    case "/members":
+    case "/members.html":
       $(".btnMembers").addClass("active");
       $(".teamHeader").addClass("active");
       console.log("Members Active");
       break;
-    case "/mentors":
+    case "/mentors.html":
       $(".btnMentors").addClass("active");
       $(".teamHeader").addClass("active");
       console.log("Mentors Active");
       break;
-    case "/sponsors":
+    case "/sponsors.html":
       $(".btnSponsors").addClass("active");
       console.log("Sponsors Active");
       break;
-    case "/calendar":
+    case "/calendar.html":
       $(".btnCalendar").addClass("active");
       $(".resourcesHeader").addClass("active");
       console.log("Calendar Active");
