@@ -27,7 +27,7 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 .underline-green:before {
-    background-color: #4caf50;
+    background-color: #00c853;
 }
 .divider {
     height: 2px;
@@ -37,7 +37,7 @@
     background-color: white;
 }
 .div-green {
-    background: #4caf50;
+    background: #00c853;
 }
 .div-80 {
     width: 80%;
@@ -73,7 +73,7 @@
 }
 
 .color-green {
-  color: #4caf50;
+  color: #00c853;
 }
 
 .color-grey {

@@ -10,11 +10,11 @@
 }
 
 .tabs .tab a.active {
-  color: #4caf50;
+  color: #00c853;
 }
 
 .tabs .indicator {
-  background-color: #4caf50;
+  background-color: #00c853;
 }
 
 .tabs-content li {

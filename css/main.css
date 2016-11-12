@@ -6,7 +6,7 @@
 *
 */
 nav {
-  background-color: #4caf50;
+  background-color: #00c853;
 }
 
 body {
@@ -31,7 +31,7 @@ main {
 }
 
 main a {
-  color: #4caf50;
+  color: #00c853;
 }
 
 .card-image {
@@ -82,7 +82,7 @@ main a {
 }
 
 .modal a {
-  color: #4caf50;
+  color: #00c853;
 }
 
 #egg-bio-text {

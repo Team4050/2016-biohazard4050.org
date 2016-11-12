@@ -29,6 +29,7 @@
     </ul>
   </li>
   <li><a class="nav-button bold btnSponsors" href="sponsors.html">Sponsors</a></li>
+  <li><a class="nav-button bold btnStemingOut" href="steming-out.html">STEMing Out</a></li>
   <li>
     <ul class="collapsible" data-collapsible="accordion">
       <li>
@@ -72,7 +73,7 @@
         <div class="collapsible-header bold resourcesHeader">Resources</div>
         <div class="collapsible-body">
           <ul>
-            <li><a class="nav-button padding-reduce btnCalendar" href="calendar.html" >Calendar</a></li>
+            <li><a class="nav-button padding-reduce btnCalendar" href="calendar.html">Calendar</a></li>
             <li><a class="nav-button padding-reduce waves-effect waves-accentGreen" href="https://github.com/Team4050" target="_blank">Code<i class="material-icons open-new">open_in_new</i></a></li>
             <li><a class="nav-button padding-reduce waves-effect waves-accentGreen" href="https://drive.google.com/folderview?id=0B4hSw2_iRZSnZXdyRnlScDFHeDA&usp=sharing" target="_blank">Graphics<i class="material-icons open-new">open_in_new</i></a></li>
           </ul>
@@ -106,11 +107,11 @@
     <div class="divider div-green"></div>
     <p>
       Thanks to <a class="fancy-underline underline-green" href="http://materializecss.com/" target="_blank">Materialize™</a> for their awesome Material Design framework, licensed under <a class="fancy-underline underline-green" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE"
-                                                                                                                                                                                             target="_blank">The MIT License</a>. There were slight modifications made to the framework, which fall under the confines of the MIT License.
+          target="_blank">The MIT License</a>. There were slight modifications made to the framework, which fall under the confines of the MIT License.
     </p>
     <p>
       Thanks to <a class="fancy-underline underline-green" href="http://ricostacruz.com/nprogress/">NProgress</a> for the loading bar that keeps you entertained during the page loading. It is also licensed under <a class="fancy-underline underline-green"
-                                                                                                                                                                                                                       href="https://github.com/rstacruz/nprogress/blob/master/License.md">The MIT License.</a> There were slight modifications made to the CSS and JS powering this plugin.
+          href="https://github.com/rstacruz/nprogress/blob/master/License.md">The MIT License.</a> There were slight modifications made to the CSS and JS powering this plugin.
     </p>
     <p>Thanks <a class="fancy-underline underline-green" href="http://unslider.com/">Unslider</a> for the fancy slide-shows used throughout the site.</p>
     <p>
@@ -126,47 +127,51 @@
 </div>
 
 <script>
-  $('.collapsible').collapsible({
-    accordion: true
-  });
-  $(".button-collapse").sideNav({
-    closeOnClick: true
-  })
-  $('.modal-trigger').leanModal();
+$('.collapsible').collapsible({
+  accordion: true
+});
+$(".button-collapse").sideNav({
+  closeOnClick: true
+})
+$('.modal-trigger').leanModal();
 
-  console.log("/" + window.location.pathname.split("/").pop());
-  $(".side-nav a.active").removeClass("active");
+console.log("/" + window.location.pathname.split("/").pop());
+$(".side-nav a.active").removeClass("active");
 
-  switch ("/" + window.location.pathname.split("/").pop()) {
-    case "/":
-    case "/index.html":
-      $(".btnHome").addClass("active");
-      console.log("Home Active");
-      break;
-    case "/about.html":
-      $(".btnAbout").addClass("active");
-      console.log("About Active");
-      break;
-    case "/members.html":
-      $(".btnMembers").addClass("active");
-      $(".teamHeader").addClass("active");
-      console.log("Members Active");
-      break;
-    case "/mentors.html":
-      $(".btnMentors").addClass("active");
-      $(".teamHeader").addClass("active");
-      console.log("Mentors Active");
-      break;
-    case "/sponsors.html":
-      $(".btnSponsors").addClass("active");
-      console.log("Sponsors Active");
-      break;
-    case "/calendar.html":
-      $(".btnCalendar").addClass("active");
-      $(".resourcesHeader").addClass("active");
-      console.log("Calendar Active");
-      break;
-    default:
-      console.log("You broke it");
-  }
+switch ("/" + window.location.pathname.split("/").pop()) {
+  case "/":
+  case "/index.html":
+    $(".btnHome").addClass("active");
+    console.log("Home Active");
+    break;
+  case "/about.html":
+    $(".btnAbout").addClass("active");
+    console.log("About Active");
+    break;
+  case "/members.html":
+    $(".btnMembers").addClass("active");
+    $(".teamHeader").addClass("active");
+    console.log("Members Active");
+    break;
+  case "/mentors.html":
+    $(".btnMentors").addClass("active");
+    $(".teamHeader").addClass("active");
+    console.log("Mentors Active");
+    break;
+  case "/sponsors.html":
+    $(".btnSponsors").addClass("active");
+    console.log("Sponsors Active");
+    break;
+  case "/steming-out.html":
+    $(".btnStemingOut").addClass("active");
+    console.log("Steming Out Active");
+    break;
+  case "/calendar.html":
+    $(".btnCalendar").addClass("active");
+    $(".resourcesHeader").addClass("active");
+    console.log("Calendar Active");
+    break;
+  default:
+    console.log("You broke it");
+}
 </script>
