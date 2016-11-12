@@ -116,7 +116,7 @@ main a {
 }
 
 .side-nav {
-  background-color: #4caf50;
+  background-color: #757575;
 }
 
 .nav-logo {
@@ -146,7 +146,7 @@ main a {
 }
 
 .side-nav a.active {
-  background-color: #43a047;
+  background-color: #424242;
 }
 
 ul.side-nav li a {
@@ -156,7 +156,6 @@ ul.side-nav li a {
 
 ul.side-nav li {
   line-height: 44px;
-  background-color: #4caf50;
 }
 
 .open-new {
