@@ -22,7 +22,7 @@ $(document).ready(function () {
   $(window).resize(function () {
 
     //prevent the video from being wider than 850 px
-    var newWidth = ($fluidEl.width() < 850) ? $fluidEl.width() : 850;
+    var newWidth = ($fluidEl.width() < 854) ? $fluidEl.width() : 854;
     console.log($fluidEl.width());
 
     // Resize all videos according to their own aspect ratio
