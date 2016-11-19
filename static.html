@@ -1,46 +1,4 @@
 <!DOCTYPE html>
-
-<script>
-  console.log("/" + window.location.pathname.split("/").pop());
-  $(".side-nav a.active").removeClass("active");
-  switch ("/" + window.location.pathname.split("/").pop()) {
-    case "/":
-    case "/index.html":
-      $(".btnHome").addClass("active");
-      console.log("Home Active");
-      break;
-    case "/about.html":
-      $(".btnAbout").addClass("active");
-      console.log("About Active");
-    break;
-      case "/members.html":
-      $(".btnMembers").addClass("active");
-      $(".teamHeader").addClass("active");
-      console.log("Members Active");
-      break;
-    case "/mentors.html":
-      $(".btnMentors").addClass("active");
-      $(".teamHeader").addClass("active");
-      console.log("Mentors Active");
-      break;
-    case "/sponsors.html":
-      $(".btnSponsors").addClass("active");
-      console.log("Sponsors Active");
-      break;
-    case "/steming-out.html":
-      $(".btnStemingOut").addClass("active");
-      console.log("Steming Out Active");
-      break;
-    case "/calendar.html":
-      $(".btnCalendar").addClass("active");
-      $(".resourcesHeader").addClass("active");
-      console.log("Calendar Active");
-      break;
-    default:
-    console.log("You broke it");
-  }
-</script>
-
 <div class="hide-on-large-only">
   <div class="navbar-fixed z-depth-3">
     <nav>
@@ -176,4 +134,44 @@ $(".button-collapse").sideNav({
   closeOnClick: true
 })
 $('.modal-trigger').leanModal();
+
+console.log("/" + window.location.pathname.split("/").pop());
+$(".side-nav a.active").removeClass("active");
+
+switch ("/" + window.location.pathname.split("/").pop()) {
+  case "/":
+  case "/index.html":
+    $(".btnHome").addClass("active");
+    console.log("Home Active");
+    break;
+  case "/about.html":
+    $(".btnAbout").addClass("active");
+    console.log("About Active");
+    break;
+  case "/members.html":
+    $(".btnMembers").addClass("active");
+    $(".teamHeader").addClass("active");
+    console.log("Members Active");
+    break;
+  case "/mentors.html":
+    $(".btnMentors").addClass("active");
+    $(".teamHeader").addClass("active");
+    console.log("Mentors Active");
+    break;
+  case "/sponsors.html":
+    $(".btnSponsors").addClass("active");
+    console.log("Sponsors Active");
+    break;
+  case "/steming-out.html":
+    $(".btnStemingOut").addClass("active");
+    console.log("Steming Out Active");
+    break;
+  case "/calendar.html":
+    $(".btnCalendar").addClass("active");
+    $(".resourcesHeader").addClass("active");
+    console.log("Calendar Active");
+    break;
+  default:
+    console.log("You broke it");
+}
 </script>
