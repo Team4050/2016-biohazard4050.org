@@ -84,3 +84,33 @@
 .color-grey {
   color: #757575;
 }
+
+.animatedOne {
+    -moz-animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+
+.animatedTwo {
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+.animatedThree {
+    -moz-animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+}
+
+.animatedFour {
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+
+.animatedFive {
+    -moz-animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+}
+
+.animatedSix {
+    -moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+}
