@@ -5,9 +5,6 @@
 *
 *
 */
-nav {
-  background-color: #00c853;
-}
 
 body {
   display: -webkit-box;
@@ -34,68 +31,18 @@ main a {
   color: #00c853;
 }
 
-.card-image {
-  height: 180px;
-  text-shadow: 1px 3px rgba(0, 0, 0, 0.12), 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.card-image img {
-  width: auto !important;
-  margin: auto;
-  max-width: 100%;
-}
-
-.connect-icon {
-  width: 50px;
-  height: auto;
-}
-
-.waves-effect.waves-accentGreen .waves-ripple {
-  background-color: #43a047;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.main-page {
-  padding: 0;
-}
-
-.site-header {
-  background-color: #4CAF50;
-}
-
-.brand-logo {
-  height: 100%;
-}
-
 .brand-logo img {
   height: 100%;
   width: auto;
-}
-
-.parallax-container img {
-  height: auto;
-  width: 100%;
-  display: block;
-}
-
-.modal a {
-  color: #00c853;
-}
-
-#egg-bio-text {
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+  padding: 10px;
 }
 
 .description {
-  font-size: medium!important;
+  font-size: medium !important;
 }
 
 .flow-text {
-  font-size: 1.5em!important;
+  font-size: 1.5em !important;
 }
 
 
@@ -119,22 +66,16 @@ main a {
   background-color: #757575;
 }
 
-.nav-logo {
-  width: 100%;
-  height: auto;
-  padding: 10px;
-}
-
 .side-nav.fixed a, .side-nav a {
   color: white;
 }
 
 .side-nav.fixed a:hover, .side-nav a:hover {
-  background-color: rgba(51, 51, 51, 0.08);
+  background-color: #616161;
 }
 
 .collapsible-header:hover, .side-nav.fixed .collapsible-header:hover {
-  background-color: rgba(51, 51, 51, 0.08) !important;
+  background-color: #616161 !important;
 }
 
 .side-nav .collapsible-header {
@@ -168,20 +109,6 @@ ul.side-nav li {
   padding-right: 30px !important;
 }
 
-/*
-*
-*
-* Header
-*
-*
-*/
-
-header {
-  margin-left: 240px;
-  color: white;
-  text-align: center;
-}
-
 
 /*
 *
@@ -203,10 +130,6 @@ footer.page-footer {
 
 footer.page-footer .row {
   margin-bottom: 0;
-}
-
-.affiliates {
-  text-align: center;
 }
 
 .footer-connect {
@@ -257,34 +180,10 @@ footer.page-footer .row {
   background-size: 25px auto;
 }
 
-.footer-logo {
-  width: 50px;
-  margin: 5px;
-}
-
 .footer-copyright {
   text-align: center;
 }
 
 .footer-copyright a {
   color: rgba(255, 255, 255, 0.8);
-}
-
-footer .fancy-underline:before {
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
-/*
-*
-*
-* Slideshow
-*
-*
-*/
-.slideshow1 {
-  width: auto;
-  height: auto;
-  padding-right: 15%;
-  padding-left: 15%;
 }
