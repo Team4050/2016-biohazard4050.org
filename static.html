@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 
 <script>
+  $('.collapsible').collapsible({
+    accordion: true
+  });
+  $(".button-collapse").sideNav({
+    closeOnClick: true
+  })
+  $(".modal-trigger").leanModal();
+
   console.log("/" + window.location.pathname.split("/").pop());
   $(".side-nav a.active").removeClass("active");
   switch ("/" + window.location.pathname.split("/").pop()) {
@@ -167,13 +175,3 @@
   </div>
   <div class="modal-footer"> <a href="#!" class="modal-action modal-close btn-flat">Close</a> </div>
 </div>
-
-<script>
-$('.collapsible').collapsible({
-  accordion: true
-});
-$(".button-collapse").sideNav({
-  closeOnClick: true
-})
-$('.modal-trigger').leanModal();
-</script>
