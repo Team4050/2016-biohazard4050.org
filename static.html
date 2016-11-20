@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
 <script>
-  $('.collapsible').collapsible({
-    accordion: true
-  });
-  $(".button-collapse").sideNav({
+    $('.collapsible').collapsible({
+        accordion: true
+    });
+    $(".button-collapse").sideNav({
     closeOnClick: true
-  })
-  $(".modal-trigger").leanModal();
+    })
+    $(".modal-trigger").leanModal();
 
-  console.log("/" + window.location.pathname.split("/").pop());
-  $(".side-nav a.active").removeClass("active");
-  switch ("/" + window.location.pathname.split("/").pop()) {
+    console.log("/" + window.location.pathname.split("/").pop());
+    $(".side-nav a.active").removeClass("active");
+    switch ("/" + window.location.pathname.split("/").pop()) {
     case "/":
     case "/index.html":
       $(".btnHome").addClass("active");
@@ -46,7 +46,7 @@
       break;
     default:
     console.log("You broke it");
-  }
+    }
 </script>
 
 <div class="hide-on-large-only">
