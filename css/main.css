@@ -66,6 +66,10 @@ main a {
   background-color: #757575;
 }
 
+.nav-logo-li {
+  padding: 5px;
+}
+
 .side-nav.fixed a, .side-nav a {
   color: white;
 }
