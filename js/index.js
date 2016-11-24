@@ -1,5 +1,4 @@
 ﻿function init() {
-  $(".static-content").load("static.html");
   $('.flexslider').flexslider({
     animation: "swing",
     useCSS: false,
