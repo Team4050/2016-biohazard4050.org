@@ -1,24 +1,24 @@
 .youtube-vid {
-  margin: 15px;
+    margin: 15px;
 }
 
 .stem-caps {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .red-highlight, .blue-highlight {
-  transition-duration: 300ms;
-  transition-timing-function: linear;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
 }
 
 .stem-header:hover .red-highlight {
-  color: #f44336;
+    color: #f44336;
 }
 
 .stem-header:hover .blue-highlight {
-  color: #2196f3;
+    color: #2196f3;
 }
 
 iframe {
-  border: 2px solid #00c853;
+    border: 2px solid #00c853;
 }

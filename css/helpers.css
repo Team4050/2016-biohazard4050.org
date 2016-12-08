@@ -6,41 +6,40 @@
 */
 
 .fancy-underline {
-  position: relative;
+    position: relative;
 }
 
 .fancy-underline:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  background-color: white;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease 0s;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease 0s;
 }
 
 .fancy-underline:hover:before {
-  visibility: visible;
-  transform: scaleX(1);
+    visibility: visible;
+    transform: scaleX(1);
 }
 
 .underline-50:before {
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .underline-black:before {
-  background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .underline-green:before {
-  background-color: #00c853;
+    background-color: #00c853;
 }
-
 
 /*
 *
@@ -51,11 +50,11 @@
 */
 
 .color-green {
-  color: #00c853;
+    color: #00c853;
 }
 
 .color-grey {
-  color: #757575;
+    color: #757575;
 }
 
 /*
@@ -67,40 +66,39 @@
 */
 
 .div-80 {
-  width: 80%;
-  margin: 10px auto;
+    width: 80%;
+    margin: 10px auto;
 }
 
 .div-70 {
-  width: 70%;
-  margin: 10px auto;
+    width: 70%;
+    margin: 10px auto;
 }
 
 .div-90 {
-  width: 90%;
-  margin: 10px auto;
+    width: 90%;
+    margin: 10px auto;
 }
 
 .padding-3 {
-  padding-left: 3%;
-  padding-right: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .padding-4 {
-  padding-left: 4%;
-  padding-right: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .padding-5 {
-  padding-left: 5%;
-  padding-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .padding-1 {
-  padding-top: 1%;
-  padding-bottom: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
-
 
 /*
 *
@@ -111,12 +109,11 @@
 */
 
 .slideshow1 {
-  width: auto;
-  height: auto;
-  padding-right: 15%;
-  padding-left: 15%;
+    width: auto;
+    height: auto;
+    padding-right: 15%;
+    padding-left: 15%;
 }
-
 
 /*
 *
@@ -127,8 +124,8 @@
 */
 
 .divider {
-  height: 2px;
-  overflow: hidden;
+    height: 2px;
+    overflow: hidden;
 }
 
 .div-green {

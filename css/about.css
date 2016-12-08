@@ -1,34 +1,34 @@
 ﻿.tabs .tab a {
-  color: #000;
-  display: block;
-  width: 100%;
-  height: 100%;
+    color: #000;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 .tabs .tab a:hover {
-  color: #000;
+    color: #000;
 }
 
 .tabs .tab a.active {
-  color: #00c853;
+    color: #00c853;
 }
 
 .tabs .indicator {
-  background-color: #00c853;
+    background-color: #00c853;
 }
 
 .tabs-content li {
-  height: 100%;
+    height: 100%;
 }
 
 #parallax1 {
-  height: 650px;
+    height: 650px;
 }
 
 #parllax2 {
-  height: 600px;
+    height: 600px;
 }
 
 #content-about h1 {
-  font-size: 40px;
+    font-size: 40px;
 }

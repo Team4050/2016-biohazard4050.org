@@ -1,14 +1,17 @@
 @media only screen and (max-width: 992px) {
-  .page-content {
-    margin: auto;
-  }
-  footer {
-    margin-left: inherit !important;
-  }
-  header {
-    margin-left: inherit !important;
-  }
-  .hide-mobile {
-    display: none;
-  }
+    .page-content {
+        margin: auto;
+    }
+
+    footer {
+        margin-left: inherit !important;
+    }
+
+    header {
+        margin-left: inherit !important;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
 }

@@ -5,6 +5,7 @@
     height: 0;
     overflow: hidden;
 }
+
 .calendar iframe {
     position: absolute;
     top: 0;

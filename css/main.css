@@ -7,44 +7,43 @@
 */
 
 body {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  overflow-y: scroll;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow-y: scroll;
 }
 
 main {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1 0 auto;
-  -ms-flex: 1 0 auto;
-  flex: 1 0 auto;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
 }
 
 main a {
-  color: #00c853;
+    color: #00c853;
 }
 
 .brand-logo img {
-  height: 100%;
-  width: auto;
-  padding: 10px;
+    height: 100%;
+    width: auto;
+    padding: 10px;
 }
 
 .description {
-  font-size: medium !important;
+    font-size: medium !important;
 }
 
 .flow-text {
-  font-size: 1.5em !important;
+    font-size: 1.5em !important;
 }
-
 
 /*
 *
@@ -55,64 +54,63 @@ main a {
 */
 
 .nav-buttons a:active {
-  background-color: #78909C;
+    background-color: #78909C;
 }
 
 .page-content {
-  margin-left: 240px;
+    margin-left: 240px;
 }
 
 .side-nav {
-  background-color: #757575;
+    background-color: #757575;
 }
 
 .nav-logo-li {
-  padding: 5px;
+    padding: 5px;
 }
 
 .side-nav.fixed a, .side-nav a {
-  color: white;
+    color: white;
 }
 
 .side-nav.fixed a:hover, .side-nav a:hover {
-  background-color: #616161;
+    background-color: #616161;
 }
 
 .collapsible-header:hover, .side-nav.fixed .collapsible-header:hover {
-  background-color: #616161 !important;
+    background-color: #616161 !important;
 }
 
 .side-nav .collapsible-header {
-  color: white;
+    color: white;
 }
 
 .side-nav div ul {
-  background-color: #757575;
+    background-color: #757575;
 }
 
 .side-nav a.active {
-  background-color: #424242;
+    background-color: #424242;
 }
 
 ul.side-nav li a {
-  line-height: 44px;
-  height: 44px;
+    line-height: 44px;
+    height: 44px;
 }
 
 ul.side-nav li {
-  line-height: 44px;
+    line-height: 44px;
 }
 
 .open-new {
-  margin-top: 12px;
-  float: right;
-  font-size: 20px !important;
+    margin-top: 12px;
+    float: right;
+    font-size: 20px !important;
 }
 
 .padding-reduce {
-  padding-right: 30px !important;
+    padding-right: 30px !important;
 }
-
 
 /*
 *
@@ -123,71 +121,71 @@ ul.side-nav li {
 */
 
 footer {
-  margin-left: 240px;
-  color: white;
+    margin-left: 240px;
+    color: white;
 }
 
 footer.page-footer {
-  margin-top: 0;
-  padding-top: 0;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 footer.page-footer .row {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .footer-connect {
-  text-align: center;
+    text-align: center;
 }
 
 .footer-connect li {
-  padding: 5px;
-  padding-left: 30px;
-  margin: 5px;
-  background-position: left center;
-  display: inline;
+    padding: 5px;
+    padding-left: 30px;
+    margin: 5px;
+    background-position: left center;
+    display: inline;
 }
 
 .footer-connect a {
-  position: relative;
-  color: white;
-  cursor: pointer;
+    position: relative;
+    color: white;
+    cursor: pointer;
 }
 
 .fb-icon {
-  background-image: url(../images/icons/fb.svg);
-  background-repeat: no-repeat;
-  background-size: 25px auto;
+    background-image: url(../images/icons/fb.svg);
+    background-repeat: no-repeat;
+    background-size: 25px auto;
 }
 
 .blog-icon {
-  background-image: url(../images/icons/blog.svg);
-  background-repeat: no-repeat;
-  background-size: 25px auto;
+    background-image: url(../images/icons/blog.svg);
+    background-repeat: no-repeat;
+    background-size: 25px auto;
 }
 
 .twitter-icon {
-  background-image: url(../images/icons/twitter.svg);
-  background-repeat: no-repeat;
-  background-size: 25px auto;
+    background-image: url(../images/icons/twitter.svg);
+    background-repeat: no-repeat;
+    background-size: 25px auto;
 }
 
 .youtube-icon {
-  background-image: url(../images/icons/youtube.svg);
-  background-repeat: no-repeat;
-  background-size: 25px auto;
+    background-image: url(../images/icons/youtube.svg);
+    background-repeat: no-repeat;
+    background-size: 25px auto;
 }
 
 .tba-icon {
-  background-image: url(../images/icons/stats.svg);
-  background-repeat: no-repeat;
-  background-size: 25px auto;
+    background-image: url(../images/icons/stats.svg);
+    background-repeat: no-repeat;
+    background-size: 25px auto;
 }
 
 .footer-copyright {
-  text-align: center;
+    text-align: center;
 }
 
 .footer-copyright a {
-  color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
