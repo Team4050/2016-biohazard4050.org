@@ -145,7 +145,7 @@ function handleJSON() {
 
         container.appendChild(modal);
 
-        // $('.modal-trigger').leanModal();
+        // $('.modal').leanModal();
 
     }
     container.appendChild(mentorList);

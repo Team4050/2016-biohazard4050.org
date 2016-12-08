@@ -63,6 +63,16 @@ main a {
 
 .side-nav {
     background-color: #757575;
+    width: 240px;
+}
+
+.side-nav .collapsible-header, .side-nav.fixed .collapsible-header {
+    padding: 0 32px;
+    font-weight: 500;
+}
+
+.side-nav .collapsible-body li a, .side-nav.fixed .collapsible-body li a {
+    padding: 0 48px;
 }
 
 .nav-logo-li {
@@ -102,9 +112,11 @@ ul.side-nav li {
     line-height: 44px;
 }
 
+
 .open-new {
-    margin-top: 12px;
-    float: right;
+    color: #fff !important;
+    margin: 0 !important;
+    float: right !important;
     font-size: 20px !important;
 }
 
