@@ -194,6 +194,12 @@ footer.page-footer .row {
     background-size: 25px auto;
 }
 
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
 .footer-copyright {
     text-align: center;
 }

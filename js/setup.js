@@ -38,4 +38,7 @@ $(document).ready(function () {
 
         // Kick off one resize to fix all videos on page load
     }).resize();
+
+    // initialize the carousels
+    $('.carousel.carousel-slider').carousel({full_width: true, indicators: true});
 });

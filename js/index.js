@@ -1,16 +1,4 @@
 ﻿function init() {
-    // initialize the flexslider
-    $('.flexslider').flexslider({
-        animation: "swing",
-        useCSS: false,
-        easing: "easeOutQuad",
-        smoothHeight: true,
-        controlNav: true,
-        slideshowSpeed: 6000,
-        directionNav: true,
-        animationLoop: true
-    });
-
 // start the function that animates the header
     makeLines();
 
