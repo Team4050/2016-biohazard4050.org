@@ -1,6 +1,14 @@
+/*
+*
+*
+* Underline Styles
+*
+*/
+
 .fancy-underline {
     position: relative;
 }
+
 .fancy-underline:before {
     content: "";
     position: absolute;
@@ -13,10 +21,12 @@
     transform: scaleX(0);
     transition: all 0.3s ease 0s;
 }
+
 .fancy-underline:hover:before {
     visibility: visible;
     transform: scaleX(1);
 }
+
 .underline-50:before {
     width: 50%;
     margin-left: 25%;
@@ -26,19 +36,35 @@
 .underline-black:before {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
 .underline-green:before {
-    background-color: #4caf50;
+    background-color: #00c853;
 }
-.divider {
-    height: 2px;
-    overflow: hidden;
+
+/*
+*
+*
+* Colors
+*
+*
+*/
+
+.color-green {
+    color: #00c853;
 }
-.div-white {
-    background-color: white;
+
+.color-grey {
+    color: #757575;
 }
-.div-green {
-    background: #4caf50;
-}
+
+/*
+*
+*
+* Sizing & Positioning
+*
+*
+*/
+
 .div-80 {
     width: 80%;
     margin: 10px auto;
@@ -53,29 +79,55 @@
     width: 90%;
     margin: 10px auto;
 }
-.card.extra-small {
-  height: 200px;
-}
 
 .padding-3 {
-  padding-left: 3%;
-  padding-right: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .padding-4 {
-  padding-left: 4%;
-  padding-right: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .padding-5 {
-  padding-left: 5%;
-  padding-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.color-green {
-  color: #4caf50;
+.padding-1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-.color-grey {
-  color: #757575;
+/*
+*
+*
+* Slideshow
+*
+*
+*/
+
+.slideshow1 {
+    width: auto;
+    height: auto;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+/*
+*
+*
+* Misc.
+*
+*
+*/
+
+.divider {
+    height: 2px;
+    overflow: hidden;
+}
+
+.div-green {
+    background: #00c853;
 }

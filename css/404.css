@@ -1,49 +1,53 @@
 ﻿.story {
-  padding-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-size: 3em;
-  text-align: center;
-  font-family: 'Pacifico', cursive;
-  overflow: visible;
-  height: 100%;
-  animation: scroll 50s linear 1;
-  animation-fill-mode: forwards;
-  box-sizing: border-box;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    overflow: visible;
+    height: 100%;
+    animation: scroll 50s linear 1;
+    animation-fill-mode: forwards;
+    box-sizing: border-box;
 }
 
 .story-container {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .home {
-  font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', cursive;
 }
 
 a {
-  color: #000;
-  transition-duration: 0.5s;
+    color: #000;
+    transition-duration: 0.5s;
 }
 
 a:hover {
-  color: #00c853;
+    color: #00c853;
 }
 
 body {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 @keyframes scroll {
-  from {transform: translate(0, 50%);}
-  to {transform: translate(0, -75%);}
+    from {
+        transform: translate(0, 50%);
+    }
+    to {
+        transform: translate(0, -75%);
+    }
 }
 
 @media only screen and (max-width: 992px) {
-  .story {
-  padding-top: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 10%;
-  font-size: 5.2em;
-  }
+    .story {
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 10%;
+        font-size: 5.2em;
+    }
 }
