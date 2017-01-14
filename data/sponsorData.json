@@ -41,16 +41,17 @@
    
  },
  {
+   "name": "Brothers Pizza",
+   "description": "Description Coming Soon",
+   "sponsorLevel": "tierSeven",
+   "logo": "example-company.jpg":
+ },
+   
+   {
   "name": "4-H",
   "description": "Description Coming Soon",
   "sponsorLevel": "tierFour",
   "logo": "another-company.jpg"
-},
-{
- "name": "Brothers Pizza",
- "description": "Description Coming Soon",
- "sponsorLevel": "tierSeven",
- "logo": "another-company.jpg"
 },
 {
   "name": "Waste Connections",
