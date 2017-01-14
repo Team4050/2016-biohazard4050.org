@@ -1,4 +1,4 @@
-   
+  
 [
   {
     "name": "Cooler Master",
@@ -14,9 +14,9 @@
   },
   {
     "name": "Tractor Supply Company",
-    "description": "Discription Coming Soon",
+    "description": "Description Coming Soon",
     "sponsorLevel": "tierSeven",
-    "logo": "example-company.jpg",
+    "logo": "example-company.jpg"
   },
   {
     "name": "JLG",
