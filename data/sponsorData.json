@@ -1,3 +1,6 @@
+ 
+
+
 [{
   "name": "Cooler Master",
   "description": "Description Coming Soon",
@@ -16,6 +19,7 @@
   "sponsorLevel": "tierFour",
   "logo": "example-company.jpg"
 },
+ 
 {
   "name": "The Beistle Company",
   "description": "Description Coming Soon",
@@ -29,6 +33,13 @@
   "logo": "example-company.jpg"
 },
 {
+   "name": "Steely Meats",
+   "description": "Description Coming Soon",
+   "sponsorLevel": "tierSeven",
+   "logo": "example-company.jpg"
+   
+ },
+ {
   "name": "4-H",
   "description": "Description Coming Soon",
   "sponsorLevel": "tierFour",
