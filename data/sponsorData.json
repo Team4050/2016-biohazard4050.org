@@ -1,4 +1,4 @@
-[
+,[
 {
   "name": "Cooler Master",
   "description": "Description Coming Soon",
@@ -34,4 +34,11 @@
   "description": "Description Coming Soon",
   "sponsorLevel": "tierFour",
   "logo": "another-company.jpg"
+},
+
+{
+  "name": "Waste Connections",
+  "description": "Description Coming Soon",
+  "sponsorLevel": "tierThree",
+  "logo": "example-company.jpg"
 }]
