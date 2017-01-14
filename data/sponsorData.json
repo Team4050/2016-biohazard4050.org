@@ -1,61 +1,56 @@
-
-
-
-
-[{
-  "name": "Cooler Master",
-  "description": "Description Coming Soon",
-  "sponsorLevel": "tierSix",
-  "logo": "example-company.jpg"
-},
-{
-  "name": "Hover Labs",
-  "description": "Description Coming Soon",
-  "sponsorLevel": "tierSix",
-  "logo": "another-company.jpg"
-},
-{
-  "name": "JLG",
-  "description": "Description Coming Soon",
-  "sponsorLevel": "tierFour",
-  "logo": "example-company.jpg"
-},
- 
-{
-  "name": "The Beistle Company",
-  "description": "Description Coming Soon",
-  "sponsorLevel": "tierSeven",
-  "logo": "another-company.jpg"
-},
-{
-  "name": "TE Connectivity",
-  "description": "Description Coming Soon",
-  "sponsorLevel": "tierThree",
-  "logo": "example-company.jpg"
-},
-{
-   "name": "Steely Meats",
-   "description": "Description Coming Soon",
-   "sponsorLevel": "tierSeven",
-   "logo": "example-company.jpg"
-   
- },
- {
-   "name": "Brothers Pizza",
-   "description": "Description Coming Soon",
-   "sponsorLevel": "tierSeven",
-   "logo": "example-company.jpg":
- },
-   
-   {
-  "name": "4-H",
-  "description": "Description Coming Soon",
-  "sponsorLevel": "tierFour",
-  "logo": "another-company.jpg"
-},
-{
-  "name": "Waste Connections",
-  "description": "Description Coming Soon",
-  "sponsorLevel": "tierFive",
-  "logo": "example-company.jpg"
-}]
+[
+  {
+    "name": "Cooler Master",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSix",
+    "logo": "example-company.jpg"
+  },
+  {
+    "name": "Hover Labs",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSix",
+    "logo": "another-company.jpg"
+  },
+  {
+    "name": "JLG",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierFour",
+    "logo": "example-company.jpg"
+  },
+  {
+    "name": "The Beistle Company",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSeven",
+    "logo": "another-company.jpg"
+  },
+  {
+    "name": "TE Connectivity",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierThree",
+    "logo": "example-company.jpg"
+  },
+  {
+    "name": "Steely Meats",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSeven",
+    "logo": "example-company.jpg"
+  },
+  {
+    "name": "Brothers Pizza",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSeven",
+    "logo": "example-company.jpg"
+  },
+  {
+    "name": "4-H",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierFour",
+    "logo": "another-company.jpg"
+  },
+  {
+    "name": "Waste Connections",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierFive",
+    "logo": "example-company.jpg"
+  }
+]
