@@ -13,6 +13,12 @@
     "logo": "another-company.jpg"
   },
   {
+    "name": "Steven Jamyes Construction",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSeven",
+    "logo": "example-company-jpg"
+  },
+  {
     "name": "Tractor Supply Company",
     "description": "Description Coming Soon",
     "sponsorLevel": "tierSeven",
