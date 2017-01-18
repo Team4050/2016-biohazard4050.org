@@ -4,6 +4,16 @@
 	"bio": "age 41 ...love taking pottery classes with my wife and son....love spending time with family and friends....love Asian food and trying new foods",
 	"image": "charlie-w.jpg"
 }, {
+	"name": "Evelyn W.",
+	"description": "",
+	"bio": "",
+	"image": "evelyn-w.jpg"
+}, {
+	"name": "Ian L.",
+	"description": "Strategy Mentor",
+	"bio": "",
+	"image": "ian-l.jpg"
+}, {
 	"name": "Joanne P.",
 	"description": "Admninistrative Mentor",
 	"bio": "I am the mother of two great teenagers. I am also a PDE certified teacher with a great appreciation of what young people can achieve. When not at robotics, I enjoy swimming and reading good books that inspire. When I grow up I hope to be more gracious and wiser.",
@@ -25,12 +35,22 @@
 	"image": "maria-b.jpg"
 }, {
 	"name": "Russ S.",
-	"description": "",
+	"description": "Finances & Electrical Mentor",
 	"bio": "Electrical Engineer for 17 years.  Enjoy strategy games and working with kids.  This makes robotics a great fit.  This will be my 3rd year.  Last year I was happy to see our strategy brought us up a level.  We moved to 14th place and one of the top 10 individual scores.  This put us into the team 8 captain position, where before we were 3rd draft choice. The Strategy team determined the defenses would be the best way to score and we were the number one team at the defenses at competitions.  We also drove for more practice time and gave our drivers an advantage with the defenses.  This year, with focus, I see no reason why we can't be in the top 10 and looking at that number one positon. ",
 	"image": "russ-s.jpg"
 }, {
+	"name": "Ryan M.",
+	"description": "Lead Mentor",
+	"bio": "",
+	"image": "ryan-m.jpg"
+}, {
+	"name": "Troy Y.",
+	"description": "Mechanical Mentor & Coach",
+	"bio": "I am a Chief Engineer at JLG Industries and a Mentor for the Team 4050. My three sons are members of the club. I train and support the team members on 3D CAD modeling (Creo Parametric) and prototype part fabrication. I enjoy seeing the team members create and build the parts of the robot and bring them together into a functioning robot.",
+	"image": "troy-y.jpg"
+}, {
 	"name": "Willie D.",
-	"description": "Mechanical and Lead Mentor",
+	"description": "Mechanical & Lead Mentor",
 	"bio": "Most of my careers involved designing, testing, improving locally developed construction equipment, alongside teams of excellent people... LeTourneau University and Penn State's Capitol College provided a great education.",
 	"image": "willie-d.jpg"
 }]
