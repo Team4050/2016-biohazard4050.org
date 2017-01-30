@@ -112,7 +112,6 @@ ul.side-nav li {
     line-height: 44px;
 }
 
-
 .open-new {
     color: #fff !important;
     margin: 0 !important;
@@ -211,3 +210,424 @@ footer {
 #aboutSite a {
     color: #00c853;
 }
+
+/**
+*
+*
+* Helper styles
+*
+*
+ */
+
+/*
+*
+*
+* Underline Styles
+*
+*/
+
+.fancy-underline {
+    position: relative;
+}
+
+.fancy-underline:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease 0s;
+}
+
+.fancy-underline:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.underline-50:before {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.underline-black:before {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.underline-green:before {
+    background-color: #00c853;
+}
+
+/*
+*
+*
+* Colors
+*
+*
+*/
+
+.color-green {
+    color: #00c853;
+}
+
+.color-grey {
+    color: #757575;
+}
+
+/*
+*
+*
+* Sizing & Positioning
+*
+*
+*/
+
+.div-80 {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.div-70 {
+    width: 70%;
+    margin: 10px auto;
+}
+
+.div-90 {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.padding-3 {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.padding-4 {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.padding-5 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.padding-1 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/*
+*
+*
+* Slideshow
+*
+*
+*/
+
+.slideshow1 {
+    width: auto;
+    height: auto;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+/*
+*
+*
+* Misc.
+*
+*
+*/
+
+.divider {
+    height: 2px;
+    overflow: hidden;
+}
+
+.div-green {
+    background: #00c853;
+}
+
+/*
+*
+*
+* Styles for the 404 page
+*
+*
+ */
+
+.story {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    overflow: visible;
+    height: 100%;
+    animation: scroll 50s linear 1;
+    animation-fill-mode: forwards;
+    box-sizing: border-box;
+}
+
+.story-container {
+    overflow: hidden;
+}
+
+.home {
+    font-family: 'Pacifico', cursive;
+}
+
+a {
+    color: #000;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    color: #00c853;
+}
+
+@keyframes scroll {
+    from {
+        transform: translate(0, 50%);
+    }
+    to {
+        transform: translate(0, -75%);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .story {
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 10%;
+        font-size: 5.2em;
+    }
+}
+
+/*
+*
+*
+* Styles for the about page
+*
+*
+ */
+
+.story {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 3em;
+    text-align: center;
+    font-family: Pacifico, cursive;
+    overflow: visible;
+    height: 100%;
+    animation: a 50s linear 1;
+    animation-fill-mode: forwards;
+    box-sizing: border-box
+}
+
+.story-container {
+    overflow: hidden
+}
+
+.home {
+    font-family: Pacifico, cursive
+}
+
+a {
+    color: #000;
+    transition-duration: .5s
+}
+
+a:hover {
+    color: #00c853
+}
+
+@keyframes a {
+    0% {
+        transform: translateY(50%)
+    }
+    to {
+        transform: translateY(-75%)
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .story {
+        padding: 5% 10% 10%;
+        font-size: 5.2em
+    }
+}
+
+/*
+*
+*
+* Styles for the members and mentors pages
+*
+*
+ */
+
+.collection .collection-item.avatar .secondary-content {
+    top: 14px;
+}
+
+.collection .collection-item.avatar .title {
+    font-size: 22px;
+}
+
+.collection .collection-item.avatar {
+    min-height: inherit;
+}
+
+.member-card.small .card-content {
+    max-height: 70%;
+}
+
+.bio {
+    font-size: large;
+}
+
+/*
+*
+*
+* Styles for the calendar page
+*
+*
+ */
+
+.calendar {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.calendar iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*
+*
+*
+* Styles for the index page
+*
+*
+ */
+
+#content-home {
+    text-align: center;
+}
+
+.home-text-intro {
+    padding-top: 1.25%;
+    padding-bottom: 1.25% !important;
+    font-size: larger;
+}
+
+#animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#animation-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 200px;
+}
+
+#animation-box:before {
+    content: "";
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    z-index: 100;
+}
+
+.header-text {
+    z-index: 1;
+}
+
+.carousel.carousel-slider {
+    height: 400px;
+}
+
+/*
+*
+*
+* Styles for the steming out page
+*
+*
+ */
+
+.youtube-vid {
+    margin: 15px;
+}
+
+.stem-caps {
+    font-weight: 500;
+}
+
+.red-highlight, .blue-highlight {
+    transition-duration: 300ms;
+    transition-timing-function: linear;
+}
+
+.stem-header:hover .red-highlight {
+    color: #f44336;
+}
+
+.stem-header:hover .blue-highlight {
+    color: #2196f3;
+}
+
+iframe {
+    border: 2px solid #00c853;
+}
+
+/*
+*
+*
+* Styles for mobile
+*
+*
+ */
+
+@media only screen and (max-width: 992px) {
+    .page-content {
+        margin: auto;
+    }
+
+    footer {
+        margin-left: inherit !important;
+    }
+
+    header {
+        margin-left: inherit !important;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+}
+
+
+

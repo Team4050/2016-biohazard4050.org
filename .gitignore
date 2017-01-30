@@ -4,3 +4,4 @@
 *.config
 /.idea
 /blog
+/node_modules

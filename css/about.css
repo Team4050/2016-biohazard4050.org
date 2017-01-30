@@ -1,35 +1,50 @@
-﻿.tabs .tab a {
-    font-size: 24px;
-    color: #000;
-    display: block;
-    width: 100%;
+.story {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 3em;
+    text-align: center;
+    font-family: Pacifico, cursive;
+    overflow: visible;
     height: 100%;
+    animation: a 50s linear 1;
+    animation-fill-mode: forwards;
+    box-sizing: border-box
 }
 
-.tabs .tab a:hover {
+.story-container {
+    overflow: hidden
+}
+
+.home {
+    font-family: Pacifico, cursive
+}
+
+a {
     color: #000;
+    transition-duration: .5s
 }
 
-.tabs .tab a.active {
-    color: #00c853;
+a:hover {
+    color: #00c853
 }
 
-.tabs .indicator {
-    background-color: #00c853;
+body {
+    /* overflow: hidden; */
 }
 
-.tabs-content li {
-    height: 100%;
+@keyframes a {
+    0% {
+        transform: translateY(50%)
+    }
+    to {
+        transform: translateY(-75%)
+    }
 }
 
-#parallax1 {
-    height: 650px;
-}
-
-#parllax2 {
-    height: 600px;
-}
-
-#content-about h1 {
-    font-size: 40px;
+@media only screen and (max-width: 992px) {
+    .story {
+        padding: 5% 10% 10%;
+        font-size: 5.2em
+    }
 }
