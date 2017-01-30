@@ -3,6 +3,10 @@
 	"description": "Software Engineer",
 	"bio": "I am 18 years old and am starting my senior year. I am homeschooled. I like to make Lego movies, do service projects and go on mission trips. My favorite foods are tacos and cheeseburgers. I want to be a missionary when I grow up and work with children."
 }, {
+	"name": "Brandon H.",
+	"description": "Mechanical Engineer",
+	"bio": ""
+}, {
 	"name": "Carlee B.",
 	"description": "External Operations Officer (EOO)",
 	"bio": "Hello! I am 16 and am a rising homeschooled Senior. Some of my favorite hobbies are reading and fencing (with sabres not barb wire or wood fences). This past season I led a sewing group which made the bumpers for our robot, and I helped with scouting. My favorite food is probably Indian food. I want to be a chiropractor when I grow up (which is only in a couple years, ahh!!!)."
@@ -17,35 +21,63 @@
 }, {
 	"name": "Chad B.",
 	"description": "Internal Operations Officer (IOO)",
-	"bio": "YO! I'm 18, in 11th g, Homeschooled, I'm a fencer full time except when I'm do this XD, then I do mechanical work (Chad the Builder) and the marketing guy. When I'm more grown up I plan to this for work, play and to make the world just a little bit cooler."
+	"bio": "YO! I'm 18, in 12th g, Homeschooled, I'm a fencer full time except when I'm do this XD, then I do mechanical work (Chad the Builder) and the marketing guy. When I'm more grown up I plan to this for work, play and to make the world just a little bit cooler."
+}, {
+	"name": "Chris M.",
+	"description": "Mechanical Engineer",
+	"bio": ""
 }, {
 	"name": "Connor S.",
 	"description": "Safety Captain",
 	"bio": "14 years old, homeschooled."
 }, {
+	"name": "Daniel B.",
+	"description": "Software Engineer",
+	"bio": ""
+}, {
 	"name": "Daniel M.",
 	"description": "Mechanical Engineer",
 	"bio": "I'm 14 years-old, i like sports and hiking, i go to CCA or Commonwealth Connections Academy. I also like pizza!"
 }, {
+	"name": "David B.",
+	"description": "Mechanical Engineer",
+	"bio": "I'm in 8th grade, my hobbies include programing and designing things"
+}, {
 	"name": "GW T.",
-	"description": "Auxiliary Technician",
+	"description": "Mechanical Engineer",
 	"bio": "I am 16, and I go to PAVCS. I will be a Senior this fall. I think of myself as a soldier reporting for duty. If there is something you want me to do, I will."
+}, {
+	"name": "Isaac B.",
+	"description": "Software Engineer",
+	"bio": ""
 }, {
 	"name": "Isaac S.",
 	"description": "Mechanical Engineer",
 	"bio": "I am a 16 year old homeschool student who enjoys Larping, robotics, and writing. I am learning to play guitar."
 }, {
 	"name": "Jaden B.",
-	"description": "Auxiliary Technician",
+	"description": "Mechanical Engineer",
 	"bio": "Jaden joined Team 4050 in the Fall of 2015 when he was in 8th grade. While he came onto the team without any prior experience, through working with mentors Willie and Ryan during build season, Jaden learned a lot about designing and fabricating parts for the robot as a member of the Mechanical Team. Jaden's favorite part of being on the team is getting to work and have fun with the others on the team. Some of his other favorites in life are playing Minecraft with his friends, drinking coffee, and listening to the band Imagine Dragons. Jaden is homeschooled, and his favorite subject is science."
-},{
+}, {
+	"name": "Jonathan B.",
+	"description": "Electrical Engineer",
+	"bio": ""
+}, {
 	"name": "Josiah N.",
 	"description": "Software Engineer & Remote Member",
 	"bio": "<p id=\"egg-bio-text\" class=\"bio\">I am a 17 year old homeschool student and am (at the time of writing) the only remote member. I have been on the team since late 2012. My family and I live in Haiti as long-term missionaries. In my community, I am the go-to \"computer guy\" and perform many repairs and upgrades, as well as help people understand new systems and software. In my free time, I enjoy web development, IoT projects, and programming in Java and Javascript. At any given time I have several projects under development such as web development, mod development, and projects using my Raspberry Pi. I often work with other members on my projects, most of which are open source.</div> <div style=\"opacity: 0;\" onclick=\"doDaMagic(); this.style.opacity=1;\">You found me :D</p>"
 }, {
+	"name": "Koby S.",
+	"description": "Electrical Engineer",
+	"bio": ""
+}, {
 	"name": "Lexi D.",
 	"description": "External Operations Officer (EOO)",
 	"bio": "I'm seventeen years old and in 11th grade. I attend PA Virtual Charter School. I'm actively involved in my youth group and a 4.12 Leadership Training Program at Camp Joy El. I also love to write, and have written and published five books. I put my writing skills to work on the team, with awards, descriptions, pamphlets, and articles. The team has given me a chance to grow my leadership skills."
+}, {
+	"name": "Luka R.",
+	"description": "Electrical Engineer",
+	"bio": ""
 }, {
 	"name": "Matthew P.",
 	"description": "Software Engineer",
@@ -55,11 +87,35 @@
 	"description": "Cheif Executive Officer (CEO)",
 	"bio": "Hello, I'm Micah.  I've been doing FRC (First Robotics Competition) for what will be my 5th year! I can't believe how great of an experience it has been.  When people ask me why I enjoy the being a part of this Team, I tell them that 1.  This has been a place where I can connect with people.  It's my niche. 2.  I'm competitive, but I've never been good at Sports.  They call FIRST the \"Sport for the Mind\" and I must agree.  I can exert my competitiveness in an environment that interests me.  Personally, I'm a Cyber-schooled (yeah, one of those people) High-schooled Senior.  I enjoy watching sports, (and playing the occasional pickup game) eating food, and I work on a local farm.  (I also like to use parenthesis when I type).  So yeah, that's my bio.  Hope you enjoyed."
 }, {
+	"name": "Molly M.",
+	"description": "Strategy Technician",
+	"bio": "I am 14 years old, in 10th grade at CASHS, and I love to read and write, I know !NERD ALERT! But whatever, it's what I like. I haven't decided on a permanent position on the team so I hop around all over the place! I have absolutely no clue what to do with my future (which freaks me out)."
+}, {
+	"name": "Nathaniel Y.",
+	"description": "Mechanical Engineer",
+	"bio": "I am 15 years old and I'm  in 10th Grade. I enjoy playing baseball and hunting in my free time. When in the club I usually either help with mechanical or strategy."
+}, {
+	"name": "Parker S.",
+	"description": "Software Engineer",
+	"bio": "I'm Parker age 14.  I like to snowboard and play chess and programming different things. I am a new programmer and I'm working with Carson with the robot. I would like to be a programmer when I grow up. I don't know what kind but some kind of programmer."
+}, {
+	"name": "Sam R.",
+	"description": "Electrical Engineer",
+	"bio": ""
+}, {
 	"name": "Seth Y.",
 	"description": "Electrical Engineer",
 	"bio": "I am 13, I am in 8th Grade, I like to play Baseball and to sometimes Cook, I am in PAVCS(Might Change), I am an Electrical Person on the Team, My favorite food is Pizza/MacnCheese, and I would like to be an Electrical or Mechanical Engineer when I grow up."
 }, {
+	"name": "Tatianna R.",
+	"description": "Software Engineer",
+	"bio": ""
+}, {
 	"name": "Will W.",
 	"description": "Electrical Engineer",
 	"bio": "I am 15 years old. I enjoy sketching, science, and making pottery. I was a part of the Electrical Team and Imaging Committee last season. I've also worked on the mechanical team. I am thankful for the mentors and members who have taken the time to teach me new skills."
+}, {
+	"name": "Wyatt F.",
+	"description": "Software Engineer",
+	"bio": ""
 }]
