@@ -1,4 +1,3 @@
-    
 [
   {
     "name": "Cooler Master",
@@ -93,7 +92,7 @@
     "logo": "example-company.jpg"
   },
   {
-    "name": "4-H",
+    "name": "Franklin County 4-H Development Fund",
     "description": "Description Coming Soon",
     "sponsorLevel": "tierFour",
     "logo": "another-company.jpg"
@@ -103,5 +102,23 @@
     "description": "Description Coming Soon",
     "sponsorLevel": "tierFive",
     "logo": "example-company.jpg"
+  },
+  {
+    "name": "AFCEA",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierFive",
+    "logo": "another-company.jpg"
+  },
+  {
+    "name": "Norland Avenue Pharmacy",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSix",
+    "logo": "another-company.jpg"
+  },
+  {
+    "name": "McCafferty Auto Group",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSeven",
+    "logo": "another-company.jpg"
   }
 ]

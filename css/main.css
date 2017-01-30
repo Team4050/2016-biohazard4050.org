@@ -207,3 +207,7 @@ footer {
 .footer-copyright a {
     color: rgba(255, 255, 255, 0.8);
 }
+
+#aboutSite a {
+    color: #00c853;
+}
