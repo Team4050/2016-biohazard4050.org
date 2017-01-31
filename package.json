@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "minifyjs": "uglifyjs js/* -o dist/js/main.js",
-    "minifycss": "cssnano css/main.css dist/css/main.css && csso dist/css/main.css dist/css/main.css"
+    "minifycss": "cssnano css/main.css dist/css/main.css && csso dist/css/main.css dist/css/main.css",
+    "minifyhtml": "html-minifier --input-dir ~/programming/web/biohazard4050.org-org --output-dir dist --file-ext html -c htmlmin.config",
+    "minify": "uglifyjs js/* -o dist/js/main.js && cssnano css/main.css dist/css/main.css && csso dist/css/main.css dist/css/main.css && html-minifier --input-dir ~/programming/web/biohazard4050.org-org --output-dir dist --file-ext html -c htmlmin.config"
   },
   "repository": {
     "type": "git",
