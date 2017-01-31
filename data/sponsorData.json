@@ -1,4 +1,54 @@
 [
+
+  //Tier Three
+  {
+    "name": "TE Connectivity",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierThree",
+    "logo": "example-company.jpg"
+  },
+
+
+
+
+
+  //Tier Four
+  {
+    "name": "Franklin County 4-H Development Fund",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierFour",
+    "logo": "another-company.jpg"
+  },
+  {
+    "name": "JLG",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierFour",
+    "logo": "example-company.jpg"
+  },
+
+
+
+
+
+  //tier Five
+  {
+    "name": "AFCEA",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierFive",
+    "logo": "example-company.jpg"
+  },
+  {
+    "name": "Waste Connestions",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierFive",
+    "logo": "another-company.jpg"
+  },
+
+
+
+
+
+  //Tier Six
   {
     "name": "Cooler Master",
     "description": "Description Coming Soon",
@@ -12,13 +62,51 @@
     "logo": "another-company.jpg"
   },
   {
-    "name": "Steven Jamyes Construction",
+    "name": "Norland Avenue Pharmacy",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSix",
+    "logo": "another-company.jpg"
+  },
+
+
+
+
+
+
+  //tier Seven
+
+  {
+    "name": "Brothers Pizza",
     "description": "Description Coming Soon",
     "sponsorLevel": "tierSeven",
     "logo": "example-company.jpg"
   },
   {
-    "name": "Shippensburg Automotive",
+    "name": "Dymond Reality & Insurance",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSeven",
+    "logo": "example-company.jpg"
+  },
+  {
+    "name": "McCafferty Auto Group",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSeven",
+    "logo": "another-company.jpg"
+  },
+  {
+    "name": "Melvin's Auto Repair",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSeven",
+    "logo": "example-company.jpg"
+  },
+  {
+    "name": "Morehouse Family Dentistry",
+    "description": "Desciption Coming Soon",
+    "sponsorLevel": "tierSeven",
+    "logo": "example-company.jpg"
+  },
+  {
+    "name": "Quincy Hardware Inc.",
     "description": "Description Coming Soon",
     "sponsorLevel": "tierSeven",
     "logo": "example-company.jpg"
@@ -31,52 +119,9 @@
 
   },
   {
-    "name": "Morehouse Family Dentistry",
-    "description": "Desciption Coming Soon",
-    "sponsorLevel": "tierSeven",
-    "logo": "example-company.jpg"
-  },
-  {
-    "name": "Melvin's Auto Repair",
+    "name": "Shippensburg Automotive",
     "description": "Description Coming Soon",
     "sponsorLevel": "tierSeven",
-    "logo": "example-company.jpg"
-  },
-  {
-    "name": "Dymond Reality & Insurance",
-    "description": "Description Coming Soon",
-    "sponsorLevel": "tierSeven",
-    "logo": "example-company.jpg"
-  },
-  {
-    "name": "Quincy Hardware Inc.",
-    "description": "Description Coming Soon",
-    "sponsorLevel": "tierSeven",
-    "logo": "example-company.jpg"
-  },
-  
-  {
-    "name": "Tractor Supply Company",
-    "description": "Description Coming Soon",
-    "sponsorLevel": "tierSeven",
-    "logo": "example-company.jpg"
-  },
-  {
-    "name": "JLG",
-    "description": "Description Coming Soon",
-    "sponsorLevel": "tierFour",
-    "logo": "example-company.jpg"
-  },
-  {
-    "name": "The Beistle Company",
-    "description": "Description Coming Soon",
-    "sponsorLevel": "tierSeven",
-    "logo": "another-company.jpg"
-  },
-  {
-    "name": "TE Connectivity",
-    "description": "Description Coming Soon",
-    "sponsorLevel": "tierThree",
     "logo": "example-company.jpg"
   },
   {
@@ -86,39 +131,22 @@
     "logo": "example-company.jpg"
   },
   {
-    "name": "Brothers Pizza",
-    "description": "Description Coming Soon",
-    "sponsorLevel": "tierSeven",
-    "logo": "example-company.jpg"
-  },
-  {
-    "name": "Franklin County 4-H Development Fund",
-    "description": "Description Coming Soon",
-    "sponsorLevel": "tierFour",
-    "logo": "another-company.jpg"
-  },
-  {
-    "name": "AFCEA",
-    "description": "Description Coming Soon",
-    "sponsorLevel": "tierFive",
-    "logo": "example-company.jpg"
-  },
-  {
-    "name": "Waste Connestions",
-    "description": "Description Coming Soon",
-    "sponsorLevel": "tierFive",
-    "logo": "another-company.jpg"
-  },
-  {
-    "name": "Norland Avenue Pharmacy",
-    "description": "Description Coming Soon",
-    "sponsorLevel": "tierSix",
-    "logo": "another-company.jpg"
-  },
-  {
-    "name": "McCafferty Auto Group",
+    "name": "Steven Jamyes Construction",
     "description": "Description Coming Soon",
     "sponsorLevel": "tierSeven",
     "logo": "another-company.jpg"
+  },
+  {
+    "name": "The Beistle Company",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSeven",
+    "logo": "another-company.jpg"
+  },
+
+  {
+    "name": "Tractor Supply Company",
+    "description": "Description Coming Soon",
+    "sponsorLevel": "tierSeven",
+    "logo": "example-company.jpg"
   }
 ]
