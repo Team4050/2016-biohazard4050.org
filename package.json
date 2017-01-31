@@ -1,0 +1,26 @@
+{
+  "name": "biohazard4050.org",
+  "version": "1.0.0",
+  "description": "The website for FRC team Biohazard 4050",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minifyjs": "uglifyjs js/* -o dist/js/main.js",
+    "minifycss": "cssnano css/main.css dist/css/main.css && csso dist/css/main.css dist/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team4050/biohazard4050.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team4050/biohazard4050.org/issues"
+  },
+  "homepage": "https://github.com/Team4050/biohazard4050.org#readme",
+  "dependencies": {
+    "uglify-js": "^2.7.5"
+  },
+  "devDependencies": {
+  }
+}

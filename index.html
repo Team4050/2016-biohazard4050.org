@@ -11,6 +11,9 @@
     <!--Import Sitewide Styles-->
     <link href="css/main.css" rel="stylesheet">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -35,8 +38,16 @@
     <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
     <meta name="theme-color" content="#00c853">
 
-    <!--Google Analytics-->
-    <script src="js/ga.js"></script>
+    <script>
+        function loadJS(scripts) {
+            scripts.forEach(function(el) {
+                $.getScript(el, function(){
+                    console.log(el + " successfully loaded");
+                });
+            });
+        }
+    </script>
+
 </head>
 
 <body>
@@ -51,7 +62,7 @@
                 <canvas id="animation"></canvas>
             </div>
             <div class="flow-text home-text padding-4" style="position: relative">
-                <div class="home-text-intro">Biohazard 4050 is a FIRST Robotics Competiton Team, a group of
+                <div class="home-text-intro">Biohazard 4050 is a FIRST Robotics Competition Team, a group of
                     high-schoolers who work each year to design, build, and program a robot to compete at regional
                     competitions, and that's just scratching the surface. From toothbrush robots to legos to
                     carwashes,we have a crazy ton of fun.
@@ -100,9 +111,9 @@
                         <h2 class="center color-green">
                             <i class="medium material-icons main-desc">thumb_up</i>
                         </h2>
-                        <h5 class="center color-grey">Growing in Knoweldge</h5>
+                        <h5 class="center color-grey">Growing in Knowledge</h5>
                         <p class="center description">Students leave the team with the Technical experience and
-                            knowledge that accompanies particiaption in a FIRST program.</p>
+                            knowledge that accompanies participation in a FIRST program.</p>
                     </div>
                 </div>
             </div>
@@ -112,11 +123,10 @@
 </main>
 
 <div class="static-content"></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-<script src="js/lines.js"></script>
-<script src="js/index.js"></script>
-<script src="js/setup.js"></script>
+
+
+<script src="js/main.js" onerror="loadJS(['js/lines.js', 'js/index.js', 'js/setup.js', 'js/ga.js'])"></script>
+
 </body>
 
 </html>
