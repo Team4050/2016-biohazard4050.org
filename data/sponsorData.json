@@ -15,7 +15,7 @@
 
   {
     "name": "Franklin County 4-H Development Fund",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon <a>http://extension.psu.edu/4-h</a>",
     "sponsorLevel": "tierFour",
     "logo": "another-company.jpg"
   },
@@ -33,7 +33,7 @@
 
   {
     "name": "AFCEA",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon <a>http://www.afcea.org/site/</a>",
     "sponsorLevel": "tierFive",
     "logo": "example-company.jpg"
   },
