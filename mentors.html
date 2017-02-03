@@ -11,6 +11,9 @@
     <!--Import Sitewide Styles-->
     <link href="css/main.css" rel="stylesheet">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
     <!--Theme color and stuff, cuz yanno, that's important :D-->
     <meta name="msapplication-TileColor" content="#00C853">
     <meta name="theme-color" content="#00C853">
@@ -39,6 +42,15 @@
     <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
     <meta name="theme-color" content="#4caf50">
 
+    <script>
+        function loadJS(scripts) {
+            scripts.forEach(function (el) {
+                $.getScript(el, function () {
+                    console.log(el + " successfully loaded");
+                });
+            });
+        }
+    </script>
 </head>
 <body>
 <main>
@@ -54,9 +66,8 @@
 </main>
 
 <div class="static-content"></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-<script src="js/mentors.js"></script>
-<script src="js/setup.js"></script>
+
+<script src="js/main.js" onerror="loadJS(['js/setup.js', 'js/mentors.js'])"></script>
+
 </body>
 </html>
