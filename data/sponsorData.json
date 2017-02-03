@@ -1,18 +1,18 @@
 [
 
-  //Tier Three
+
   {
     "name": "TE Connectivity",
     "description": "Description Coming Soon",
     "sponsorLevel": "tierThree",
-    "logo": "example-company.jpg"
+    "logo": "te-connectivity-logo"
   },
 
 
 
 
 
-  //Tier Four
+
   {
     "name": "Franklin County 4-H Development Fund",
     "description": "Description Coming Soon",
@@ -30,7 +30,7 @@
 
 
 
-  //tier Five
+
   {
     "name": "AFCEA",
     "description": "Description Coming Soon",
@@ -47,8 +47,6 @@
 
 
 
-
-  //Tier Six
   {
     "name": "Cooler Master",
     "description": "Description Coming Soon",
@@ -73,7 +71,7 @@
 
 
 
-  //tier Seven
+
 
   {
     "name": "Brothers Pizza",
@@ -142,7 +140,6 @@
     "sponsorLevel": "tierSeven",
     "logo": "another-company.jpg"
   },
-
   {
     "name": "Tractor Supply Company",
     "description": "Description Coming Soon",
