@@ -3,7 +3,7 @@
 
   {
     "name": "TE Connectivity",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon <a href=\"http://www.te.com/usa-en/home.html\">TE Connectivity Webpage</a>",
     "sponsorLevel": "tierThree",
     "logo": "te-connectivity-logo"
   },
@@ -21,7 +21,7 @@
   },
   {
     "name": "JLG",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon >a href=\"https://www.jlg.com/en\">JLG Webpage</a>",
     "sponsorLevel": "tierFour",
     "logo": "example-company.jpg"
   },
@@ -39,7 +39,7 @@
   },
   {
     "name": "Waste Connestions",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon <a href=\"http://www.wasteconnections.com/\">Waste Connestions Webpage</a>",
     "sponsorLevel": "tierFive",
     "logo": "another-company.jpg"
   },
@@ -49,19 +49,19 @@
 
   {
     "name": "Cooler Master",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon <a href=\"http://www.coolermaster.com/\">Cooler Maters Webpage",
     "sponsorLevel": "tierSix",
     "logo": "example-company.jpg"
   },
   {
     "name": "Hover Labs",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon <a href=\"http://www.hoverlabs.co/\">Hover Labs Webpage</a.",
     "sponsorLevel": "tierSix",
     "logo": "another-company.jpg"
   },
   {
     "name": "Norland Avenue Pharmacy",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon <a href=\"http://www.norlandrx.com/\">Norland Avenue Pharmacy</a>",
     "sponsorLevel": "tierSix",
     "logo": "another-company.jpg"
   },
@@ -75,7 +75,7 @@
 
   {
     "name": "Brothers Pizza",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon <a href=\"https://mybrospizza.com/\">Brothers Pizza Website</a>",
     "sponsorLevel": "tierSeven",
     "logo": "example-company.jpg"
   },
@@ -87,7 +87,7 @@
   },
   {
     "name": "McCafferty Auto Group",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon <a href=\"http://www.mccafferty.com/\">McCaffery Auto Group Webpage</a>",
     "sponsorLevel": "tierSeven",
     "logo": "another-company.jpg"
   },
@@ -105,7 +105,7 @@
   },
   {
     "name": "Quincy Hardware Inc.",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon <href=\"https://quincyhardware.stihldealer.net/\">Quincy Hardware Inc. Website</a>",
     "sponsorLevel": "tierSeven",
     "logo": "example-company.jpg"
   },
@@ -118,7 +118,7 @@
   },
   {
     "name": "Shippensburg Automotive",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon <a href=\"http://shippensburgautomotive.com/\">Shippensburg Automotive Webpage</a>",
     "sponsorLevel": "tierSeven",
     "logo": "example-company.jpg"
   },
@@ -136,13 +136,13 @@
   },
   {
     "name": "The Beistle Company",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon <a href=\"http://www.beistle.com/\">Beistle Company Webapge</a>",
     "sponsorLevel": "tierSeven",
     "logo": "another-company.jpg"
   },
   {
     "name": "Tractor Supply Company",
-    "description": "Description Coming Soon",
+    "description": "Description Coming Soon <a href=\"http://www.tractorsupply.com/\">Tractor Supply Webpage</a>",
     "sponsorLevel": "tierSeven",
     "logo": "example-company.jpg"
   }
