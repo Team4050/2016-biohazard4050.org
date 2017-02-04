@@ -21,7 +21,7 @@
   },
   {
     "name": "JLG",
-    "description": "Description Coming Soon >a href=\"https://www.jlg.com/en\">JLG Webpage</a>",
+    "description": "Description Coming Soon <a href=\"https://www.jlg.com/en\">JLG Webpage</a>",
     "sponsorLevel": "tierFour",
     "logo": "example-company.jpg"
   },
@@ -105,7 +105,7 @@
   },
   {
     "name": "Quincy Hardware Inc.",
-    "description": "Description Coming Soon <href=\"https://quincyhardware.stihldealer.net/\">Quincy Hardware Inc. Website</a>",
+    "description": "Description Coming Soon <a href=\"https://quincyhardware.stihldealer.net/\">Quincy Hardware Inc. Website</a>",
     "sponsorLevel": "tierSeven",
     "logo": "example-company.jpg"
   },
