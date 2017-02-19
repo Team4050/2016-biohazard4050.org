@@ -25,7 +25,11 @@
 }, {
 	"name": "Chris M.",
 	"description": "Mechanical Engineer",
-	"bio": ""
+	"bio": "My name is Chris I am in 9th grade. I am in Commonwealth Charter Academy. I like Legos, cars, and games. I am in the mechanical team and I help organize the tool area. I am also in imaging and in CAD which is our design software"
+}, {
+	"name": "Colin L.",
+	"description": "Mechanical Engineer",
+	"bio": "I'm 13, I go to public school (shocker, I know)."
 }, {
 	"name": "Connor S.",
 	"description": "Safety Captain",
@@ -42,6 +46,10 @@
 	"name": "David B.",
 	"description": "Mechanical Engineer",
 	"bio": "I'm in 8th grade, my hobbies include programing and designing things"
+}, {
+	"name": "Garrison S.",
+	"description": "Mechanical Team",
+	"bio": "I am a sixteen year old homeschooled student.  I play the piano and trumpet.  In my free time I enjoy technology, board games, and swimming. My favorite food is cheesecake. During the summer, I work as staff at Good News Camp in Waynesboro. This is my first year on the robotics team. I am helping the mechanical team.  I am looking forward to finishing the robot and seeing how it does in competition."
 }, {
 	"name": "GW T.",
 	"description": "Mechanical Engineer",
@@ -77,7 +85,7 @@
 }, {
 	"name": "Luka R.",
 	"description": "Electrical Engineer",
-	"bio": ""
+	"bio": "14, ukulele, home-school, electrical mainly, steak, no idea."
 }, {
 	"name": "Matthew P.",
 	"description": "Software Engineer",
@@ -105,7 +113,7 @@
 }, {
 	"name": "Seth Y.",
 	"description": "Electrical Engineer",
-	"bio": "I am 13, I am in 8th Grade, I like to play Baseball and to sometimes Cook, I am in PAVCS(Might Change), I am an Electrical Person on the Team, My favorite food is Pizza/MacnCheese, and I would like to be an Electrical or Mechanical Engineer when I grow up."
+	"bio": "Hello! I'm 13, in 8th grade, Home-schooled, and ready to rumble! I love playing baseball and doing robotics. When I grow up I plan on either playing in the MLB or doing this for a living."
 }, {
 	"name": "Tatianna R.",
 	"description": "Software Engineer",
